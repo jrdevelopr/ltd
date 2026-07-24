@@ -11,7 +11,7 @@ const bySlug = new Map();
 for (const f in files) for (const p of files[f]) bySlug.set(p.slug, p);
 
 let found = 0, tiers = 0, rated = 0, imgs = 0;
-for (let i = 0; i < 12; i++) {
+for (let i = 0; i < 16; i++) {
   const fp = path.join(SCRATCH, `asout${i}.json`);
   if (!fs.existsSync(fp)) continue;
   let arr; try { arr = JSON.parse(fs.readFileSync(fp, 'utf8')); }

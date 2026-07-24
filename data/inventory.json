@@ -25,17 +25,45 @@
     "category": "Video & Audio",
     "offer": "Be.Live is a browser-based live streaming studio that lets you broadcast to Facebook, YouTube, LinkedIn and 40+ RTMP destinations at once, with on-screen branding, overlays, lower-thirds and guest hosting. No heavy software to install and no editing skills required. This is a transferable lifetime-deal license the owner still uses but is happy to part with for a fair offer, so send an inquiry if it fits your workflow.",
     "tagline": "Browser-based multistreaming to every platform",
-    "appsumoUrl": "https://appsumo.com/products/belive/",
+    "appsumoUrl": "https://be.live/packages",
     "reviews": {
       "rating": "4.1",
       "count": "136"
     },
     "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-Be.Live_eadKv4r.jpg?width=800&height=450&aspect_ratio=16:9",
     "highlights": [
-      "Amplify your reach with branded livestreams you can repurpose anywhere",
-      "Up to 10 guests waiting in the Staging Area and feature up to four people on screen",
-      "Use different types of media in your stream and share your screen for walk-throughs",
-      "Best for coaches, hosts, infopreneurs, and influencers who want to produce and repurpose video content"
+      "Owner holds a legacy AppSumo Tier 3 account (3 codes stacked) — top LTD tier",
+      "Multistream to YouTube, Facebook, LinkedIn, Amazon Live & RTMP",
+      "Up to 8 guests/hosts, branded overlays, lower thirds, CTAs, tickers",
+      "AI Comment Assistant for on-screen engagement"
+    ],
+    "licenseTiers": [
+      {
+        "label": "Starter (~$15.83/mo billed annually)",
+        "features": [
+          "Broadcast to up to 3 destinations simultaneously (YouTube, Facebook, LinkedIn, Amazon Live, RTMP)",
+          "Multiple hosts & guests",
+          "Branded overlays, logos, backgrounds",
+          "Lower thirds, countdown timers, CTA buttons"
+        ]
+      },
+      {
+        "label": "Pro (~$24.16/mo billed annually)",
+        "features": [
+          "More simultaneous multistream destinations",
+          "All Starter branding & on-screen widgets",
+          "Up to 8 guests/hosts on stream",
+          "AI Comment Assistant"
+        ]
+      },
+      {
+        "label": "Growth (~$38.33/mo billed annually)",
+        "features": [
+          "Highest multistream destination limits",
+          "All Pro features",
+          "Full branding & engagement toolset"
+        ]
+      }
     ]
   },
   {
@@ -115,13 +143,40 @@
     "category": "Security",
     "offer": "Burner Mail generates a unique, anonymous email alias for every service you sign up with, forwarding messages to your real inbox while shielding your identity from trackers and spam. When an alias gets abused, you simply burn it and move on, keeping your primary address clean. This is a transferable lifetime-deal license; the owner still finds it handy but will let it go for the right offer, so send an inquiry.",
     "tagline": "Disposable email aliases that guard privacy",
-    "appsumoUrl": "https://appsumo.com/products/burner-mail-premium/",
+    "appsumoUrl": "https://burnermail.io/",
     "highlights": [
-      "Generates a unique, anonymous email for every service you sign up with to prevent tracking",
-      "Instantly shut down any email sender and control who can send you emails",
-      "Safely receive emails and reply anonymously directly from within the web application",
-      "Trusted by 40,000+ users"
-    ]
+      "Generate unique burner email addresses for every signup",
+      "Forward, reply & block — protect your real inbox",
+      "Chrome & Firefox browser extensions",
+      "Trusted by 373,200+ users",
+      "Owner holds a legacy AppSumo Tier 1 lifetime account"
+    ],
+    "licenseTiers": [
+      {
+        "label": "Free (being phased out)",
+        "features": [
+          "Limited number of burner email addresses",
+          "Email forwarding to personal inbox",
+          "Browser extension"
+        ]
+      },
+      {
+        "label": "Premium (paid) — owner holds legacy AppSumo Tier 1 account",
+        "features": [
+          "Unlimited / higher burner address limits",
+          "Block specific senders to stop spam",
+          "Reply from burner addresses to stay anonymous",
+          "Multiple recipient management per burner",
+          "Chrome & Firefox extension",
+          "Burner management in web app & extension"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "5",
+      "count": "373,200+ users"
+    },
+    "appsumoImage": "https://burnermail.io/assets/how_it_works-ed9dea0e2efb9b8bfae5613b789405a331856cde97c1db1b792bd6f6505c478a.svg"
   },
   {
     "slug": "coming-soon-maintenance-mode",
@@ -886,14 +941,42 @@
     "category": "Developer",
     "offer": "Hoverify is an all-in-one browser extension that lets web developers and designers inspect elements, edit styles live, test responsive breakpoints, capture screenshots and detect a site's tech stack, all without switching tools. This is a transferable lifetime-deal license, so you own it outright with no yearly renewal. The owner is open to a fair offer, so send an inquiry to make it yours.",
     "tagline": "All-in-one browser toolkit for developers",
-    "appsumoUrl": "https://appsumo.com/products/hoverify/",
+    "appsumoUrl": "https://tryhoverify.com/",
     "highlights": [
-      "All-in-one browser extension suite for web developers (Chrome and Firefox)",
-      "Inspector: hover over any element to inspect CSS styles and HTML attributes",
-      "Live edit CSS, HTML, or content in real time",
-      "Color eyedropper to pick colors from the page",
-      "Responsive view to test sites across screen sizes"
-    ]
+      "Owner holds a legacy AppSumo Tier 2 account (2 codes stacked)",
+      "All-in-one browser extension for web developers — inspect, edit, test, debug, capture, optimize",
+      "Works across Chrome, Brave, Edge & Firefox",
+      "Trusted by 22,000+ developers"
+    ],
+    "licenseTiers": [
+      {
+        "label": "Yearly Subscription ($30/yr, no auto-renew)",
+        "features": [
+          "All updates for one year",
+          "License for 3 activations",
+          "Multi-browser (Chrome, Brave, Edge, Firefox)",
+          "Free Vidferry video downloader",
+          "14-day refund policy"
+        ]
+      },
+      {
+        "label": "One-time Lifetime ($89) — matches owner's stacked lifetime access",
+        "features": [
+          "All updates for lifetime",
+          "License for 3 activations",
+          "Multi-browser (Chrome, Brave, Edge, Firefox)",
+          "Free Vidferry video downloader",
+          "14-day refund policy"
+        ]
+      },
+      {
+        "label": "Team Plans",
+        "features": [
+          "Volume-based discounts — the more licenses, the bigger the discount"
+        ]
+      }
+    ],
+    "appsumoImage": "https://tryhoverify.com/images/popup.webp"
   },
   {
     "slug": "itubego",

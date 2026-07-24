@@ -256,7 +256,36 @@
     ],
     "category": "Marketing",
     "offer": "Bit Social is a WordPress plugin that automatically shares and schedules your posts across major social networks like Facebook, X, LinkedIn, Pinterest, and more, right from your dashboard. It handles auto-posting on publish, scheduling, and custom captions so your content reaches every channel without manual work. With the integrations bundle and a lifetime license, it's a one-time payment with no recurring social-scheduler fees.",
-    "tagline": "Auto-post WordPress content to social media"
+    "tagline": "Auto-post WordPress content to social media",
+    "appsumoUrl": "https://bit-social.com/pricing/",
+    "licenseTiers": [
+      {
+        "label": "Starter LTD (1 site)",
+        "features": [
+          "$89 one-time lifetime license",
+          "Single site",
+          "All features access",
+          "Lifetime support & updates",
+          "Free 12-month PaymentForm.io license"
+        ]
+      },
+      {
+        "label": "Agency LTD (unlimited sites)",
+        "features": [
+          "$159 one-time lifetime license",
+          "Unlimited sites",
+          "All features access",
+          "Lifetime support & updates",
+          "Free 12-month PaymentForm.io license"
+        ]
+      }
+    ],
+    "highlights": [
+      "WordPress auto-posting and post scheduler across 13+ social platforms",
+      "Unlimited post scheduling with custom templates and advanced filters",
+      "AI caption generation",
+      "Owned plan aligns with LTD tier (2 AppSumo codes ~ Agency/unlimited-site level)"
+    ]
   },
   {
     "slug": "blocksy-theme",
@@ -280,7 +309,43 @@
     ],
     "category": "WordPress",
     "offer": "Blocksy is a lightweight and highly customizable WordPress theme that works smoothly with major page builders and the block editor. It gives you extensive header, footer, and layout controls plus performance-focused defaults for building almost any kind of site. This lifetime deal unlocks the premium features for a single upfront payment instead of an annual renewal.",
-    "tagline": "Flexible, fast, deeply customizable WordPress theme"
+    "tagline": "Flexible, fast, deeply customizable WordPress theme",
+    "appsumoUrl": "https://creativethemes.com/blocksy/pricing/",
+    "licenseTiers": [
+      {
+        "label": "Personal (1 site) Lifetime",
+        "features": [
+          "~$199 one-time lifetime license",
+          "1 site/license",
+          "Core set of Blocksy Pro extensions",
+          "Lifetime updates & support"
+        ]
+      },
+      {
+        "label": "Professional (up to 10 sites) Lifetime",
+        "features": [
+          "~$299 one-time lifetime license",
+          "Up to 10 licenses",
+          "Full Blocksy Pro experience: all extensions incl. Shop Extra, Post Types Extra",
+          "Lifetime updates & support"
+        ]
+      },
+      {
+        "label": "Agency (unlimited sites) Lifetime",
+        "features": [
+          "~$499 one-time lifetime license",
+          "Unlimited licenses/sites",
+          "All Pro extensions plus exclusive White Label extension",
+          "Lifetime updates & support"
+        ]
+      }
+    ],
+    "highlights": [
+      "Fast, lightweight WordPress theme with a powerful native customizer and header/footer builder",
+      "Agency lifetime tier unlocks unlimited sites plus the exclusive White Label extension",
+      "Full extension set (Shop Extra, Post Types Extra, White Label) on the top tiers",
+      "Deep integration with Gutenberg, Elementor, Bricks and WooCommerce"
+    ]
   },
   {
     "slug": "blogely",
@@ -373,7 +438,50 @@
     ],
     "category": "WordPress",
     "offer": "Bricks is a visual, performance-oriented site builder for WordPress that lets you design full websites on a live canvas with fine control over markup and styling. It's popular with developers and agencies for its clean output, dynamic data, and flexible layout tools. This lifetime deal gives you the builder and future updates for one upfront payment rather than a yearly license.",
-    "tagline": "Visual site builder for WordPress pros"
+    "tagline": "Visual site builder for WordPress pros",
+    "appsumoUrl": "https://bricksbuilder.io/pricing/",
+    "licenseTiers": [
+      {
+        "label": "Starter (1 site)",
+        "features": [
+          "$79/year",
+          "1 website",
+          "All features, updates & support"
+        ]
+      },
+      {
+        "label": "Business (3 sites)",
+        "features": [
+          "$149/year",
+          "3 websites",
+          "All features, updates & support"
+        ]
+      },
+      {
+        "label": "Agency (unlimited)",
+        "features": [
+          "$249/year",
+          "Unlimited websites",
+          "All features + Expert listing eligibility"
+        ]
+      },
+      {
+        "label": "Ultimate Lifetime (unlimited)",
+        "features": [
+          "$599 one-time",
+          "Unlimited websites",
+          "All future updates, features & support",
+          "Expert listing eligibility"
+        ]
+      }
+    ],
+    "appsumoImage": "https://bricksbuilder.io/wp-content/uploads/2023/07/bricks-logo.svg",
+    "highlights": [
+      "Visual, performance-focused WordPress site builder (theme + builder in one)",
+      "Owned Ultimate LTD = one-time $599 for unlimited sites with all future updates",
+      "110+ elements plus Query Loop, Menu, Popup and WooCommerce builders",
+      "Conditions & Interactions, community templates, local/staging sites don't count against license"
+    ]
   },
   {
     "slug": "brizy-webuilder",
@@ -463,7 +571,49 @@
     ],
     "category": "WordPress",
     "offer": "CSS Hero lets you restyle your WordPress site visually with a point-and-click interface, adjusting fonts, colors, spacing, and more without writing CSS. It works across most themes and shows changes live so you can fine-tune your design in real time. This lifetime deal gives you the customization tool for a single payment instead of a recurring license.",
-    "tagline": "Point-and-click styling for any WordPress site"
+    "tagline": "Point-and-click styling for any WordPress site",
+    "appsumoUrl": "https://www.csshero.org/buy-now/",
+    "licenseTiers": [
+      {
+        "label": "Starter (1 site)",
+        "features": [
+          "$29/year",
+          "Single site",
+          "Full visual CSS editor functionality"
+        ]
+      },
+      {
+        "label": "Personal (up to 5 sites)",
+        "features": [
+          "$59/year",
+          "Up to 5 sites",
+          "Full functionality"
+        ]
+      },
+      {
+        "label": "Professional (up to 999 sites)",
+        "features": [
+          "$199/year",
+          "Up to 999 sites",
+          "Full functionality"
+        ]
+      },
+      {
+        "label": "Lifetime Pro w/ Animator (up to 999 sites)",
+        "features": [
+          "$599 one-time (often discounted to ~$249)",
+          "Up to 999 sites + Multisite support",
+          "Includes CSS Hero + Animator plugins",
+          "Lifetime access, one-time payment"
+        ]
+      }
+    ],
+    "highlights": [
+      "Visual, no-code live CSS editor that customizes any WordPress theme or plugin (Divi, Elementor, Beaver Builder, Genesis)",
+      "Owned Lifetime deal bundles the Animator plugin for code-free animations",
+      "Lifetime Pro covers up to 999 sites plus Multisite",
+      "30-day money-back guarantee"
+    ]
   },
   {
     "slug": "dynamic-ooo",
@@ -487,7 +637,49 @@
     ],
     "category": "WordPress",
     "offer": "Dynamic.ooo (Dynamic Content for Elementor) adds a large set of advanced widgets, dynamic data connections, and display logic to the Elementor page builder, no code required. It helps you build data-driven, highly customized WordPress sites with more design flexibility than Elementor offers alone. As a lifetime deal, you pay once for the extension and its capabilities instead of renewing every year.",
-    "tagline": "Supercharge Elementor with dynamic content"
+    "tagline": "Supercharge Elementor with dynamic content",
+    "appsumoUrl": "https://www.dynamic.ooo/dynamic-content-for-elementor/pricing",
+    "licenseTiers": [
+      {
+        "label": "Starter (annual)",
+        "features": [
+          "~EUR 19/year",
+          "Annual license",
+          "All widgets & modules, support and updates"
+        ]
+      },
+      {
+        "label": "Enterprise (annual)",
+        "features": [
+          "~EUR 39/year",
+          "Annual license",
+          "All widgets & modules"
+        ]
+      },
+      {
+        "label": "Lifetime Personal (1 site)",
+        "features": [
+          "One-time lifetime license",
+          "1 site",
+          "All widgets & extensions, lifetime updates",
+          "Annual support billed separately/optionally"
+        ]
+      },
+      {
+        "label": "Lifetime Professional (up to 1000 sites)",
+        "features": [
+          "One-time lifetime license",
+          "Up to 1000 sites",
+          "All widgets & extensions, lifetime updates"
+        ]
+      }
+    ],
+    "highlights": [
+      "Elementor add-on with 80+ widgets and 45+ extensions focused on dynamic data",
+      "Owned LTD Elementor tier = one-time lifetime license (updates included for life of product)",
+      "Extends Elementor Pro forms with conditional/REGEX fields, payment processors and PDF generation",
+      "Conditional display options and content Views; 30-day money-back guarantee"
+    ]
   },
   {
     "slug": "easynote",
@@ -1273,7 +1465,49 @@
     ],
     "category": "WordPress",
     "offer": "Imagely (built around the NextGEN Gallery ecosystem) helps photographers build stunning WordPress galleries, sell prints and digital downloads, and protect their work with watermarking and client proofing. This lifetime deal gives you the pro gallery tools and templates for a one-time payment, so you can launch a polished photography site without recurring fees.",
-    "tagline": "Beautiful photography websites on WordPress"
+    "tagline": "Beautiful photography websites on WordPress",
+    "appsumoUrl": "https://www.imagely.com/pricing/",
+    "licenseTiers": [
+      {
+        "label": "Starter (1 site)",
+        "features": [
+          "$139/year (list)",
+          "1 site",
+          "Unlimited galleries & images, lightbox, retina, watermarking, 5 gallery + 2 album layouts"
+        ]
+      },
+      {
+        "label": "Plus (3 sites)",
+        "features": [
+          "$199/year (list)",
+          "3 sites",
+          "Adds 6 gallery layouts, hover captions, image protection, animations, social sharing, deeplinking, secure backups"
+        ]
+      },
+      {
+        "label": "Pro (5 sites)",
+        "features": [
+          "$279/year (list)",
+          "5 sites",
+          "Adds 96+ themes, full eCommerce (payments, proofing, price lists, print fulfillment, digital downloads), Lightroom integration, premium support"
+        ]
+      },
+      {
+        "label": "Ultra (25 sites)",
+        "features": [
+          "$399/year (list)",
+          "25 sites",
+          "Everything in Pro plus multisite support and priority support"
+        ]
+      }
+    ],
+    "appsumoImage": "https://www.imagely.com/wp-content/themes/imagely-edd/images/imagely-logo.svg",
+    "highlights": [
+      "NextGEN Gallery / Pro image galleries for photographers on WordPress",
+      "Owner holds a legacy LTD Unlimited Sites lifetime license; current site sells annual tiers only (no public LTD)",
+      "Higher tiers unlock eCommerce (client proofing, print fulfillment, digital downloads) and Lightroom integration",
+      "Ultra tier adds multisite and 25-site coverage"
+    ]
   },
   {
     "slug": "internxt",
@@ -1376,7 +1610,41 @@
     ],
     "category": "WordPress",
     "offer": "Kadence is a lightweight WordPress theme and page-building toolkit designed for speed, with a powerful theme, Kadence Blocks, and design tools for building sites without bloat. A lifetime bundle unlocks the premium theme and block features for a one-time payment, making it a practical choice for anyone running multiple WordPress projects.",
-    "tagline": "Fast, flexible WordPress theme and blocks"
+    "tagline": "Fast, flexible WordPress theme and blocks",
+    "appsumoUrl": "https://www.liquidweb.com/software/kadence/",
+    "licenseTiers": [
+      {
+        "label": "Essentials (Theme + Blocks)",
+        "features": [
+          "$99/year",
+          "Kadence Blocks Pro page builder, premium themes & 200+ starter templates",
+          "Header/footer builder, mega menus, custom fonts, child theme builder"
+        ]
+      },
+      {
+        "label": "Pro (Most popular)",
+        "features": [
+          "$299/year",
+          "Everything in Essentials plus Shop Kit for WooCommerce",
+          "Security firewall + 2FA, Patchstack patching, daily backups, performance optimization, memberships/content restriction"
+        ]
+      },
+      {
+        "label": "Elite (agencies)",
+        "features": [
+          "$499/year",
+          "Everything in Pro plus Kadence Central multi-site management",
+          "A/B testing, white-label client portal, popups/slide-ins, 1,000 emails/month"
+        ]
+      }
+    ],
+    "appsumoImage": "https://res.cloudinary.com/lwcom/images/w_1024,h_768,c_scale/f_auto,q_auto/v1778520775/prod/kadence-heroV2/kadence-heroV2.jpg",
+    "highlights": [
+      "Kadence Theme + Kadence Blocks Pro WordPress ecosystem (now sold via LiquidWeb)",
+      "Owner holds a legacy LTD Unlimited Sites bundle; current pricing is annual only (no public lifetime tier)",
+      "Full bundle adds WooCommerce Shop Kit, security firewall, backups and Kadence Central",
+      "Elite is the agency tier with multi-site management, white-label portal and A/B testing"
+    ]
   },
   {
     "slug": "kaliforms",
@@ -1657,7 +1925,43 @@
     ],
     "category": "WordPress",
     "offer": "MainWP is a self-hosted WordPress management dashboard that lets you run updates, backups, security checks, and reporting across all your sites from one place, with your data staying on your own server. A lifetime license unlocks the premium extensions for a one-time payment, ideal for agencies and freelancers juggling many client sites.",
-    "tagline": "Manage all your WordPress sites centrally"
+    "tagline": "Manage all your WordPress sites centrally",
+    "appsumoUrl": "https://mainwp.com/pricing/",
+    "licenseTiers": [
+      {
+        "label": "Essentials (Free)",
+        "features": [
+          "All free add-ons plus future free add-ons",
+          "Critical security & performance updates",
+          "Community support",
+          "Unlimited site management from one dashboard"
+        ]
+      },
+      {
+        "label": "Pro (Yearly) - $199/yr",
+        "features": [
+          "30+ pro add-ons plus all future add-ons",
+          "Priority ticket support",
+          "Unlimited websites",
+          "Security & performance updates"
+        ]
+      },
+      {
+        "label": "Pro Lifetime (LTD) - $599 one-time",
+        "features": [
+          "One-time payment, no renewals - 'Always the Best Price, Never Discounted'",
+          "All 30+ existing pro add-ons plus all future add-ons",
+          "Critical security & performance updates",
+          "Priority ticket support",
+          "Unlimited website management"
+        ]
+      }
+    ],
+    "highlights": [
+      "Self-hosted WordPress site-management dashboard for controlling unlimited sites",
+      "Owner holds the Lifetime (LTD) tier - $599 one-time, unlimited sites, all pro add-ons forever",
+      "30-day money-back guarantee; 90-day upgrade credit from monthly"
+    ]
   },
   {
     "slug": "micro-themeover",
@@ -1888,7 +2192,36 @@
     ],
     "category": "E-commerce",
     "offer": "Orderable is a WordPress plugin that adds a full online ordering system to your restaurant, bakery, or takeaway website, letting customers order directly without per-order transaction fees. You control menus, order timing, and delivery or pickup right from your own site. Grab it as a one-time lifetime deal and keep taking orders without a monthly subscription.",
-    "tagline": "Take restaurant orders on WordPress"
+    "tagline": "Take restaurant orders on WordPress",
+    "appsumoUrl": "https://orderable.com/pricing/",
+    "licenseTiers": [
+      {
+        "label": "Free",
+        "features": [
+          "Online ordering menu with zero transaction fees",
+          "Delivery/pickup date slots, ASAP option, lead time & preorder days",
+          "Live order view, mobile-friendly ordering, receipt printing",
+          "Automated reminder emails"
+        ]
+      },
+      {
+        "label": "Pro - $149/yr (1 site)",
+        "features": [
+          "Everything in Free plus 1 year updates & support",
+          "Delivery/pickup time slots, table ordering via QR codes",
+          "Multiple store locations, product add-ons, order bumps",
+          "Custom checkout & tipping, custom order statuses/notifications",
+          "Dietary/allergen labels, nutritional info, order caps",
+          "SMS/WhatsApp/Email notifications, floating cart widget"
+        ]
+      }
+    ],
+    "appsumoImage": "https://orderable.com/wp-content/uploads/2025/01/online-takeaway-ordering-system.svg",
+    "highlights": [
+      "WooCommerce restaurant/takeaway online-ordering plugin",
+      "Owner's plan is 'LTD 25 Sites' - the current vendor site no longer sells a lifetime tier (only annual Pro at $149/yr for 1 site), so the LTD is a legacy deal",
+      "30-day money-back guarantee"
+    ]
   },
   {
     "slug": "oxygenbuilder",
@@ -1912,7 +2245,50 @@
     ],
     "category": "WordPress",
     "offer": "Oxygen is a developer-friendly visual website builder for WordPress that gives you drag-and-drop control while outputting clean, lightweight code. It replaces bloated page builders so you can design entire sites, headers, and templates exactly the way you want. A lifetime license means one payment for ongoing access instead of recurring builder fees.",
-    "tagline": "Visual website building for WordPress"
+    "tagline": "Visual website building for WordPress",
+    "appsumoUrl": "https://oxygenbuilder.com/pricing/",
+    "licenseTiers": [
+      {
+        "label": "Basic - $129 lifetime (unlimited sites)",
+        "features": [
+          "Visual site builder",
+          "Gutenberg block builder",
+          "Simplified client UI",
+          "Composite elements",
+          "WooCommerce integration"
+        ]
+      },
+      {
+        "label": "WooCommerce - $149 lifetime (unlimited sites)",
+        "features": [
+          "All Basic features",
+          "Enhanced/advanced WooCommerce integration"
+        ]
+      },
+      {
+        "label": "Ultimate (Ultimate LTD) - $179 lifetime (unlimited sites)",
+        "features": [
+          "All Oxygen features included",
+          "Everything in Basic + WooCommerce",
+          "Full premium add-on set",
+          "Use on unlimited personal and client sites with no recurring fees"
+        ]
+      },
+      {
+        "label": "Lifetime Bundle - $199.50 launch (future $399.99)",
+        "features": [
+          "Oxygen Classic + Oxygen 6",
+          "Three premium add-ons: Breakdance Elements, WooCommerce, Forms",
+          "Unlimited sites, one-time payment"
+        ]
+      }
+    ],
+    "highlights": [
+      "WordPress visual site builder - all tiers are true lifetime licenses with no recurring fees and unlimited sites",
+      "Owner holds the Ultimate LTD tier ($179 lifetime) which includes all Oxygen features",
+      "Usable on client websites without extra licensing; 60-day money-back guarantee",
+      "57,000+ customers / 180,000+ websites"
+    ]
   },
   {
     "slug": "plutio",
@@ -2089,7 +2465,49 @@
     ],
     "category": "WordPress",
     "offer": "Presto Player, from Prestomade, is a WordPress video player plugin that lets you embed fast, private, and customizable videos from sources like YouTube, Vimeo, and self-hosted files. It adds chapters, email opt-in gates, and playback analytics to help turn viewers into leads. A lifetime license gives you all of it for a single payment instead of a recurring subscription.",
-    "tagline": "The powerful WordPress video player plugin"
+    "tagline": "The powerful WordPress video player plugin",
+    "appsumoUrl": "https://prestoplayer.com/pricing/",
+    "licenseTiers": [
+      {
+        "label": "Starter - $79/yr (1 site)",
+        "features": [
+          "Multiple video sources",
+          "Secure private videos",
+          "Video presets",
+          "Unlimited chapters",
+          "Analytics dashboard",
+          "Pro helpdesk support"
+        ]
+      },
+      {
+        "label": "Pro - $119/yr (25 sites)",
+        "features": [
+          "Everything in Starter across 25 sites",
+          "Customizable presets & video overlays",
+          "Muted autoplay, branding logo, custom CSS",
+          "Google Analytics integration",
+          "MailChimp/MailerLite/FluentCRM/ActiveCampaign integrations",
+          "Bunny.net video integration"
+        ]
+      },
+      {
+        "label": "Lifetime (LTD 25 Sites) - $399 one-time (or 3x $139)",
+        "features": [
+          "25 websites",
+          "Lifetime updates & support",
+          "All Pro features: customizable presets, overlays, muted autoplay, branding, custom CSS, GA & CRM integrations, Bunny.net"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.9",
+      "count": "300+"
+    },
+    "highlights": [
+      "WordPress video player plugin (Presto Player) - owner holds the Lifetime 25-site LTD ($399 one-time / split 3x $139)",
+      "4.9 satisfaction rating from 300+ reviews; 160,000+ users",
+      "14-day money-back guarantee"
+    ]
   },
   {
     "slug": "remastermedia",
@@ -2423,7 +2841,43 @@
     ],
     "category": "WordPress",
     "offer": "Smart Slider 3 is a WordPress plugin for building responsive sliders, carousels, and block layouts with a drag-and-drop editor, layers, and animations, no coding required. It comes with ready-made templates so you can add polished visual content to any page quickly. A lifetime license unlocks its premium features for one payment instead of an annual renewal.",
-    "tagline": "Build responsive WordPress sliders visually"
+    "tagline": "Build responsive WordPress sliders visually",
+    "appsumoUrl": "https://smartslider3.com/pricing/",
+    "licenseTiers": [
+      {
+        "label": "Free",
+        "features": [
+          "2 slider types",
+          "6 layers",
+          "14 templates",
+          "Personal support",
+          "Unlimited sites"
+        ]
+      },
+      {
+        "label": "Standard (Pro) - $49 one-time (1 site)",
+        "features": [
+          "Full Pro feature set: 4 slider types, 26 layers, 120+ templates",
+          "Animations & effects",
+          "Premium priority support",
+          "Lifetime updates & support"
+        ]
+      },
+      {
+        "label": "Premium (Pro) - $99 one-time (3/5/10 domains)",
+        "features": [
+          "Identical Pro feature set to Standard",
+          "3, 5, or 10 domain options",
+          "Premium priority support",
+          "Lifetime updates & support"
+        ]
+      }
+    ],
+    "highlights": [
+      "WordPress/Joomla slider builder - NOT an AppSumo LTD; sold as a one-time Pro license (Standard $49 / Premium $99) that includes lifetime updates & support",
+      "Owner's tier not specified in input; Pro license unlocks all slider types, layers and templates",
+      "14-day money-back guarantee"
+    ]
   },
   {
     "slug": "smarttask",
@@ -2732,13 +3186,39 @@
     "category": "Design",
     "offer": "SureFeedback lets clients and teammates leave visual, pinned comments directly on live websites and design mockups, so revision notes stay clear and in context. It cuts down the back-and-forth of email threads and vague screenshots during web projects. Get it as a lifetime deal and skip the recurring subscription.",
     "tagline": "Point-and-click feedback on any website",
-    "appsumoUrl": "https://appsumo.com/products/sure-feedback/",
+    "appsumoUrl": "https://surefeedback.com/pricing/",
     "highlights": [
-      "Self-hosted WordPress client feedback plugin (formerly ProjectHuddle)",
-      "Visual feedback via sticky-note comments on live sites, designs, wireframes, and PDFs",
-      "Simple drag-and-drop management",
-      "Manage unlimited projects in one place with unlimited users",
-      "Integrates with 1500+ apps via Zapier"
+      "Visual feedback / design collaboration tool (formerly ProjectHuddle) - the current vendor site sells only annual cloud subscriptions (no lifetime tier listed)",
+      "A separate self-hosted WordPress plugin edition exists; the owner's lifetime deal is a legacy self-hosted license not sold on the current pricing page",
+      "7-day free trial; 7-day 100% money-back guarantee"
+    ],
+    "licenseTiers": [
+      {
+        "label": "Starter - $199 first yr (renews $299/yr)",
+        "features": [
+          "5 sites, 5 mockups",
+          "Kanban board, unlimited comments",
+          "Team collaboration up to 200 members, 100 workspaces",
+          "Analytics, email notifications",
+          "WordPress/Shopify/HTML support"
+        ]
+      },
+      {
+        "label": "Professional - $349 first yr (renews $499/yr)",
+        "features": [
+          "20 sites, 20 mockups",
+          "Same full feature set as Starter",
+          "Team collaboration up to 200 members"
+        ]
+      },
+      {
+        "label": "Business - $699 first yr (renews $999/yr)",
+        "features": [
+          "Unlimited sites & mockups",
+          "Same full feature set",
+          "Team collaboration up to 200 members, 100 workspaces"
+        ]
+      }
     ]
   },
   {
@@ -2831,7 +3311,33 @@
     ],
     "category": "Developer",
     "offer": "Tailwind UI is a library of professionally designed, responsive UI components and page templates built with Tailwind CSS that you can copy straight into your projects. It saves front-end time by giving you polished HTML and React building blocks for real interfaces. Buying it outright means you own the component library without an ongoing fee.",
-    "tagline": "Ready-made components for Tailwind CSS"
+    "tagline": "Ready-made components for Tailwind CSS",
+    "appsumoUrl": "https://tailwindcss.com/plus",
+    "licenseTiers": [
+      {
+        "label": "Personal - $299 one-time",
+        "features": [
+          "500+ professionally designed UI components (Marketing, Application UI, Ecommerce)",
+          "All website templates (React/Next.js)",
+          "Catalyst React UI kit",
+          "Lifetime access to future additions",
+          "For individuals on their own projects"
+        ]
+      },
+      {
+        "label": "Teams - $979 one-time",
+        "features": [
+          "Everything in Personal",
+          "Access for up to 25 people",
+          "For entire teams and agencies"
+        ]
+      }
+    ],
+    "highlights": [
+      "Tailwind Plus (formerly Tailwind UI) is NOT an AppSumo/LTD deal - it is a one-time purchase from the vendor ($299 Personal / $979 Teams) that includes lifetime access to future components/templates",
+      "Includes 500+ components, React/Next.js templates, and the Catalyst UI kit; React, Vue and vanilla HTML formats",
+      "30-day full refund policy"
+    ]
   },
   {
     "slug": "templately",
@@ -2855,7 +3361,47 @@
     ],
     "category": "WordPress",
     "offer": "Templately is a cloud-based library of ready-to-use templates for Elementor and Gutenberg, letting you insert full-page and section designs into WordPress in a few clicks. Its cloud workspace also lets you save and share your own designs across sites and teammates. Grab the lifetime deal to build faster with a one-time payment.",
-    "tagline": "Cloud library of WordPress design templates"
+    "tagline": "Cloud library of WordPress design templates",
+    "appsumoUrl": "https://templately.com/",
+    "licenseTiers": [
+      {
+        "label": "Starter (Free)",
+        "features": [
+          "Free forever",
+          "Unlimited local sites",
+          "Access to free templates from the 6,600+ library",
+          "Elementor & Gutenberg support"
+        ]
+      },
+      {
+        "label": "Pro / Premium / Advanced (subscription)",
+        "features": [
+          "Access to all 6,600+ ready-to-use templates & 590 full website packs",
+          "Cloud items / MyCloud storage",
+          "Full-site import packs",
+          "AI credits",
+          "Workspace collaboration & template sharing",
+          "Premium support"
+        ]
+      },
+      {
+        "label": "Lifetime — Pay Once, Build Forever ($299.99)",
+        "features": [
+          "All Pro items",
+          "Unlimited cloud items",
+          "5,000 AI credits",
+          "500 full site imports per month",
+          "Regular updates & premium support",
+          "14-day money-back guarantee"
+        ]
+      }
+    ],
+    "highlights": [
+      "6,600+ Elementor & Gutenberg templates, 590 full website packs",
+      "Cloud WorkSpace with team collaboration & template reuse",
+      "Loved by 500,000+ users",
+      "14-day money-back guarantee"
+    ]
   },
   {
     "slug": "tidycal",
@@ -3286,7 +3832,38 @@
     ],
     "category": "WordPress",
     "offer": "WP Courses is a WordPress LMS plugin that lets you create and sell online courses with a drag-and-drop builder, lessons, quizzes, and student progress tracking. It integrates with WooCommerce for payments and supports drip content, memberships, and certificates so you can run a course business from your own site. This lifetime deal gives you the plugin for a one-time payment.",
-    "tagline": "Build online courses inside WordPress"
+    "tagline": "Build online courses inside WordPress",
+    "appsumoUrl": "https://wpcoursesplugin.com/pricing/",
+    "licenseTiers": [
+      {
+        "label": "Free",
+        "features": [
+          "Unlimited courses",
+          "Course categories",
+          "Student progress tracking",
+          "Customization options"
+        ]
+      },
+      {
+        "label": "Premium ($99/yr) — tier unlocked by the owned AppSumo code",
+        "features": [
+          "Everything in Free",
+          "WooCommerce integration to sell courses",
+          "Content Drip (WooCommerce)",
+          "Paid Memberships Pro integration",
+          "Award badges & certificates",
+          "Triggered/automated emails on user actions",
+          "File attachments for lessons",
+          "Email support"
+        ]
+      }
+    ],
+    "highlights": [
+      "Sell courses via WooCommerce with multiple payment gateways",
+      "Membership-based access via Paid Memberships Pro",
+      "Badges, certificates & automated emails",
+      "30-day no-questions-asked money-back guarantee"
+    ]
   },
   {
     "slug": "wp-stackable",
@@ -3383,7 +3960,55 @@
     ],
     "category": "Analytics",
     "offer": "WP Statistics is a self-hosted, privacy-focused analytics plugin that tracks visitors, content performance, and traffic sources without cookies or external services. Because your data stays on your own server, it helps you stay compliant with privacy regulations while still understanding your audience. With this lifetime deal you get premium analytics for a one-time payment.",
-    "tagline": "Privacy-focused analytics for WordPress"
+    "tagline": "Privacy-focused analytics for WordPress",
+    "appsumoUrl": "https://wp-statistics.com/pricing/",
+    "licenseTiers": [
+      {
+        "label": "Free ($0/yr, unlimited sites)",
+        "features": [
+          "Unlimited page-views & visitors",
+          "Content & category analytics",
+          "Online / visitor analytics",
+          "Cookie-less tracking",
+          "Traffic-source, geo & device reports",
+          "GDPR-ready privacy toolkit",
+          "Visitor journey & role-based access",
+          "Email & community support"
+        ]
+      },
+      {
+        "label": "Premium — Single Site ($119/yr)",
+        "features": [
+          "Everything in Free",
+          "Priority support",
+          "Custom post types & taxonomy analytics",
+          "Real-time live visitors feed",
+          "Author analytics",
+          "Google Search Console integration",
+          "Campaign (UTM) analytics",
+          "Custom events & goal reports"
+        ]
+      },
+      {
+        "label": "Premium — Up to 5 Sites ($249/yr)",
+        "features": [
+          "All Premium features across up to 5 sites"
+        ]
+      },
+      {
+        "label": "Premium — Unlimited ($449/yr, Best Value)",
+        "features": [
+          "All Premium features across unlimited sites (up to 100 under fair-usage)"
+        ]
+      }
+    ],
+    "appsumoImage": "https://wp-statistics.com/wp-content/themes/wp-statistics.com/assets/img/logo.svg",
+    "highlights": [
+      "Privacy-first, cookie-less WordPress analytics",
+      "GDPR-ready, self-hosted (data stays in your DB)",
+      "Trusted by 600,000+ websites",
+      "14-day money-back guarantee"
+    ]
   },
   {
     "slug": "wp301redirects",
@@ -3459,14 +4084,52 @@
     "category": "WordPress",
     "offer": "WP Compress optimizes images and assets to reduce page weight and improve WordPress load times, with bulk compression, WebP conversion, and automatic optimization of new uploads. Its adaptive modes serve appropriately sized media based on the visitor's device and connection to keep pages fast. The lifetime deal gives you these performance tools for one upfront payment.",
     "tagline": "Speed up sites with smart optimization",
-    "appsumoUrl": "https://appsumo.com/products/wp-compress/",
+    "appsumoUrl": "https://wpcompress.com/pricing/",
     "reviews": {
-      "rating": "4.6",
-      "count": "113"
+      "rating": "4.9",
+      "count": "50,000+ sites & agencies"
     },
-    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-WPCompress2x2x.png?width=800&height=450&aspect_ratio=16:9",
+    "appsumoImage": "https://cdn.wpcompress.com/q:i/r:0/wp:1/w:1/u:https://wpcompress.com/wp-content/uploads/2024/03/speed-two-columns.webp?v=9d9aee86af",
     "highlights": [
-      "Supercharge your site by adapting images and scripts for incoming visitors"
+      "Adaptive image compression with local WebP creation",
+      "Global CDN up to 123 edge locations, 95% cache hit ratio",
+      "WordPress plugin plus universal non-WordPress version",
+      "Rated 4.9 by 50,000+ sites",
+      "60-day money-back guarantee"
+    ],
+    "licenseTiers": [
+      {
+        "label": "1 Site ($9/mo)",
+        "features": [
+          "Unlimited optimization — no credits, overages or metering",
+          "Advanced caching & critical CSS",
+          "Image optimization (AVIF/WebP)",
+          "Lazy-loading & deferred JavaScript",
+          "Optional premium global CDN",
+          "One-click setup, 24/7 monitoring"
+        ]
+      },
+      {
+        "label": "3 Sites ($19/mo)",
+        "features": [
+          "All optimization features across 3 sites"
+        ]
+      },
+      {
+        "label": "Unlimited ($49/mo, Most Popular)",
+        "features": [
+          "All optimization features across unlimited sites"
+        ]
+      },
+      {
+        "label": "Whitelabel Agency ($99/mo)",
+        "features": [
+          "Unlimited sites",
+          "White-label branding",
+          "Remote website management portal",
+          "Agency client management"
+        ]
+      }
     ]
   },
   {

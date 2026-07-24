@@ -105,7 +105,9 @@ function tiersPanel(p) {
   if (!p.licenseTiers || !p.licenseTiers.length) return '';
   const tiers = p.licenseTiers.map(t =>
     `<div class="tier"><b>${esc(t.label)}</b><ul>${(t.features || []).map(f => `<li>${esc(f)}</li>`).join('')}</ul></div>`).join('');
-  const src = p.appsumoUrl ? `<p class="readmore">Original deal details from the AppSumo page: <a href="${esc(p.appsumoUrl)}" target="_blank" rel="noopener nofollow">view on AppSumo</a></p>` : '';
+  const srcUrl = p.appsumoUrl || '';
+  const srcLabel = /appsumo\.com/i.test(srcUrl) ? 'view on AppSumo' : 'view the original deal page';
+  const src = srcUrl ? `<p class="readmore">Original deal details: <a href="${esc(srcUrl)}" target="_blank" rel="noopener nofollow">${srcLabel}</a></p>` : '';
   return `<div class="panel"><h2>What you get with this deal</h2><div class="tiers">${tiers}</div>${src}</div>`;
 }
 
@@ -317,7 +319,7 @@ function buildProduct(p) {
         <div>
           <div class="tag">${esc(p.category || 'Software')}${p.tagline ? ' · ' + esc(p.tagline) : ''}</div>
           <h1>${esc(p.name)}</h1>
-          ${p.reviews && p.reviews.rating ? `<div class="rating">⭐ ${esc(p.reviews.rating)}${p.reviews.count ? ` · ${esc(p.reviews.count)} AppSumo reviews` : ''}</div>` : ''}
+          ${p.reviews && p.reviews.rating ? `<div class="rating">⭐ ${esc(p.reviews.rating)}${p.reviews.count ? ` · ${esc(p.reviews.count)} ${/appsumo\.com/i.test(p.appsumoUrl || '') ? 'AppSumo reviews' : 'reviews'}` : ''}</div>` : ''}
           ${priceLabel}
           <p class="offer">${esc(offer)}</p>
           ${entice}
