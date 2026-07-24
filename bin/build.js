@@ -6,16 +6,30 @@ const ROOT = path.join(__dirname, '..');
 const SITE = path.join(ROOT, 'site');
 const products = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'products.json'), 'utf8'));
 
-const PAYPAL_ME = 'shrockbusiness';           // paypal.me/shrockbusiness
+const PAYPAL_EMAIL = 'paypal@shrockservice.com';  // receives Buy Now payments (carries item name + id)
 const SITE_URL = 'https://ltd.jrdevelopr.com';
 const SITE_NAME = 'LTD Software Vault';
 
 const esc = s => String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;')
   .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const money = n => '$' + Number(n).toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 0 });
-const payLink = amt => amt ? `https://www.paypal.com/paypalme/${PAYPAL_ME}/${Math.round(amt)}USD`
-  : `https://www.paypal.com/paypalme/${PAYPAL_ME}`;
 const img = p => p.localImg || `img/${p.slug}.svg`;
+
+// PayPal "Buy Now" (Payments Standard _xclick) — sends item_name + item_number so the
+// seller sees exactly which product/license was paid for. amount omitted => buyer sets it (offers).
+function payForm(amount, itemName, itemNumber, btnClass, btnHtml) {
+  const nm = itemName.length > 124 ? itemName.slice(0, 124) : itemName;
+  const amt = amount != null ? `<input type="hidden" name="amount" value="${Number(amount).toFixed(2)}">` : '';
+  return `<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" rel="noopener" class="payform">
+<input type="hidden" name="cmd" value="_xclick">
+<input type="hidden" name="business" value="${esc(PAYPAL_EMAIL)}">
+<input type="hidden" name="item_name" value="${esc(nm)}">
+<input type="hidden" name="item_number" value="${esc(itemNumber)}">
+${amt}<input type="hidden" name="currency_code" value="USD">
+<input type="hidden" name="no_shipping" value="1">
+<button type="submit" class="btn ${btnClass}">${btnHtml}</button>
+</form>`;
+}
 
 // PayPal wordmark used inside the yellow button
 const PP = '<span class="pp"><i>Pay</i><em>Pal</em></span>';
@@ -43,8 +57,8 @@ const topbar = rel => `<div class="topbar"><div class="wrap">
 <button class="themebtn" onclick="(function(){var d=document.documentElement,n=d.getAttribute('data-theme')==='dark'?'light':'dark';d.setAttribute('data-theme',n);localStorage.setItem('theme',n);})()">◐ Theme</button>
 </div></div>`;
 
-const footer = `<div class="footer wrap">Prices are one-time lifetime-deal transfers. Payment via PayPal to
-<b>paypal.me/${PAYPAL_ME}</b>. Accounts/codes transferred after payment clears. Questions or offers welcome.</div>`;
+const footer = `<div class="footer wrap">Prices are one-time lifetime-deal transfers. Secure checkout via
+<b>PayPal</b> — the product name travels with your payment. Accounts/codes transferred after payment clears. Questions or offers welcome.</div>`;
 
 /* ---------------- index ---------------- */
 function buildIndex() {
@@ -172,11 +186,12 @@ function buildProduct(p) {
     ? `<div class="pricebox"><span class="big">${money(p.minPrice)}</span><span class="lbl">${p.availCount>1?`· ${p.availCount} available`:'one-time payment'}</span></div>`
     : `<div class="pricebox"><span class="big" style="color:var(--gold)">Make an Offer</span></div>`;
 
+  const primaryName = `${p.name} — Lifetime Deal`;
   const primaryBtn = p.status === 'sold'
     ? `<span class="btn sold">Sold out</span>`
     : (p.minPrice != null
-        ? `<a class="btn btn-pay" href="${payLink(p.minPrice)}" target="_blank" rel="noopener">Buy with ${PP} · ${money(p.minPrice)}</a>`
-        : `<a class="btn btn-offer" href="${payLink(null)}" target="_blank" rel="noopener">Make an Offer via PayPal</a>`);
+        ? payForm(p.minPrice, primaryName, p.slug, 'btn-pay', `Buy with ${PP} · ${money(p.minPrice)}`)
+        : payForm(null, primaryName, p.slug, 'btn-offer', `Make an Offer via ${PP}`));
 
   function unitRow(u, i) {
     const label = u.account ? esc(u.account) : `License ${i + 1}`;
@@ -184,9 +199,10 @@ function buildProduct(p) {
       return `<div class="unit"><div class="u-meta"><b>${label}</b><small>No longer available</small></div>
         <span class="u-price strike">${u.price ? money(u.price) : 'Sold'}</span><span class="btn sold">Sold</span></div>`;
     const price = u.priceKind === 'fixed' ? u.price : null;
+    const itemName = `${p.name}${u.account ? ` (${u.account})` : ''} — Lifetime Deal`;
     const btn = price != null
-      ? `<a class="btn btn-pay" href="${payLink(price)}" target="_blank" rel="noopener">Buy · ${PP}</a>`
-      : `<a class="btn btn-offer" href="${payLink(null)}" target="_blank" rel="noopener">Make an Offer</a>`;
+      ? payForm(price, itemName, p.slug, 'btn-pay', `Buy · ${PP}`)
+      : payForm(null, itemName, p.slug, 'btn-offer', 'Make an Offer');
     return `<div class="unit"><div class="u-meta"><b>${label}</b><small>Lifetime deal · transferred after payment</small></div>
       <span class="u-price">${price != null ? money(price) : 'Offer'}</span>${btn}</div>`;
   }

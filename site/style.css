@@ -90,6 +90,7 @@ td{padding:11px 14px;vertical-align:middle}
 .empty{padding:50px;text-align:center;color:var(--muted)}
 
 /* buttons */
+.payform{display:inline-flex;margin:0}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-weight:700;font-size:14.5px;
   border-radius:11px;padding:11px 18px;cursor:pointer;border:1px solid transparent;transition:transform .06s, box-shadow .12s}
 .btn:hover{text-decoration:none}
