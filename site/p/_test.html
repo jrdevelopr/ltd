@@ -1,0 +1,41 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>$1 Payment Test — LTD Software Vault</title>
+<meta name="robots" content="noindex,nofollow">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%232563eb'/><text x='16' y='23' font-size='18' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='bold'>%24</text></svg>">
+<link rel="stylesheet" href="../style.css">
+<script>(function(){var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);})();</script>
+</head><body>
+<div class="topbar"><div class="wrap"><a class="brand" href="../index.html"><span class="dot"></span> LTD Software Vault</a></div></div>
+<div class="pwrap">
+  <a class="back" href="../index.html">← Back to all software</a>
+  <div class="phead" style="grid-template-columns:1fr">
+    <div>
+      <div class="tag">Diagnostic · hidden from the catalog</div>
+      <h1>$1.00 Payment Test</h1>
+      <p class="offer">This is a throwaway button to verify the product name travels with a PayPal payment.
+      Pay $1 to yourself, then open <b>PayPal → Activity → this transaction</b> and confirm it shows the
+      item name <b>“TEST — Product Name Check”</b> and item number <b>test-001</b>. Refund yourself
+      afterward (you'll still pay the small PayPal fee). This page is <b>noindex</b> and not linked anywhere.</p>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" rel="noopener" class="payform">
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="YTJ6CLJMBBZAL">
+        <input type="hidden" name="item_name" value="TEST — Product Name Check (please refund)">
+        <input type="hidden" name="item_number" value="test-001">
+        <input type="hidden" name="amount" value="1.00">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="hidden" name="no_shipping" value="1">
+        <button type="submit" class="btn btn-pay">Pay $1.00 test with <span class="pp"><i>Pay</i><em>Pal</em></span></button>
+      </form>
+      <div class="trust"><span>🔒 Uses the exact same button setup as every real product</span></div>
+    </div>
+  </div>
+  <div class="panel">
+    <h2>What to check after paying</h2>
+    <p style="color:var(--muted)">In your PayPal <b>Activity</b>, click the $1.00 transaction. You should see:</p>
+    <div class="unit"><div class="u-meta"><b>Item name</b><small>should read: TEST — Product Name Check (please refund)</small></div></div>
+    <div class="unit"><div class="u-meta"><b>Item number</b><small>should read: test-001</small></div></div>
+    <p class="readmore" style="margin-top:12px">The same two fields are filled per product/license on every real listing, so each sale shows exactly what was bought.</p>
+  </div>
+</div>
+</body></html>

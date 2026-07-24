@@ -22,6 +22,7 @@ function payForm(amount, itemName, itemNumber, btnClass, btnHtml) {
   const amt = amount != null ? `<input type="hidden" name="amount" value="${Number(amount).toFixed(2)}">` : '';
   return `<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" rel="noopener" class="payform">
 <input type="hidden" name="cmd" value="_xclick">
+<input type="hidden" name="charset" value="utf-8">
 <input type="hidden" name="business" value="${esc(PAYPAL_BIZ)}">
 <input type="hidden" name="item_name" value="${esc(nm)}">
 <input type="hidden" name="item_number" value="${esc(itemNumber)}">
@@ -186,7 +187,7 @@ function buildProduct(p) {
     ? `<div class="pricebox"><span class="big">${money(p.minPrice)}</span><span class="lbl">${p.availCount>1?`· ${p.availCount} available`:'one-time payment'}</span></div>`
     : `<div class="pricebox"><span class="big" style="color:var(--gold)">Make an Offer</span></div>`;
 
-  const primaryName = `${p.name} — Lifetime Deal`;
+  const primaryName = `${p.name} - Lifetime Deal`;
   const primaryBtn = p.status === 'sold'
     ? `<span class="btn sold">Sold out</span>`
     : (p.minPrice != null
@@ -199,7 +200,7 @@ function buildProduct(p) {
       return `<div class="unit"><div class="u-meta"><b>${label}</b><small>No longer available</small></div>
         <span class="u-price strike">${u.price ? money(u.price) : 'Sold'}</span><span class="btn sold">Sold</span></div>`;
     const price = u.priceKind === 'fixed' ? u.price : null;
-    const itemName = `${p.name}${u.account ? ` (${u.account})` : ''} — Lifetime Deal`;
+    const itemName = `${p.name}${u.account ? ` (${u.account})` : ''} - Lifetime Deal`;
     const btn = price != null
       ? payForm(price, itemName, p.slug, 'btn-pay', `Buy · ${PP}`)
       : payForm(null, itemName, p.slug, 'btn-offer', 'Make an Offer');
