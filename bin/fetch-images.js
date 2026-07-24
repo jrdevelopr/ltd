@@ -6,7 +6,8 @@ const { execFileSync } = require('child_process');
 const ROOT = path.join(__dirname, '..');
 const IMGDIR = path.join(ROOT, 'site', 'img');
 fs.mkdirSync(IMGDIR, { recursive: true });
-const products = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'products.json'), 'utf8'));
+const DATAFILE = process.env.DATAFILE || 'data/products.json';
+const products = JSON.parse(fs.readFileSync(path.join(ROOT, DATAFILE), 'utf8'));
 const UA = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36';
 const EXT = { 'image/png': 'png', 'image/jpeg': 'jpg', 'image/webp': 'webp', 'image/gif': 'gif', 'image/svg+xml': 'svg' };
 
@@ -45,5 +46,5 @@ for (const p of products) {
   }
   if (!done) { p.localImg = fallback(p); fell++; }
 }
-fs.writeFileSync(path.join(ROOT, 'data', 'products.json'), JSON.stringify(products, null, 2));
-console.log(`images: ${ok} downloaded, ${fell} lettered-tile fallbacks`);
+fs.writeFileSync(path.join(ROOT, DATAFILE), JSON.stringify(products, null, 2));
+console.log(`images (${DATAFILE}): ${ok} downloaded, ${fell} lettered-tile fallbacks`);

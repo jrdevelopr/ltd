@@ -1,0 +1,886 @@
+[
+  {
+    "slug": "be-live",
+    "name": "Be.Live",
+    "desc": "",
+    "homepage": "https://be.live/",
+    "image": "",
+    "localImg": "img/be-live.svg",
+    "status": "available",
+    "inquireOnly": true,
+    "availCount": 3,
+    "soldCount": 0,
+    "minPrice": null,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      },
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      },
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      }
+    ],
+    "category": "Video & Audio",
+    "offer": "Be.Live is a browser-based live streaming studio that lets you broadcast to Facebook, YouTube, LinkedIn and 40+ RTMP destinations at once, with on-screen branding, overlays, lower-thirds and guest hosting. No heavy software to install and no editing skills required. This is a transferable lifetime-deal license the owner still uses but is happy to part with for a fair offer, so send an inquiry if it fits your workflow.",
+    "tagline": "Browser-based multistreaming to every platform"
+  },
+  {
+    "slug": "brizy-design-kit",
+    "name": "Brizy Design Kit",
+    "desc": "",
+    "homepage": "https://www.brizy.io/",
+    "image": "https://cloud-1de12d.becdn.net/media/iW=1200&iH=630/fbd5489ab0bf9b66dc23814e285726a3.jpg",
+    "localImg": "img/brizy-design-kit.jpg",
+    "status": "available",
+    "inquireOnly": true,
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": null,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      }
+    ],
+    "category": "Design",
+    "offer": "The Brizy Design Kit is a large library of professionally crafted, drag-and-drop blocks and sections that let you assemble polished websites and landing pages in minutes inside the Brizy builder. It is a genuine head start for anyone who wants great-looking pages without designing from scratch. The license here is a transferable lifetime deal, and while the owner has gotten good use from it, they're open to a reasonable offer, so reach out to inquire.",
+    "tagline": "Hundreds of ready-made website blocks"
+  },
+  {
+    "slug": "burner-mail",
+    "name": "Burner Mail",
+    "desc": "",
+    "homepage": "https://burnermail.io/",
+    "image": "https://burnermail.io/assets/burnermail_og_fb_image-f475393f0a0f7d82f827e00090b4b8379b66dd3003d25e8998035be8e48aced1.png",
+    "localImg": "img/burner-mail.png",
+    "status": "available",
+    "inquireOnly": true,
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": null,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      }
+    ],
+    "category": "Security",
+    "offer": "Burner Mail generates a unique, anonymous email alias for every service you sign up with, forwarding messages to your real inbox while shielding your identity from trackers and spam. When an alias gets abused, you simply burn it and move on, keeping your primary address clean. This is a transferable lifetime-deal license; the owner still finds it handy but will let it go for the right offer, so send an inquiry.",
+    "tagline": "Disposable email aliases that guard privacy"
+  },
+  {
+    "slug": "coming-soon-maintenance-mode",
+    "name": "Coming Soon & Maintenance Mode",
+    "desc": "",
+    "homepage": "https://www.seedprod.com/",
+    "image": "https://www.seedprod.com/wp-content/uploads/2020/10/fb-share.png",
+    "localImg": "img/coming-soon-maintenance-mode.png",
+    "status": "available",
+    "inquireOnly": true,
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": null,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "License Tier 3"
+      }
+    ],
+    "category": "WordPress",
+    "offer": "This WordPress solution lets you flip your site into a branded coming-soon or maintenance-mode page with a click, using a library of templates and a drag-and-drop builder that needs no code. It's ideal for teasing a launch or hiding work-in-progress while keeping a professional face online. The license is a transferable lifetime deal, and the owner is open to a fair offer, so inquire if you'd put it to good use.",
+    "tagline": "Launch coming-soon and maintenance pages fast"
+  },
+  {
+    "slug": "crello",
+    "name": "Crello",
+    "desc": "",
+    "homepage": "https://create.vista.com/",
+    "image": "https://create.vista.com/vcwp/wp-content/plugins/vc-blocks/assets/img/header/posters.webp",
+    "localImg": "img/crello.webp",
+    "status": "available",
+    "inquireOnly": true,
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": null,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      }
+    ],
+    "category": "Design",
+    "offer": "Crello, now known as VistaCreate, is an easy online graphic design tool with thousands of templates for social posts, ads, stories, animations and print, so non-designers can produce polished visuals fast. It bundles a huge stock library plus animation and editing tools in one browser workspace. This is a transferable lifetime-deal license the owner is willing to sell for a reasonable offer, so reach out to inquire.",
+    "tagline": "Create pro graphics without a designer"
+  },
+  {
+    "slug": "cromojo",
+    "name": "Cromojo",
+    "desc": "",
+    "homepage": "https://cromojo.com/",
+    "image": "https://cdn.prod.website-files.com/689c02bd6668b47b0f6a2991/6a61656809a38d01e4376b7c_cromojo-og.png",
+    "localImg": "img/cromojo.png",
+    "status": "available",
+    "inquireOnly": true,
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": null,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "License Tier 2"
+      }
+    ],
+    "category": "Analytics",
+    "offer": "Cromojo is an all-in-one website growth platform that combines real-time and revenue attribution analytics, automated search-engine indexing, and uptime and issue monitoring in a single dashboard. It's built to show marketers what actually drives revenue while keeping pages indexed and online. The license is a transferable lifetime deal, and although the owner still uses it, they'll consider a fair offer, so send an inquiry.",
+    "tagline": "Revenue-first analytics and site monitoring"
+  },
+  {
+    "slug": "depositphotos",
+    "name": "Depositphotos",
+    "desc": "",
+    "homepage": "https://depositphotos.com",
+    "image": "https://static.depositphotos.com/storage/image/f5ada1b156989865f95747765191584720d82af2.jpg",
+    "localImg": "img/depositphotos.jpg",
+    "status": "available",
+    "inquireOnly": true,
+    "availCount": 5,
+    "soldCount": 0,
+    "minPrice": null,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      },
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      },
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      },
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      },
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      }
+    ],
+    "category": "Stock Media",
+    "offer": "Depositphotos is a huge royalty-free marketplace of stock photos, vector images, videos and music for your creative and commercial projects. This is a transferable lifetime-deal license, so you get ongoing access without the recurring subscription. The owner still uses it but is open to a fair offer, so reach out to inquire.",
+    "tagline": "Royalty-free photos, video and music"
+  },
+  {
+    "slug": "divmagic",
+    "name": "DivMagic",
+    "desc": "",
+    "homepage": "https://divmagic.com",
+    "image": "https://public-cdn-a.dvmgc.com/static/social-032324.webp",
+    "localImg": "img/divmagic.webp",
+    "status": "available",
+    "inquireOnly": true,
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": null,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      }
+    ],
+    "category": "Developer",
+    "offer": "DivMagic is a browser extension that lets you hover over any web element and instantly copy its code as HTML, CSS, Tailwind or React, plus convert styles and reuse components. It is a real time-saver for developers and designers who want to move fast. This is a transferable lifetime-deal license and the owner is open to a fair offer, so send an inquiry to make it yours.",
+    "tagline": "Copy any website's design instantly"
+  },
+  {
+    "slug": "docpro",
+    "name": "DocPro",
+    "desc": "",
+    "homepage": "https://docpro.com",
+    "image": "https://docpro.com/img/og-image.jpg?v=20220717-1",
+    "localImg": "img/docpro.jpg",
+    "status": "available",
+    "inquireOnly": true,
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": null,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      }
+    ],
+    "category": "Productivity",
+    "offer": "DocPro gives you a large library of lawyer-approved legal, business and contract templates you can customize and generate on demand, with AI-assisted drafting tools. It is a practical way to handle everyday paperwork without the legal bills. This is a transferable lifetime-deal license and the owner is open to a fair offer, so inquire to take it over.",
+    "tagline": "Lawyer-approved legal and business documents"
+  },
+  {
+    "slug": "emailit",
+    "name": "Emailit",
+    "desc": "",
+    "homepage": "https://emailit.com",
+    "image": "https://emailit.com/og-image.png",
+    "localImg": "img/emailit.png",
+    "status": "available",
+    "inquireOnly": true,
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": null,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "License Tier 3"
+      }
+    ],
+    "category": "Email",
+    "offer": "Emailit is a developer-friendly email platform for sending transactional and marketing emails via SMTP or REST API, with domain management, open and click tracking, suppression lists and webhooks. Its pay-per-use model and broad language support make it a lean alternative to subscription email services. This is a transferable lifetime-deal license and the owner is open to a fair offer, so reach out to inquire.",
+    "tagline": "Fast pay-per-use email API"
+  },
+  {
+    "slug": "frontly",
+    "name": "Frontly",
+    "desc": "",
+    "homepage": "https://frontly.ai",
+    "image": "https://res.cloudinary.com/frontly/image/upload/v1715870852/frontly-banner_avnwyg.png",
+    "localImg": "img/frontly.png",
+    "status": "available",
+    "inquireOnly": true,
+    "availCount": 4,
+    "soldCount": 0,
+    "minPrice": null,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      },
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      },
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      },
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      }
+    ],
+    "category": "Developer",
+    "offer": "Frontly turns plain-language descriptions into working custom applications using AI, then lets you refine them in a visual no-code editor. It is a fast path to building internal tools and client apps without writing code. This is a transferable lifetime-deal license and the owner is open to a fair offer, so send an inquiry to grab it.",
+    "tagline": "Build apps with AI, no code"
+  },
+  {
+    "slug": "getscreen-me",
+    "name": "Getscreen.me",
+    "desc": "",
+    "homepage": "https://getscreen.me",
+    "image": "https://getscreen.me/res/land/i/opengraph-en.png",
+    "localImg": "img/getscreen-me.png",
+    "status": "available",
+    "inquireOnly": true,
+    "availCount": 3,
+    "soldCount": 0,
+    "minPrice": null,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      },
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      },
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      }
+    ],
+    "category": "Productivity",
+    "offer": "Getscreen.me is browser-based remote desktop software for cross-platform remote access, screen sharing, file transfer and IT support without installing heavy clients. It is handy for troubleshooting machines and managing devices from anywhere. This is a transferable lifetime-deal license and the owner is open to a fair offer, so inquire to take it over.",
+    "tagline": "Remote desktop access from any browser"
+  },
+  {
+    "slug": "google-maps-scraper",
+    "name": "Google Maps Scraper",
+    "desc": "",
+    "homepage": "https://outscraper.com/google-maps-scraper/",
+    "image": "https://outscraper.com/wp-content/uploads/2023/11/cropped-logo-long-inverted-e1628850885713.webp",
+    "localImg": "img/google-maps-scraper.webp",
+    "status": "available",
+    "inquireOnly": true,
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": null,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      }
+    ],
+    "category": "Marketing",
+    "offer": "Google Maps Scraper by Outscraper pulls business data straight from Google Maps, phones, websites, reviews, ratings and more, then exports it to CSV, Excel, or JSON in minutes for lead generation and market research. This is a transferable lifetime-deal license, so you skip the recurring subscription. The owner still uses tools like this and is open to a fair offer, so send an inquiry.",
+    "tagline": "Extract local business leads from Google Maps"
+  },
+  {
+    "slug": "google-maps-widget",
+    "name": "Google Maps Widget",
+    "desc": "",
+    "homepage": "https://www.gmapswidget.com/",
+    "image": "https://www.gmapswidget.com/wp-content/uploads/2019/08/gmw-video-black11.jpg",
+    "localImg": "img/google-maps-widget.jpg",
+    "status": "available",
+    "inquireOnly": true,
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": null,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      }
+    ],
+    "category": "WordPress",
+    "offer": "Maps Widget for Google Maps (PRO) adds fast-loading, thumbnail-based Google Maps to any WordPress site with custom pins, skins, clustering and more, without slowing your pages down. This is a transferable lifetime-deal license that avoids the usual renewal fees. The owner is happy to entertain a reasonable offer, so reach out to inquire.",
+    "tagline": "Fast, lightweight Google Maps for WordPress"
+  },
+  {
+    "slug": "hoverify",
+    "name": "Hoverify",
+    "desc": "",
+    "homepage": "https://tryhoverify.com/",
+    "image": "https://tryhoverify.com/images/og.png",
+    "localImg": "img/hoverify.png",
+    "status": "available",
+    "inquireOnly": true,
+    "availCount": 2,
+    "soldCount": 0,
+    "minPrice": null,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      },
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      }
+    ],
+    "category": "Developer",
+    "offer": "Hoverify is an all-in-one browser extension that lets web developers and designers inspect elements, edit styles live, test responsive breakpoints, capture screenshots and detect a site's tech stack, all without switching tools. This is a transferable lifetime-deal license, so you own it outright with no yearly renewal. The owner is open to a fair offer, so send an inquiry to make it yours.",
+    "tagline": "All-in-one browser toolkit for developers"
+  },
+  {
+    "slug": "itubego",
+    "name": "iTubeGo",
+    "desc": "",
+    "homepage": "https://itubego.com/",
+    "image": "https://itubego.com/wp-content/themes/itubego/assets/img/homepage/itubego_product_banner_left.png",
+    "localImg": "img/itubego.png",
+    "status": "available",
+    "inquireOnly": true,
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": null,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      }
+    ],
+    "category": "Video & Audio",
+    "offer": "iTubeGo is a desktop downloader and converter that saves video and audio from thousands of streaming sites in formats like MP4, MP3 and more, up to high resolutions, for offline viewing. This is a transferable lifetime-deal license, so there is no ongoing subscription to worry about. The owner is open to a reasonable offer, so reach out to inquire.",
+    "tagline": "Download and convert video from anywhere"
+  },
+  {
+    "slug": "jivochat",
+    "name": "JivoChat",
+    "desc": "",
+    "homepage": "https://www.jivochat.com/",
+    "image": "https://www.jivochat.com/images/layout/og/card-en.png",
+    "localImg": "img/jivochat.png",
+    "status": "available",
+    "inquireOnly": true,
+    "availCount": 3,
+    "soldCount": 0,
+    "minPrice": null,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      },
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      },
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      }
+    ],
+    "category": "Communication",
+    "offer": "JivoChat is an all-in-one customer communication tool that unifies live chat, social messengers, email and phone into a single agent dashboard so you can turn website visitors into customers. This is a transferable lifetime-deal license, sparing you the recurring per-agent fees. The owner is open to a fair offer, so send an inquiry.",
+    "tagline": "Omnichannel live chat for your website"
+  },
+  {
+    "slug": "keyword-hero",
+    "name": "Keyword Hero",
+    "desc": "",
+    "homepage": "https://keyword-hero.com/",
+    "image": "https://new.keyword-hero.com/wp-content/uploads/2025/05/Logo.png",
+    "localImg": "img/keyword-hero.png",
+    "status": "available",
+    "inquireOnly": true,
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": null,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      }
+    ],
+    "category": "SEO",
+    "offer": "Keyword Hero brings your hidden (not provided) organic keywords back into Google Analytics, connecting each search term to sessions, intent and conversions so you can report SEO performance you can actually trust. This is a transferable lifetime-deal license, avoiding the usual monthly cost. The owner is open to a reasonable offer, so reach out to inquire.",
+    "tagline": "See your organic keywords in Analytics",
+    "flagged": true
+  },
+  {
+    "slug": "kingsumo",
+    "name": "KingSumo",
+    "desc": "",
+    "homepage": "https://kingsumo.com",
+    "image": "https://kingsumo.com/img/social-share.png",
+    "localImg": "img/kingsumo.png",
+    "status": "available",
+    "inquireOnly": true,
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": null,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      }
+    ],
+    "category": "Marketing",
+    "offer": "KingSumo runs viral giveaways where participants share with friends to earn bonus entries, turning one contest into organic audience and email-list growth. It supports unlimited giveaways with smart, automated reminder emails to keep entrants engaged. This is a transferable lifetime-deal license, and the owner is open to a fair offer, so send an inquiry.",
+    "tagline": "Grow your list with viral giveaways"
+  },
+  {
+    "slug": "lumen5",
+    "name": "Lumen5",
+    "desc": "",
+    "homepage": "https://lumen5.com",
+    "image": "https://cdn.lumen5.com/lumen5-site-images/og-image.png",
+    "localImg": "img/lumen5.png",
+    "status": "available",
+    "inquireOnly": true,
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": null,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      }
+    ],
+    "category": "Video & Audio",
+    "offer": "Lumen5 is an AI video maker that transforms blog posts, scripts, and plain text into polished, shareable videos in minutes, no editing skills required. It handles scene creation, media matching, and captions so marketers and creators can publish social-ready content fast. The lifetime-deal license is transferable and the owner welcomes a reasonable offer, so reach out to inquire.",
+    "tagline": "Turn text into video with AI"
+  },
+  {
+    "slug": "mailpoet",
+    "name": "MailPoet",
+    "desc": "",
+    "homepage": "https://www.mailpoet.com",
+    "image": "https://i0.wp.com/www.mailpoet.com/wp-content/uploads/2018/02/mailpoet.png",
+    "localImg": "img/mailpoet.png",
+    "status": "available",
+    "inquireOnly": true,
+    "availCount": 2,
+    "soldCount": 0,
+    "minPrice": null,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      },
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      }
+    ],
+    "category": "Email",
+    "offer": "MailPoet lets you design, send, and automate newsletters and emails directly from your WordPress dashboard, with subscriber management and WooCommerce integration built in. It includes welcome series, post notifications, and professional templates that non-technical site owners can use with ease. This is a transferable lifetime-deal license and the owner is open to a fair offer, so send an inquiry.",
+    "tagline": "Beautiful email marketing inside WordPress"
+  },
+  {
+    "slug": "neuronwriter",
+    "name": "NeuronWriter",
+    "desc": "",
+    "homepage": "https://neuronwriter.com",
+    "image": "https://neuronwriter.com/wp-content/uploads/2025/02/itaka-1.webp",
+    "localImg": "img/neuronwriter.webp",
+    "status": "available",
+    "inquireOnly": true,
+    "availCount": 4,
+    "soldCount": 0,
+    "minPrice": null,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      },
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      },
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      },
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      }
+    ],
+    "category": "SEO",
+    "offer": "NEURONwriter is a content optimization platform that combines keyword and competitor analysis with AI-assisted writing to help your pages rank on Google and surface in AI answer engines. It guides you toward SEO-friendly, well-structured content and tracks visibility across search and AI models. The lifetime-deal license is transferable and the owner welcomes a fair offer, so inquire to buy.",
+    "tagline": "Optimize content to rank and get cited"
+  },
+  {
+    "slug": "pixlr",
+    "name": "Pixlr",
+    "desc": "",
+    "homepage": "https://pixlr.com",
+    "image": "https://pixlr.com/images/best-photo-editor-cover.jpg",
+    "localImg": "img/pixlr.jpg",
+    "status": "available",
+    "inquireOnly": true,
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": null,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      }
+    ],
+    "category": "Design",
+    "offer": "Pixlr is a browser-based creative suite for photo editing, design, and AI image generation, with tools like generative fill, background removal, and object removal, no downloads needed. It scales from quick touch-ups to full design work, all in your browser. This is a transferable lifetime-deal license and the owner is open to a reasonable offer, so send an inquiry.",
+    "tagline": "Online photo editor with AI tools"
+  },
+  {
+    "slug": "screentovideo",
+    "name": "ScreenToVideo",
+    "desc": "",
+    "homepage": "https://screentovideo.com",
+    "image": "https://screentovideo.com/wp-content/uploads/2019/06/logo.png",
+    "localImg": "img/screentovideo.png",
+    "status": "available",
+    "inquireOnly": true,
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": null,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      }
+    ],
+    "category": "Video & Audio",
+    "offer": "ScreenToVideo captures your full screen, an application window, or a chosen area in one click, then lets you enhance recordings with text, zoom effects, sounds, images, and animations. It is a capable all-in-one screen recorder and video editor for tutorials, demos, and walkthroughs. The lifetime-deal license is transferable and the owner welcomes a fair offer, so reach out to inquire.",
+    "tagline": "Record your screen, edit like a pro"
+  },
+  {
+    "slug": "semdash",
+    "name": "Semdash",
+    "desc": "",
+    "homepage": "https://semdash.com",
+    "image": "https://famyayvemq6ogs8n.public.blob.vercel-storage.com/logos/675267b18dc380d6329a435a7e34af53%20%281%29.webp",
+    "localImg": "img/semdash.webp",
+    "status": "available",
+    "inquireOnly": true,
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": null,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "License Tier 2"
+      }
+    ],
+    "category": "SEO",
+    "offer": "Semdash bundles keyword research, competitor analysis, backlink data, and SERP checking into one AI-assisted workflow so you can find opportunities and rank higher without juggling multiple tools. This is a transferable lifetime-deal license, so you skip the recurring monthly credits and own your access outright. The owner still uses it and is open to a fair offer, so send an inquiry to start the conversation.",
+    "tagline": "All-in-one SEO research and analysis"
+  },
+  {
+    "slug": "shortpixel",
+    "name": "ShortPixel",
+    "desc": "",
+    "homepage": "https://shortpixel.com",
+    "image": "https://shortpixel.com/img/bighead.jpg",
+    "localImg": "img/shortpixel.jpg",
+    "status": "available",
+    "inquireOnly": true,
+    "availCount": 5,
+    "soldCount": 0,
+    "minPrice": null,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      },
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      },
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      },
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      },
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      }
+    ],
+    "category": "WordPress",
+    "offer": "ShortPixel optimizes and compresses your images, converting them to modern formats like WebP and AVIF to speed up your site and improve SEO, with seamless WordPress plugins and a developer API. This is a transferable lifetime-deal license, giving you optimization credits without the ongoing subscription. The owner still uses it and would consider a fair offer, so reach out to inquire.",
+    "tagline": "Compress images without losing quality"
+  },
+  {
+    "slug": "ticket-tailor",
+    "name": "Ticket Tailor",
+    "desc": "",
+    "homepage": "https://www.tickettailor.com",
+    "image": "https://ps.w.org/ticket-tailor/assets/banner-772x250.png",
+    "localImg": "img/ticket-tailor.png",
+    "status": "available",
+    "inquireOnly": true,
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": null,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      }
+    ],
+    "category": "E-commerce",
+    "offer": "Ticket Tailor is a straightforward event ticketing platform that lets you design event pages, sell tickets, and check in attendees using your own payment provider like Stripe, Square, or PayPal. This is a transferable lifetime-deal license, so you get long-term access without recurring platform fees. The owner still uses it and is open to a fair offer, so send an inquiry if you run events.",
+    "tagline": "Sell event tickets online in minutes"
+  },
+  {
+    "slug": "voicedash",
+    "name": "VoiceDash",
+    "desc": "",
+    "homepage": "https://voicedash.ai",
+    "image": "https://voicedash.ai/wp-content/uploads/2026/01/VoiceDash-Header-Image.png",
+    "localImg": "img/voicedash.png",
+    "status": "available",
+    "inquireOnly": true,
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": null,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "License Tier 2"
+      }
+    ],
+    "category": "Productivity",
+    "offer": "VoiceDash is an AI voice dictation tool that turns natural speech into clean, punctuated, structured text right where your cursor sits, working across apps on Mac, Windows, iPhone, and Android. It removes filler words, fixes grammar, and supports personal dictionaries and snippet libraries for faster writing. This is a transferable lifetime-deal license and the owner is open to a fair offer, so reach out to inquire.",
+    "tagline": "Turn speech into polished writing instantly"
+  },
+  {
+    "slug": "wp-courseware",
+    "name": "WP Courseware",
+    "desc": "",
+    "homepage": "https://flyplugins.com/wp-courseware-wordpress-lms/",
+    "image": "https://flyplugins.com/wp-content/uploads/2023/07/wp-courseware-learning-managemement-system-for-wordpress.png",
+    "localImg": "img/wp-courseware.png",
+    "status": "available",
+    "inquireOnly": true,
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": null,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "License Tier 3"
+      }
+    ],
+    "category": "WordPress",
+    "offer": "WP Courseware is a long-running WordPress LMS plugin from Fly Plugins with a drag-and-drop course builder, quizzes, student management, and progress tracking so you can create and sell online courses right from your own site. This is a transferable lifetime-deal license, meaning no annual renewals to keep it running. The owner still uses it and will sell for the right offer, so send an inquiry to learn more.",
+    "tagline": "Build and sell WordPress online courses",
+    "flagged": true
+  },
+  {
+    "slug": "yay-images",
+    "name": "Yay Images",
+    "desc": "",
+    "homepage": "https://yayimages.com",
+    "image": "https://yayimages.com/images/favicon/apple-touch-icon.png",
+    "localImg": "img/yay-images.png",
+    "status": "available",
+    "inquireOnly": true,
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": null,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "inquire",
+        "price": null,
+        "account": "AppSumo LTD code"
+      }
+    ],
+    "category": "Stock Media",
+    "offer": "Yay Images is a royalty-free stock media platform with millions of images, videos, and vectors, plus built-in AI image generation, upscaling, and background removal, all under commercial licensing. This is a transferable lifetime-deal license, so you get ongoing download access without a monthly subscription. The owner still uses it and is open to a fair offer, so reach out to inquire.",
+    "tagline": "Royalty-free stock images, video, vectors"
+  }
+]
