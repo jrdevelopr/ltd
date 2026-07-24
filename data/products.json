@@ -21,7 +21,30 @@
     ],
     "category": "WordPress",
     "offer": "Amzimage is a WordPress plugin that lets you search and drop Amazon product images straight into your posts using Amazon's official API, keeping your affiliate setup compliant. You can pick image sizes and turn pictures into affiliate links without leaving the editor. As a lifetime deal, it's a one-time payment that replaces recurring plugin fees for affiliate publishers.",
-    "tagline": "Insert Amazon images the compliant way"
+    "tagline": "Insert Amazon images the compliant way",
+    "appsumoUrl": "https://appsumo.com/products/amz-image/",
+    "licenseTiers": [
+      {
+        "label": "Single Tier (1 code)",
+        "features": [
+          "Lifetime access to Pro-Version Plan",
+          "Unlimited sites",
+          "All future Pro Plan updates",
+          "60-day money-back guarantee"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.45",
+      "count": "38"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/selfsubmissions/images/23520399-4ef0-426a-a4e2-3bb73e773ca5.png",
+    "highlights": [
+      "Insert Amazon product images into WordPress in a few clicks",
+      "Pick any image and size from Amazon's catalog",
+      "100% Amazon-compliant to protect your affiliate account",
+      "Turn images into affiliate links to earn commissions"
+    ]
   },
   {
     "slug": "anywhereapp",
@@ -45,7 +68,44 @@
     ],
     "category": "Project Management",
     "offer": "Anywhere is a lightweight project and task management tool built for small teams and startups that want structure without complexity. It offers Kanban boards, task organization, and internal and external collaboration alongside automations and integrations. With this lifetime deal you pay once and skip the ongoing per-seat subscription costs.",
-    "tagline": "Dead simple project and task management"
+    "tagline": "Dead simple project and task management",
+    "appsumoUrl": "https://appsumo.com/products/anywhere/",
+    "licenseTiers": [
+      {
+        "label": "License Tier 1 (1 code)",
+        "features": [
+          "10 team members",
+          "100 GB storage",
+          "Lifetime Standard Plan"
+        ]
+      },
+      {
+        "label": "License Tier 2 (2 codes)",
+        "features": [
+          "20 team members",
+          "250 GB storage"
+        ]
+      },
+      {
+        "label": "License Tier 3 (3 codes)",
+        "features": [
+          "40 team members",
+          "500 GB storage",
+          "CNAME support"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.63",
+      "count": "35"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-Anywhere.jpg",
+    "highlights": [
+      "Multi-view project management: Kanban, Gantt, Table, Calendar",
+      "Automate repetitive tasks like status report emails",
+      "Customizable dashboards for task/project health and KPIs",
+      "Manage files from Google Drive, OneDrive, and Dropbox"
+    ]
   },
   {
     "slug": "berrycast",
@@ -69,7 +129,42 @@
     ],
     "category": "Video & Audio",
     "offer": "BerryCast is a screen recording and video messaging tool for Windows and Mac, a straightforward alternative to Loom for explaining work asynchronously. Capture your screen, share a link, and let teammates or clients watch without downloads. This lifetime deal means one payment instead of a monthly video-tool subscription.",
-    "tagline": "Record and share screen videos fast"
+    "tagline": "Record and share screen videos fast",
+    "appsumoUrl": "https://appsumo.com/products/berrycast-2020/",
+    "licenseTiers": [
+      {
+        "label": "License Tier 1 (1 code)",
+        "features": [
+          "5 users",
+          "Unlimited video storage"
+        ]
+      },
+      {
+        "label": "License Tier 2 (2 codes)",
+        "features": [
+          "10 users",
+          "Unlimited video storage"
+        ]
+      },
+      {
+        "label": "License Tier 3 (3 codes)",
+        "features": [
+          "20 users",
+          "Unlimited video storage"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.18",
+      "count": "128"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-BerryCast_1.jpg",
+    "highlights": [
+      "Record screen, camera, and audio at the same time",
+      "Share via email, Microsoft Teams, or unique BerryCast URLs",
+      "No watermark plus custom branding",
+      "Chrome extension with Outlook web integration"
+    ]
   },
   {
     "slug": "better-uptime-stack",
@@ -93,7 +188,51 @@
     ],
     "category": "Developer",
     "offer": "Better Stack combines uptime monitoring, log management, and incident management so you get notified the moment infrastructure has a problem. It brings status pages, on-call alerting, and observability together in a single platform. Grabbing it as a lifetime deal means paying once for monitoring instead of an ongoing per-metric subscription.",
-    "tagline": "Monitoring and incident management in one"
+    "tagline": "Monitoring and incident management in one",
+    "appsumoUrl": "https://appsumo.com/products/better-uptime/",
+    "licenseTiers": [
+      {
+        "label": "License Tier 1 (1 code)",
+        "features": [
+          "1 member",
+          "100 monitors",
+          "5 status pages",
+          "50 phone calls/mo",
+          "30 SMS/mo"
+        ]
+      },
+      {
+        "label": "License Tier 2 (2 codes)",
+        "features": [
+          "5 members",
+          "200 monitors",
+          "10 status pages",
+          "100 phone calls/mo",
+          "60 SMS/mo"
+        ]
+      },
+      {
+        "label": "License Tier 3 (3 codes)",
+        "features": [
+          "10 members",
+          "400 monitors",
+          "20 status pages",
+          "200 phone calls/mo",
+          "120 SMS/mo"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.92",
+      "count": "189"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-BetterUptime_ImQzQTy.jpg",
+    "highlights": [
+      "Multi-channel alerts via phone, SMS, Slack, and email",
+      "Incident diagnostics with screenshots and error logs",
+      "On-call scheduling with calendar rotations",
+      "Branded public status pages in minutes"
+    ]
   },
   {
     "slug": "bit-social-integrations",
@@ -125,7 +264,7 @@
     "desc": "A versatile WordPress theme known for its flexibility and customization options",
     "homepage": "https://creativethemes.com/blocksy/",
     "image": "https://creativethemes.com/blocksy/wp-content/uploads/2022/06/home-hero-demo-1.jpg",
-    "localImg": "img/blocksy-theme.webp",
+    "localImg": "img/blocksy-theme.jpg",
     "status": "sold",
     "availCount": 0,
     "soldCount": 1,
@@ -165,7 +304,52 @@
     ],
     "category": "Content",
     "offer": "Blogely is an all-in-one content workspace where you research, write, organize assets, optimize for SEO, and publish from one place. It pairs a block-based writing app with editorial planning, SEO scoring, and one-click WordPress publishing to keep your whole content workflow tidy. As a lifetime deal it's a one-time payment covering the content tools a creator or team uses daily.",
-    "tagline": "Plan, write, and publish content together"
+    "tagline": "Plan, write, and publish content together",
+    "appsumoUrl": "https://appsumo.com/products/blogely/",
+    "licenseTiers": [
+      {
+        "label": "License Tier 1 (1 code)",
+        "features": [
+          "2 portfolios",
+          "1 website",
+          "20 research docs/mo",
+          "16 articles/mo"
+        ]
+      },
+      {
+        "label": "License Tier 2 (2 codes)",
+        "features": [
+          "4 portfolios",
+          "6 websites",
+          "80 research docs/mo",
+          "Unlimited articles",
+          "120 SEO credits",
+          "1 team seat"
+        ]
+      },
+      {
+        "label": "License Tier 3 (3+ codes)",
+        "features": [
+          "10 portfolios",
+          "20 websites",
+          "150 research docs/mo",
+          "Unlimited articles",
+          "250 SEO credits",
+          "3 team seats"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.69",
+      "count": "97"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-Blogely2x_zZFzWRk.jpg",
+    "highlights": [
+      "Unified research hub: top 100 SERP results in seconds",
+      "Built-in SEO analysis, keywords, and competition heatmaps",
+      "Workflow automation with team assignment and deadlines",
+      "Content marketplace to buy/sell articles or hire freelancers"
+    ]
   },
   {
     "slug": "bricks-builder",
@@ -213,7 +397,49 @@
     ],
     "category": "WordPress",
     "offer": "Brizy is a drag-and-drop website builder that makes creating pages simple, available both as a WordPress plugin and as a hosted Brizy Cloud option. Its visual interface, prebuilt blocks, and templates help you launch sites quickly without touching code. Picking it up as a lifetime deal means one payment for the builder instead of an ongoing subscription.",
-    "tagline": "Drag-and-drop website building made simple"
+    "tagline": "Drag-and-drop website building made simple",
+    "appsumoUrl": "https://appsumo.com/products/brizy/",
+    "licenseTiers": [
+      {
+        "label": "License Tier 1 (1 code)",
+        "features": [
+          "5 websites",
+          "5 workspaces"
+        ]
+      },
+      {
+        "label": "License Tier 2 (2 codes)",
+        "features": [
+          "10 websites",
+          "10 workspaces"
+        ]
+      },
+      {
+        "label": "License Tier 3 (3 codes)",
+        "features": [
+          "15 websites",
+          "15 workspaces"
+        ]
+      },
+      {
+        "label": "License Tier 4 (4 codes)",
+        "features": [
+          "20 websites",
+          "20 workspaces"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.12",
+      "count": "188"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-BrizyCloud-_16_9_uuid_f8de5e9f-bd61-4612-82a8-bf58f94cc5d1.png",
+    "highlights": [
+      "AI-powered drag-and-drop website and landing page builder",
+      "Custom pop-ups to promote discounts and updates",
+      "Auto-translate sites into multiple languages with media localization",
+      "Unlimited hosting, SSL, and team members included"
+    ]
   },
   {
     "slug": "css-hero",
@@ -285,7 +511,52 @@
     ],
     "category": "Project Management",
     "offer": "Easynote is an all-in-one work management platform that brings projects, tasks, calendars, documents and files together so your team stops switching between tools. It is built to be easy to pick up, making it a practical alternative to heavier apps like Asana or ClickUp. With this lifetime deal you get ongoing access for a single one-time payment instead of a recurring subscription.",
-    "tagline": "Organize projects and teamwork in one place"
+    "tagline": "Organize projects and teamwork in one place",
+    "appsumoUrl": "https://appsumo.com/products/easynote/",
+    "licenseTiers": [
+      {
+        "label": "Tier 1",
+        "features": [
+          "7 team members",
+          "50 GB storage",
+          "Unlimited tasks, projects, conversations, categories",
+          "Unlimited guests",
+          "Lifetime access"
+        ]
+      },
+      {
+        "label": "Tier 2",
+        "features": [
+          "15 team members",
+          "150 GB storage",
+          "Unlimited tasks, projects, conversations, categories",
+          "Unlimited guests",
+          "Lifetime access"
+        ]
+      },
+      {
+        "label": "Tier 3",
+        "features": [
+          "30 team members",
+          "300 GB storage",
+          "Unlimited tasks, projects, conversations, categories",
+          "Unlimited guests",
+          "Lifetime access"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "5",
+      "count": "12"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-Easynote.png",
+    "highlights": [
+      "Organize any workload intuitively in a scalable and collaborative platform",
+      "Easyview grid-based task visualization",
+      "Anysearch built-in search across documents and attachments",
+      "Kanban boards, customizable dashboards, templates",
+      "Recurring tasks, file uploads, two-factor authentication, Excel/PDF export"
+    ]
   },
   {
     "slug": "editor-do",
@@ -309,7 +580,47 @@
     ],
     "category": "Developer",
     "offer": "Editor.do is an online IDE and web host that lets you write code, build pages and publish them straight from the browser, complete with free SSL and domain management. It is handy for developers and makers who want to ship small sites and projects without setting up separate hosting. This lifetime deal replaces recurring hosting and editor fees with a single one-time payment.",
-    "tagline": "Code, build and host sites in your browser"
+    "tagline": "Code, build and host sites in your browser",
+    "appsumoUrl": "https://appsumo.com/products/editordo/",
+    "licenseTiers": [
+      {
+        "label": "Starter (1 code)",
+        "features": [
+          "5 websites",
+          "1 GB SSD storage",
+          "Full editor, templates, SSL",
+          "Unlimited traffic"
+        ]
+      },
+      {
+        "label": "Medium (2 codes)",
+        "features": [
+          "20 websites",
+          "5 GB SSD storage",
+          "All Starter features plus expanded capacity"
+        ]
+      },
+      {
+        "label": "Elite (3 codes)",
+        "features": [
+          "100 websites",
+          "10 GB SSD storage",
+          "All features with maximum project limits"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.16",
+      "count": "38"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/selfsubmissions/images/3c2db60f-c505-4d20-a5ab-8be87d4afaad.png",
+    "highlights": [
+      "All-in-one online IDE and hosting solution, deploy sites in under 2 minutes",
+      "Support for 150+ programming languages with real-time code execution",
+      "1,000+ free open-source templates",
+      "Integrated ChatGPT assistance for code optimization",
+      "GitHub integration and project import"
+    ]
   },
   {
     "slug": "elite-licenser",
@@ -333,7 +644,29 @@
     ],
     "category": "Developer",
     "offer": "Elite Licenser is a WordPress-based license manager that lets you issue, track and validate license keys for your plugins, themes, apps and other software. It can generate licenses automatically on purchase and works alongside WooCommerce, so you can sell and manage activations from one dashboard. Buying it as a lifetime deal means one payment to keep licensing your products, with no yearly renewal.",
-    "tagline": "License and protect the software you sell"
+    "tagline": "License and protect the software you sell",
+    "appsumoUrl": "https://web.archive.org/web/20210831123219/https://appsumo.com/products/elite-licenser/",
+    "licenseTiers": [
+      {
+        "label": "1 code (Lifetime deal, starting at $69, orig. $832)",
+        "features": [
+          "Lifetime access to Elite Licenser",
+          "Stackable — select more codes for additional capacity"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.38",
+      "count": "8"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/elitelicenser-1.png",
+    "highlights": [
+      "Software license manager for WordPress themes and plugins",
+      "Protect software/applications from unauthorized usage",
+      "Manage licenses for WordPress, Joomla, plugins, any CMS, .NET, PHP, Java or Android applications",
+      "Track license activations to understand your customer base",
+      "Claimed to increase product revenue by up to 70% by protecting applications"
+    ]
   },
   {
     "slug": "encharge-email",
@@ -357,7 +690,68 @@
     ],
     "category": "Email",
     "offer": "Encharge is a marketing automation platform that lets you build email flows triggered by what users actually do in your product or on your site. With a visual flow builder, segmentation and integrations for tools like Stripe and HubSpot, it helps you onboard, nurture and convert customers automatically. This lifetime deal gives you that automation for a one-time payment instead of a monthly bill.",
-    "tagline": "Behavior-based email automation for SaaS"
+    "tagline": "Behavior-based email automation for SaaS",
+    "appsumoUrl": "https://appsumo.com/products/encharge/",
+    "licenseTiers": [
+      {
+        "label": "Tier 1 ($119)",
+        "features": [
+          "5,000 subscribers",
+          "0 sub-accounts",
+          "Core automation",
+          "Unlimited emails, flow builder, team members, native forms, behavior-based automation"
+        ]
+      },
+      {
+        "label": "Tier 2 ($239)",
+        "features": [
+          "10,000 subscribers",
+          "3 sub-accounts",
+          "Enhanced features"
+        ]
+      },
+      {
+        "label": "Tier 3 ($359)",
+        "features": [
+          "15,000 subscribers",
+          "6 sub-accounts",
+          "Advanced segmentation"
+        ]
+      },
+      {
+        "label": "Tier 4 ($479)",
+        "features": [
+          "20,000 subscribers",
+          "9 sub-accounts"
+        ]
+      },
+      {
+        "label": "Tier 5 ($599)",
+        "features": [
+          "Higher subscriber capacity"
+        ]
+      },
+      {
+        "label": "Tier 6 ($1,199)",
+        "features": [
+          "50,000 subscribers",
+          "Native Shopify/WooCommerce integrations",
+          "Whitelabel branding removal"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.71",
+      "count": "348"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-Encharge_-_16_9_uuid_c5865978-ab9a-407f-b580-85334763fb30.png",
+    "highlights": [
+      "Automate email marketing with a drag-and-drop flow builder and segmentation",
+      "Visual workflow mapping without coding",
+      "Behavior-triggered automation and dynamic audience segmentation",
+      "A/B testing for subject lines and campaigns",
+      "Native integrations: Calendly, Stripe, Facebook Ads, Zapier"
+    ]
   },
   {
     "slug": "ewww-image-optimizer",
@@ -381,7 +775,35 @@
     ],
     "category": "WordPress",
     "offer": "EWWW Image Optimizer is a WordPress plugin and service that automatically compresses your images to shrink file sizes and speed up your site without a visible drop in quality. It can optimize new uploads on the fly and add WebP conversion and CDN delivery for even better performance. A lifetime deal means you keep leaner, faster pages for a single one-time payment.",
-    "tagline": "Compress WordPress images for faster pages"
+    "tagline": "Compress WordPress images for faster pages",
+    "appsumoUrl": "https://appsumo.com/products/ewww-image-optimizer/",
+    "licenseTiers": [
+      {
+        "label": "License Tier 1",
+        "features": [
+          "200 GB monthly bandwidth",
+          "10 sites supported",
+          "Unlimited images",
+          "Site speed audits",
+          "Auto-compress",
+          "Auto-WebP",
+          "Lazy load",
+          "Auto-scale"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.8",
+      "count": "120"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-EWWWImageOptimizer.jpg",
+    "highlights": [
+      "Lifetime access to EWWW Image Optimizer with all future updates",
+      "Bulk optimizer compresses multiple images simultaneously",
+      "Lazy loader automatically adjusts image sizes per device",
+      "SWIS Performance plugin includes caching and speed optimization",
+      "Optional add-on: $10/month for 160 GB additional bandwidth + unlimited sites"
+    ]
   },
   {
     "slug": "feed-bear",
@@ -405,7 +827,44 @@
     ],
     "category": "Productivity",
     "offer": "FeedBear gives you a branded hub where customers can submit ideas, report bugs and upvote feature requests, so you always know what to build next. It also includes a public roadmap and changelog to keep users in the loop as things ship. With this lifetime deal you get an ongoing feedback and roadmap tool for one upfront payment rather than a monthly subscription.",
-    "tagline": "Collect and prioritize customer feedback easily"
+    "tagline": "Collect and prioritize customer feedback easily",
+    "appsumoUrl": "https://appsumo.com/products/feedbear/",
+    "licenseTiers": [
+      {
+        "label": "1 Code",
+        "features": [
+          "2 projects",
+          "Unlimited idea boards, users, admins",
+          "Lifetime access to Business Plan features"
+        ]
+      },
+      {
+        "label": "2 Codes",
+        "features": [
+          "5 projects",
+          "Remove 'Powered by FeedBear' branding"
+        ]
+      },
+      {
+        "label": "3 Codes",
+        "features": [
+          "Unlimited projects",
+          "Remove 'Powered by FeedBear' branding"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.96",
+      "count": "46"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-feedbear.png",
+    "highlights": [
+      "Customer feedback collection and prioritization via upvotes/comments",
+      "Public roadmap sharing with automatic status update notifications",
+      "Dynamic changelog for announcing releases with rich media support",
+      "White-label customization with custom CSS and domain hosting",
+      "Integrations: Zapier, Intercom, Slack, Trello"
+    ]
   },
   {
     "slug": "getformly",
@@ -429,7 +888,67 @@
     ],
     "category": "Forms & Surveys",
     "offer": "Formly is a no-code form builder for creating polished forms, surveys and quizzes with a drag-and-drop editor and ready-made templates. It supports conditional logic, multi-page forms, payment collection and live result charts, making it a solid alternative to Typeform or Jotform. This lifetime deal lets you build unlimited branded forms for a single one-time payment.",
-    "tagline": "Build interactive forms, surveys and quizzes"
+    "tagline": "Build interactive forms, surveys and quizzes",
+    "appsumoUrl": "https://appsumo.com/products/formly-forms-surveys-quizzes/",
+    "licenseTiers": [
+      {
+        "label": "Plan 1 ($99)",
+        "features": [
+          "1 user",
+          "Unlimited forms",
+          "Unlimited responses",
+          "50 AI forms",
+          "5 domains",
+          "5 workspaces",
+          "5 GB storage"
+        ]
+      },
+      {
+        "label": "Plan 2 ($198)",
+        "features": [
+          "3 users",
+          "Unlimited forms/responses",
+          "100 AI forms",
+          "10 domains",
+          "10 workspaces",
+          "10 GB storage"
+        ]
+      },
+      {
+        "label": "Plan 3 ($297)",
+        "features": [
+          "5 users",
+          "Unlimited forms/responses",
+          "200 AI forms",
+          "Unlimited domains",
+          "Unlimited workspaces",
+          "25 GB storage"
+        ]
+      },
+      {
+        "label": "Plan 4 ($396)",
+        "features": [
+          "7 users",
+          "Unlimited forms/responses",
+          "500 AI forms",
+          "Unlimited domains",
+          "Unlimited workspaces",
+          "50 GB storage"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.61",
+      "count": "233"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/New_First_Image.png",
+    "highlights": [
+      "Create branded forms, surveys, and quizzes with logic and personalized charts—powered by AI",
+      "Conditional logic and branching for dynamic question flows",
+      "Live chart visualization (bar, donut, radar, gauge)",
+      "Stripe payment collection integration",
+      "Support for 25+ languages including RTL"
+    ]
   },
   {
     "slug": "getgenie",
@@ -453,7 +972,50 @@
     ],
     "category": "AI Writing",
     "offer": "GetGenie is an AI-powered WordPress plugin that helps you research keywords, analyze competitors and write SEO-optimized blog posts and product copy without leaving your dashboard. It scores your content as you write and supports many languages, streamlining the whole write-and-optimize workflow. As a lifetime deal, it swaps recurring AI-writing fees for one upfront payment.",
-    "tagline": "AI content and SEO inside WordPress"
+    "tagline": "AI content and SEO inside WordPress",
+    "appsumoUrl": "https://appsumo.com/products/getgenie/",
+    "licenseTiers": [
+      {
+        "label": "Tier 1",
+        "features": [
+          "30 keyword lookups/month",
+          "20 competitor analyses/month",
+          "10,000 words/month",
+          "Unlimited websites and users",
+          "Lifetime access"
+        ]
+      },
+      {
+        "label": "Tier 2",
+        "features": [
+          "100 keyword lookups/month",
+          "50 competitor analyses/month",
+          "30,000 words/month",
+          "Unlimited websites and users"
+        ]
+      },
+      {
+        "label": "Tier 3",
+        "features": [
+          "250 keyword lookups/month",
+          "100 competitor analyses/month",
+          "75,000 words/month",
+          "Unlimited websites and users"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.81",
+      "count": "31"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-REGULAR-web-GetGenie__16_9.png",
+    "highlights": [
+      "WordPress plug-in with 30+ AI templates",
+      "Blog Wizard for generating SEO-optimized content",
+      "WooCommerce product description generator",
+      "Compatible with page builders (Elementor, Bricks, Oxygen)",
+      "Content scoring system to measure performance against competitors"
+    ]
   },
   {
     "slug": "getwpfunnels",
@@ -477,7 +1039,48 @@
     ],
     "category": "Marketing",
     "offer": "WPFunnels is a visual funnel builder for WordPress that lets you design landing, checkout and thank-you pages and connect them into a complete buyer journey without code. It adds order bumps, one-click upsells, A/B testing and email automation to help you increase order value. This lifetime deal gives you the funnel builder for a single one-time payment instead of an annual license.",
-    "tagline": "Build sales funnels right inside WordPress"
+    "tagline": "Build sales funnels right inside WordPress",
+    "appsumoUrl": "https://appsumo.com/products/wpfunnels/",
+    "licenseTiers": [
+      {
+        "label": "Tier 1",
+        "features": [
+          "5 sites",
+          "Unlimited users",
+          "Base access",
+          "All features on roadmap",
+          "Lifetime access"
+        ]
+      },
+      {
+        "label": "Tier 2",
+        "features": [
+          "15 sites",
+          "Unlimited users",
+          "Expanded site limit"
+        ]
+      },
+      {
+        "label": "Tier 3",
+        "features": [
+          "Unlimited sites",
+          "Unlimited users",
+          "Maximum coverage"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.44",
+      "count": "48"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-WPFunnels_wfbEhzW.png",
+    "highlights": [
+      "Drag-and-drop funnel canvas for visual sales funnel design",
+      "Order bumps and one-click upsells and downsells",
+      "Conditional steps that deliver personalized offers based on purchase behavior",
+      "Elementor and Gutenberg integration for landing/checkout pages",
+      "Detailed analytics showing conversion rates and revenue"
+    ]
   },
   {
     "slug": "happy-forms",
@@ -501,7 +1104,43 @@
     ],
     "category": "Forms & Surveys",
     "offer": "HappyForms is a WordPress form builder for creating contact, registration, survey and order forms with features like conditional logic, multi-page forms, file uploads and payments built in. It keeps everything inside WordPress so you manage submissions and forms from one place. A lifetime deal means you get the builder and its features for a single one-time payment.",
-    "tagline": "Flexible WordPress form builder without add-ons"
+    "tagline": "Flexible WordPress form builder without add-ons",
+    "appsumoUrl": "https://appsumo.com/products/happyforms/",
+    "licenseTiers": [
+      {
+        "label": "1 Code - Lifetime access",
+        "features": [
+          "3 Sites",
+          "Conditional logic, Google Analytics, abandoned response saving, PDF attachments, multi-page forms, resume partial responses, theme styles, pop-up forms, password protection, live poll results, form scheduling, response limits, IP logging, import/export tools, reCaptcha & Mailchimp integrations, Stripe & PayPal integrations"
+        ]
+      },
+      {
+        "label": "2 Codes - Lifetime access",
+        "features": [
+          "6 Sites",
+          "All features from Tier 1"
+        ]
+      },
+      {
+        "label": "3 Codes - Lifetime access",
+        "features": [
+          "Unlimited Sites",
+          "All features from Tier 1"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.48",
+      "count": "64"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-WP-HappyForms.jpg",
+    "highlights": [
+      "Build customized lead generation forms easily with a drag-and-drop live form builder",
+      "Manage, update, and track form performance from one convenient dashboard",
+      "Unlimited forms and responses with no hidden fees",
+      "Google Analytics integration",
+      "Six email marketing integrations (AWeber, ActiveCampaign, Constant Contact, SendGrid, ConvertKit, MailerLite)"
+    ]
   },
   {
     "slug": "happyscribe",
@@ -525,7 +1164,92 @@
     ],
     "category": "Video & Audio",
     "offer": "HappyScribe converts your audio and video into text with automatic transcription and subtitles across many languages, with an option for human-made accuracy when you need it. It is useful for interviews, podcasts, meetings and captioning video content, and includes tools for exporting and editing subtitles. This lifetime deal includes a set monthly transcription allowance for a one-time payment.",
-    "tagline": "Turn audio and video into accurate text"
+    "tagline": "Turn audio and video into accurate text",
+    "appsumoUrl": "https://web.archive.org/web/20260419044645/https://appsumo.com/products/happyscribe/",
+    "licenseTiers": [
+      {
+        "label": "1 Code",
+        "features": [
+          "2 hours transcription and subtitling per month",
+          "Zapier integration"
+        ]
+      },
+      {
+        "label": "2 Codes",
+        "features": [
+          "4 hours transcription and subtitling per month",
+          "Zapier integration"
+        ]
+      },
+      {
+        "label": "3 Codes",
+        "features": [
+          "6 hours transcription and subtitling per month",
+          "Zapier integration"
+        ]
+      },
+      {
+        "label": "4 Codes",
+        "features": [
+          "8 hours transcription and subtitling per month",
+          "Zapier integration"
+        ]
+      },
+      {
+        "label": "5 Codes",
+        "features": [
+          "10 hours transcription and subtitling per month",
+          "Zapier integration"
+        ]
+      },
+      {
+        "label": "6 Codes",
+        "features": [
+          "12 hours transcription and subtitling per month",
+          "Zapier integration"
+        ]
+      },
+      {
+        "label": "7 Codes",
+        "features": [
+          "14 hours transcription and subtitling per month",
+          "Zapier integration"
+        ]
+      },
+      {
+        "label": "8 Codes",
+        "features": [
+          "16 hours transcription and subtitling per month",
+          "Zapier integration"
+        ]
+      },
+      {
+        "label": "9 Codes",
+        "features": [
+          "18 hours transcription and subtitling per month",
+          "Zapier integration"
+        ]
+      },
+      {
+        "label": "10 Codes",
+        "features": [
+          "20 hours transcription and subtitling per month",
+          "Zapier integration"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.78",
+      "count": "278"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-Happy_Scribe.png",
+    "highlights": [
+      "Each additional code adds 2 hours per month of transcription and subtitling; stack unlimited codes",
+      "Automatic transcription",
+      "Advanced punctuation",
+      "Speaker identification",
+      "Proofreading helper"
+    ]
   },
   {
     "slug": "imagely",
@@ -573,7 +1297,62 @@
     ],
     "category": "Security",
     "offer": "Internxt is a zero-knowledge, end-to-end encrypted cloud storage service where only you can access your files. With a lifetime plan you get secure file storage, sharing, and backup for a single upfront payment instead of an ongoing subscription. A solid pick if privacy and long-term ownership of your storage matter to you.",
-    "tagline": "Private end-to-end encrypted cloud storage"
+    "tagline": "Private end-to-end encrypted cloud storage",
+    "appsumoUrl": "https://web.archive.org/web/20251014235144/https://appsumo.com/products/internxt/",
+    "licenseTiers": [
+      {
+        "label": "License Tier 1",
+        "features": [
+          "500 GB storage",
+          "1 team member",
+          "Unlimited bandwidth"
+        ]
+      },
+      {
+        "label": "License Tier 2",
+        "features": [
+          "1 TB storage",
+          "5 team members",
+          "Unlimited bandwidth"
+        ]
+      },
+      {
+        "label": "License Tier 3",
+        "features": [
+          "2 TB storage",
+          "10 team members",
+          "Unlimited bandwidth"
+        ]
+      },
+      {
+        "label": "License Tier 4",
+        "features": [
+          "3 TB storage",
+          "25 team members",
+          "Unlimited bandwidth"
+        ]
+      },
+      {
+        "label": "License Tier 5",
+        "features": [
+          "5 TB storage",
+          "100 team members",
+          "Unlimited bandwidth"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "3.93",
+      "count": "138"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-Internxt_1.jpg",
+    "highlights": [
+      "Secure file sharing",
+      "End-to-end encryption, including client side encryption",
+      "Collaboration",
+      "Administration tools",
+      "Access to Drive, Photos, and Send"
+    ]
   },
   {
     "slug": "kadencewp",
@@ -621,7 +1400,35 @@
     ],
     "category": "Forms & Surveys",
     "offer": "Kali Forms is a user-friendly WordPress form builder with a drag-and-drop editor and ready-made templates for contact forms, surveys, multi-page forms, and payment collection. The Agency lifetime deal unlocks the pro features and integrations for a one-time payment, so you can build unlimited forms across client sites without a recurring subscription.",
-    "tagline": "Drag-and-drop WordPress form builder"
+    "tagline": "Drag-and-drop WordPress form builder",
+    "appsumoUrl": "https://web.archive.org/web/20211027172011/https://appsumo.com/products/kali-forms/",
+    "licenseTiers": [
+      {
+        "label": "Kali Forms Agency Plan (single, non-stackable deal)",
+        "features": [
+          "Agency plan for unlimited websites",
+          "Unlimited Forms",
+          "Advanced Form Fields",
+          "Conditional Logic for form fields",
+          "Conditional thank you message",
+          "Multi-Page Forms",
+          "Form templates",
+          "Form Notifications"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.64",
+      "count": "11"
+    },
+    "appsumoImage": "https://appsumo.com/deals/images/kaliforms-1.png",
+    "highlights": [
+      "1 Year of access to Kali Forms",
+      "1 Year of plan updates",
+      "This deal is not stackable",
+      "You must redeem your code within 60 days of purchase",
+      "GDPR Compliant"
+    ]
   },
   {
     "slug": "launch-cart",
@@ -645,7 +1452,52 @@
     ],
     "category": "E-commerce",
     "offer": "Launch Cart is an ecommerce platform for building and managing online stores, with a drag-and-drop builder, shopping cart, payment integrations, and sales tools like order bumps, funnels, and one-click upsells. This lifetime deal gives you store-building and selling features for a one-time payment instead of ongoing monthly fees.",
-    "tagline": "Launch and scale your online store"
+    "tagline": "Launch and scale your online store",
+    "appsumoUrl": "https://appsumo.com/products/launch-cart/",
+    "licenseTiers": [
+      {
+        "label": "License Tier 1",
+        "features": [
+          "1 store",
+          "5 pages",
+          "3 flows",
+          "2 staff accounts",
+          "$50 design credits"
+        ]
+      },
+      {
+        "label": "License Tier 2",
+        "features": [
+          "4 stores",
+          "25 pages",
+          "10 flows",
+          "5 staff accounts",
+          "$100 design credits"
+        ]
+      },
+      {
+        "label": "License Tier 3",
+        "features": [
+          "10 stores",
+          "25 pages",
+          "10 flows",
+          "5 staff accounts",
+          "$200 design credits + Academy"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.28",
+      "count": "39"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-LaunchCart_-_16_9_uuid_c79ba795-d7bc-4508-a87b-ecf811b617cf.png",
+    "highlights": [
+      "Skyrocket sales with bump offers, funnels, and one-click upsells",
+      "Code-free ecommerce website builder with mobile optimization",
+      "Drag-and-drop checkout page customization with trust badges",
+      "Support for 30+ currencies with custom shipping and tax rules",
+      "Integrated native apps for reviews, list building, and upsells"
+    ]
   },
   {
     "slug": "listnr",
@@ -669,7 +1521,50 @@
     ],
     "category": "AI Media",
     "offer": "Listnr is a generative AI text-to-speech platform that turns text into natural-sounding voiceovers, with a large library of voices across many languages and support for voice cloning. A lifetime deal lets you generate voiceovers for videos, podcasts, and content for a one-time payment rather than a monthly plan.",
-    "tagline": "Realistic AI voiceovers in many languages"
+    "tagline": "Realistic AI voiceovers in many languages",
+    "appsumoUrl": "https://appsumo.com/products/listnr/",
+    "licenseTiers": [
+      {
+        "label": "1 Code",
+        "features": [
+          "75,000 words per month",
+          "All features + white-labeling"
+        ]
+      },
+      {
+        "label": "2 Codes",
+        "features": [
+          "150,000 words per month",
+          "All features + white-labeling"
+        ]
+      },
+      {
+        "label": "3 Codes",
+        "features": [
+          "250,000 words per month",
+          "All features + white-labeling"
+        ]
+      },
+      {
+        "label": "4 Codes",
+        "features": [
+          "400,000 words per month",
+          "All features + white-labeling"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.55",
+      "count": "235"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-Listnr.png",
+    "highlights": [
+      "Create high-quality, natural-sounding AI voice-overs without recording anything",
+      "Access to 270+ natural-sounding AI voices",
+      "Support for over 70 languages and dialects",
+      "Unlimited podcast hosting and distribution",
+      "Chrome extension for converting web content to audio"
+    ]
   },
   {
     "slug": "livewebinar",
@@ -693,7 +1588,52 @@
     ],
     "category": "Video & Audio",
     "offer": "LiveWebinar is a cloud-based webinar and live streaming platform for hosting online meetings, presentations, and events with screen sharing, recording, and audience engagement tools. This lifetime deal provides webinar hosting and collaboration features for a single upfront payment, a cost-effective option for regular presenters and marketers.",
-    "tagline": "Host webinars and live events online"
+    "tagline": "Host webinars and live events online",
+    "appsumoUrl": "https://appsumo.com/products/livewebinar/",
+    "licenseTiers": [
+      {
+        "label": "1 Code",
+        "features": [
+          "100 participants",
+          "10 hrs recordings",
+          "500 MB docs",
+          "1 evergreen event",
+          "Basic features"
+        ]
+      },
+      {
+        "label": "2 Codes",
+        "features": [
+          "200 participants",
+          "15 hrs recordings",
+          "750 MB docs",
+          "2 evergreen events",
+          "Chat translations, Presence manager, Break-out rooms, Room branding, Tracking"
+        ]
+      },
+      {
+        "label": "3 Codes (Recommended)",
+        "features": [
+          "300 participants",
+          "20 hrs recordings",
+          "1 GB docs",
+          "3 evergreen events",
+          "Above + 1 account assistant, HQ live streaming"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "3.94",
+      "count": "129"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-LiveWebinar_-_169.png",
+    "highlights": [
+      "Host meetings under your own domain with customized branding",
+      "Run paid webinars and sell tickets to virtual events",
+      "Real-time collaborative whiteboards, spreadsheets, and Miro boards",
+      "Double-encrypted file storage",
+      "Translate chat into more than 100 languages"
+    ]
   },
   {
     "slug": "mainwp",
@@ -741,7 +1681,46 @@
     ],
     "category": "WordPress",
     "offer": "Microthemer (by Themeover) is a visual, point-and-click CSS editor for WordPress that lets you style any part of your site without writing code, while still offering a full code editor for developers. It works alongside popular page builders and organizes CSS for performance. A lifetime license unlocks the full editor for a one-time payment.",
-    "tagline": "Visual point-and-click CSS editor for WordPress"
+    "tagline": "Visual point-and-click CSS editor for WordPress",
+    "appsumoUrl": "https://appsumo.com/products/microthemer-themeover/",
+    "licenseTiers": [
+      {
+        "label": "License Tier 1 (1 code)",
+        "features": [
+          "1 site",
+          "150+ CSS styling options",
+          "Code and visual editing"
+        ]
+      },
+      {
+        "label": "License Tier 2 (2 codes)",
+        "features": [
+          "3 sites",
+          "150+ CSS styling options",
+          "Code and visual editing"
+        ]
+      },
+      {
+        "label": "License Tier 3 (3 codes)",
+        "features": [
+          "Unlimited sites",
+          "150+ CSS styling options",
+          "Code and visual editing"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "5",
+      "count": "35"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/selfsubmissions/images/53da96e1-4e0e-4feb-a551-f9423493f5b2.png",
+    "highlights": [
+      "Lifetime access to Microthemer",
+      "Customize the styling of anything on your WordPress site using visual CSS controls or AI",
+      "Point-and-click CSS editor with AI assistant",
+      "Deep integration with Elementor, Beaver Builder, Oxygen",
+      "Shallow integration with Divi, Bricks, Brizy, Zion, WP Page Builder"
+    ]
   },
   {
     "slug": "moovly",
@@ -765,7 +1744,55 @@
     ],
     "category": "Video & Audio",
     "offer": "Moovly is a browser-based video creation platform for making explainer videos, marketing clips, tutorials, and social content using a drag-and-drop editor, a large media library, and AI tools like text-to-speech and automatic subtitles. A lifetime deal gives you these video creation features for a one-time payment instead of a subscription.",
-    "tagline": "Create videos with templates and AI"
+    "tagline": "Create videos with templates and AI",
+    "appsumoUrl": "https://appsumo.com/products/moovly/",
+    "licenseTiers": [
+      {
+        "label": "Tier 1 (Pro)",
+        "features": [
+          "1 user",
+          "25 downloads/exports per user monthly",
+          "25 Automator credits",
+          "Pro features",
+          "No watermark",
+          "Commercial rights"
+        ]
+      },
+      {
+        "label": "Tier 2 (Max)",
+        "features": [
+          "5 users",
+          "100 downloads/exports per user monthly",
+          "25 Automator credits",
+          "Sub-accounts",
+          "Color removal",
+          "Custom fonts",
+          "Subtitles",
+          "Transcription"
+        ]
+      },
+      {
+        "label": "Tier 3 (Max)",
+        "features": [
+          "10 users",
+          "100 downloads/exports per user monthly",
+          "25 Automator credits",
+          "Same features as Tier 2"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.31",
+      "count": "29"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-Moovly.png",
+    "highlights": [
+      "Lifetime access to Moovly Pro (T1) and Max (T2+) Plans",
+      "100+ million premium stock assets",
+      "Audio-to-subtitle conversion with automatic translation",
+      "Drag-and-drop editor with collaborative features",
+      "GDPR compliant"
+    ]
   },
   {
     "slug": "niftypm",
@@ -795,7 +1822,49 @@
     ],
     "category": "Project Management",
     "offer": "Nifty is a collaboration hub that brings projects, tasks, milestones, docs, and team communication into one workspace, making it easier for remote teams to stay aligned. This lifetime deal gives you the project management and collaboration features for a one-time payment, a good fit for teams tired of recurring per-seat pricing.",
-    "tagline": "Manage projects, tasks, and team chat"
+    "tagline": "Manage projects, tasks, and team chat",
+    "appsumoUrl": "https://appsumo.com/products/nifty/",
+    "licenseTiers": [
+      {
+        "label": "License Tier 1 (1 code)",
+        "features": [
+          "3 team members",
+          "100 GB storage",
+          "All features included",
+          "AI Templates (20 per workspace daily)"
+        ]
+      },
+      {
+        "label": "License Tier 2 (2 codes)",
+        "features": [
+          "6 team members",
+          "200 GB storage",
+          "All features included",
+          "AI Templates (20 per workspace daily)"
+        ]
+      },
+      {
+        "label": "License Tier 3 (3 codes)",
+        "features": [
+          "9 team members",
+          "500 GB storage",
+          "All features included",
+          "AI Templates (20 per workspace daily)"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.68",
+      "count": "257"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-Nifty_2V9zGKN_uuid_321fefb9-ae3c-474f-9b90-9a575e7df60d.png",
+    "highlights": [
+      "Lifetime access to all Business Plan updates",
+      "Unlimited active projects, guests, and clients",
+      "Workflow automations (1000 per workspace monthly)",
+      "Discussions, team chat, and real-time messaging",
+      "Task management, milestones, and dependencies"
+    ]
   },
   {
     "slug": "orderable",
@@ -891,7 +1960,46 @@
     ],
     "category": "Project Management",
     "offer": "Plutio brings projects, tasks, proposals, invoices, contracts, forms, and client messaging together in a single workspace, so freelancers and small teams can stop juggling separate tools. Everything a client project needs, from first proposal to final invoice, lives in one place. This lifetime deal lets you replace several monthly subscriptions with a single one-time payment.",
-    "tagline": "Run your whole business in one app"
+    "tagline": "Run your whole business in one app",
+    "appsumoUrl": "https://appsumo.com/products/plutio/",
+    "licenseTiers": [
+      {
+        "label": "1 Code",
+        "features": [
+          "Lifetime access",
+          "5 teammates",
+          "All Team Plan features"
+        ]
+      },
+      {
+        "label": "2 Codes",
+        "features": [
+          "Lifetime access",
+          "10 teammates",
+          "All Team Plan features"
+        ]
+      },
+      {
+        "label": "3 Codes",
+        "features": [
+          "Lifetime access",
+          "15 teammates",
+          "All Team Plan features"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.64",
+      "count": "197"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-Plutio_ZquJ1EN.jpg",
+    "highlights": [
+      "Manage projects, communicate with clients, share files, create proposals, send invoices, and get paid—all from one app",
+      "Unlimited projects and clients",
+      "Client portal included",
+      "White-label capabilities (requires 4 codes for new purchasers; 2 codes for previous 2017-2019 buyers)",
+      "GDPR compliant"
+    ]
   },
   {
     "slug": "postly",
@@ -915,7 +2023,49 @@
     ],
     "category": "Marketing",
     "offer": "Postly is a social media management tool for scheduling, automating, and publishing content across multiple platforms from one calendar. It adds team approvals, bulk publishing, a social inbox, and analytics so you can plan campaigns without hopping between apps. Buy it once as a lifetime deal and keep posting without an ongoing monthly fee.",
-    "tagline": "Schedule and manage all your social"
+    "tagline": "Schedule and manage all your social",
+    "appsumoUrl": "https://appsumo.com/products/postly/",
+    "licenseTiers": [
+      {
+        "label": "Plan 1 (1 code)",
+        "features": [
+          "5 workspaces",
+          "30 social accounts",
+          "Unlimited scheduled posts",
+          "4,000 AI Writer words/month"
+        ]
+      },
+      {
+        "label": "Plan 2 (2 codes)",
+        "features": [
+          "10 workspaces",
+          "60 social accounts",
+          "Unlimited scheduled posts",
+          "4,000 AI Writer words/month"
+        ]
+      },
+      {
+        "label": "Plan 3 (3 codes)",
+        "features": [
+          "15 workspaces",
+          "90 social accounts",
+          "Unlimited scheduled posts",
+          "4,000 AI Writer words/month"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.02",
+      "count": "61"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/selfsubmissions/images/a6858d10-7e4d-46e4-8c44-dad96fda5f7c.png",
+    "highlights": [
+      "Lifetime access with all future updates",
+      "Design and publish social media campaigns at scale, powered by AI",
+      "Supports 11 platforms (Facebook, Instagram, Twitter, LinkedIn, YouTube, GMB, Pinterest, Reddit, TikTok, Telegram, WordPress)",
+      "AI Writer, AI Art, content planner, image editor, link shortener, recurring posts, analytics",
+      "Code redemption required within 60 days"
+    ]
   },
   {
     "slug": "prestomade",
@@ -963,15 +2113,51 @@
     ],
     "category": "Video & Audio",
     "offer": "ReMasterMedia is an online tool that uses AI to enhance the audio in your video and audio files, reducing noise and making voices clearer and more professional. You upload a file, pick an enhancement profile, and get back polished sound suitable for podcasts, courses, and content. Pick it up as a lifetime deal to keep remastering without a subscription.",
-    "tagline": "AI cleanup for your audio and video"
+    "tagline": "AI cleanup for your audio and video",
+    "appsumoUrl": "https://appsumo.com/products/remastermedia/",
+    "licenseTiers": [
+      {
+        "label": "License Tier 1 (1 code)",
+        "features": [
+          "3 hours monthly",
+          "All features included"
+        ]
+      },
+      {
+        "label": "License Tier 2 (2 codes)",
+        "features": [
+          "6 hours monthly",
+          "All features included"
+        ]
+      },
+      {
+        "label": "License Tier 3 (3 codes)",
+        "features": [
+          "9 hours monthly",
+          "All features included"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.85",
+      "count": "128"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-RemasterMedia.png",
+    "highlights": [
+      "Upload any video or audio file to have it professionally optimized in a flash",
+      "Up to 24 audio profiles for mastering and audio cleaning",
+      "Upload up to 10 files simultaneously",
+      "Preview results before downloading",
+      "Mobile device support for recording and uploading"
+    ]
   },
   {
     "slug": "rytr",
     "name": "Rytr",
     "desc": "Rytr's AI generates original and compelling content that sounds like you, not a robot",
     "homepage": "https://rytr.me",
-    "image": "https://rytr.me/icon.png",
-    "localImg": "img/rytr.svg",
+    "image": "https://appsumo2-cdn.appsumo.com/media/selfsubmissions/images/4_iTbmQfB.png",
+    "localImg": "img/rytr.png",
     "status": "available",
     "availCount": 1,
     "soldCount": 0,
@@ -987,7 +2173,32 @@
     ],
     "category": "AI Writing",
     "offer": "Rytr is an AI writing assistant that helps you draft original content across dozens of use cases, from emails and blog posts to ad copy and social captions. It supports many languages and tones so the output reads in a voice that fits you. A lifetime deal means one payment for ongoing AI writing instead of a monthly plan.",
-    "tagline": "AI writing assistant in your tone"
+    "tagline": "AI writing assistant in your tone",
+    "appsumoUrl": "https://appsumo.com/products/marketplace-rytr/",
+    "licenseTiers": [
+      {
+        "label": "Lifetime access (single tier, no stacking)",
+        "features": [
+          "Access to 20+ use cases and templates",
+          "Generate up to 50,000 characters monthly",
+          "Email writing, blog content, social media copy generation",
+          "Premium community access and priority support",
+          "All future plan updates"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.83",
+      "count": "1331"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/selfsubmissions/images/4_iTbmQfB.png",
+    "highlights": [
+      "Lifetime access to Rytr",
+      "Access to 20+ use cases and templates",
+      "Generate up to 50,000 characters monthly",
+      "Premium community access and priority support",
+      "All future plan updates"
+    ]
   },
   {
     "slug": "sendfox",
@@ -1017,15 +2228,43 @@
     ],
     "category": "Email",
     "offer": "SendFox is a straightforward email marketing tool built for creators to grow a list and send newsletters people actually open. It keeps things simple with a clean editor, automated sequences, and scheduling, without the complexity of heavier platforms. This lifetime deal replaces recurring email-tool fees with a single one-time payment.",
-    "tagline": "Simple, affordable email for creators"
+    "tagline": "Simple, affordable email for creators",
+    "appsumoUrl": "https://appsumo.com/products/sendfox/",
+    "licenseTiers": [
+      {
+        "label": "Tier 1 (License Tier 1)",
+        "features": [
+          "Lifetime access",
+          "300,000 lifetime email sends",
+          "5,000 contacts",
+          "Scheduled & smart campaigns",
+          "Unlimited forms",
+          "Unlimited contact lists",
+          "Unlimited landing pages",
+          "Unlimited triggered automations"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.05",
+      "count": "330"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-sendfox_ISOytAA_uuid_1a19fc2b-a899-47a7-8d05-8ba972f7a58a.png",
+    "highlights": [
+      "Build welcome sequences, RSS-to-email campaigns, and A/B-tested automations",
+      "Track opens, clicks, and list growth in one dashboard",
+      "Block-based email editor with templates and reusable sections",
+      "AI-generated subject line and preview text suggestions",
+      "Custom-domain branded landing pages"
+    ]
   },
   {
     "slug": "sessions",
     "name": "Sessions",
     "desc": "SESSIONS is an AI-powered platform that makes meetings & webinars insanely productive.",
     "homepage": "https://sessions.us",
-    "image": "",
-    "localImg": "img/sessions.svg",
+    "image": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-REGULAR-web-Sessions__16_9.png",
+    "localImg": "img/sessions.png",
     "status": "available",
     "availCount": 1,
     "soldCount": 0,
@@ -1041,7 +2280,55 @@
     ],
     "category": "Productivity",
     "offer": "Sessions is an all-in-one platform for hosting interactive meetings, workshops, and webinars, with tools for agendas, scheduling, recordings, and cloud storage. AI features help you run and follow up on sessions so your calls stay organized and productive. A lifetime deal gives you long-term access for a single payment rather than a recurring subscription.",
-    "tagline": "AI-powered meetings and webinars platform"
+    "tagline": "AI-powered meetings and webinars platform",
+    "appsumoUrl": "https://appsumo.com/products/sessions/",
+    "licenseTiers": [
+      {
+        "label": "Tier 1",
+        "features": [
+          "15 team members",
+          "45 participants/session",
+          "3 hours/session",
+          "90 days memory",
+          "1 event/month"
+        ]
+      },
+      {
+        "label": "Tier 2",
+        "features": [
+          "30 team members",
+          "90 participants/session",
+          "6 hours/session",
+          "Unlimited memory",
+          "3 events/month",
+          "AI copilot"
+        ]
+      },
+      {
+        "label": "Tier 3",
+        "features": [
+          "50 team members",
+          "150 participants/session",
+          "12 hours/session",
+          "Unlimited memory",
+          "6 events/month",
+          "AI copilot",
+          "Webhooks"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "3.76",
+      "count": "309"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-REGULAR-web-Sessions__16_9.png",
+    "highlights": [
+      "Lifetime access to Sessions with all future Pro/Business plan updates",
+      "AI-powered meeting platform for interactive webinars and product demos",
+      "Interactive agendas with embedded files and resources",
+      "Live transcripts with speaker identification",
+      "Calendar syncing and custom booking links"
+    ]
   },
   {
     "slug": "signaturely",
@@ -1077,7 +2364,42 @@
     ],
     "category": "Productivity",
     "offer": "Signaturely is an electronic signature tool that lets you upload a document and collect legally binding signatures without printing, scanning, or mailing. You can sign yourself or send documents to others and track their status through to completion. Grab the lifetime deal to handle e-signatures with a one-time payment instead of a monthly plan.",
-    "tagline": "Get documents legally signed online"
+    "tagline": "Get documents legally signed online",
+    "appsumoUrl": "https://appsumo.com/products/signaturely/",
+    "licenseTiers": [
+      {
+        "label": "1 Code",
+        "features": [
+          "3 users",
+          "Unlimited signature requests",
+          "Unlimited templates",
+          "Custom branding",
+          "Lifetime access to Business Plan"
+        ]
+      },
+      {
+        "label": "2 Codes",
+        "features": [
+          "Unlimited users",
+          "Unlimited signature requests",
+          "Unlimited templates",
+          "Custom branding",
+          "Lifetime access to Business Plan"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.28",
+      "count": "92"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-Signaturely.png",
+    "highlights": [
+      "Digitally send, sign, and store all of your documents with one tool",
+      "Google Drive, Dropbox, OneDrive, and Box integration",
+      "Notifications and reminders for signature tracking",
+      "Audit log and history",
+      "Mobile-responsive signing experience"
+    ]
   },
   {
     "slug": "smart-slider3",
@@ -1137,7 +2459,47 @@
     ],
     "category": "Project Management",
     "offer": "SmartTask combines project and task management with a built-in CRM, time tracking, and team chat so your whole team can work from a single hub. Manage clients, plan work across timelines and portfolios, and keep everyone aligned without juggling separate tools. This lifetime deal gives you ongoing access for a one-time payment instead of a recurring subscription.",
-    "tagline": "Projects, tasks, and CRM in one"
+    "tagline": "Projects, tasks, and CRM in one",
+    "appsumoUrl": "https://appsumo.com/products/smarttask/",
+    "licenseTiers": [
+      {
+        "label": "Tier 1 (1 Code)",
+        "features": [
+          "5 users",
+          "100 GB storage",
+          "Lifetime access to all listed features"
+        ]
+      },
+      {
+        "label": "Tier 2 (2 Codes)",
+        "features": [
+          "10 users",
+          "200 GB storage",
+          "Lifetime access to all listed features"
+        ]
+      },
+      {
+        "label": "Tier 3 (3 Codes)",
+        "features": [
+          "15 users",
+          "300 GB storage",
+          "White-label option",
+          "Lifetime access to all listed features"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.71",
+      "count": "178"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-SmartTask.jpg",
+    "highlights": [
+      "Project management, task tracking, and CRM in one tool",
+      "Multiple interface views (Tasklist, Board, Timeline, Calendar)",
+      "Unlimited guests, groups, and tasks",
+      "Portfolios, Workload, and Timeline views",
+      "Sales Pipeline with lead tracking and analytics"
+    ]
   },
   {
     "slug": "squirrly",
@@ -1161,7 +2523,52 @@
     ],
     "category": "SEO",
     "offer": "Squirrly SEO helps you optimize content with real-time, page-by-page advice and step-by-step tasks that guide non-experts toward better rankings. It handles on-page checks, keyword research, and automated SEO settings so you can focus on writing. Grab it as a lifetime deal and get the toolkit with a single payment.",
-    "tagline": "Real-time SEO guidance as you write"
+    "tagline": "Real-time SEO guidance as you write",
+    "appsumoUrl": "https://appsumo.com/products/squirrly-seo/",
+    "licenseTiers": [
+      {
+        "label": "1 Code",
+        "features": [
+          "5 sites",
+          "25 focus pages",
+          "300 keyword searches/month",
+          "300 audit suite pages/month",
+          "15,000 new keyword ideas/month"
+        ]
+      },
+      {
+        "label": "2 Codes",
+        "features": [
+          "10 sites",
+          "50 focus pages",
+          "600 keyword searches/month",
+          "600 audit suite pages/month",
+          "30,000 new keyword ideas/month"
+        ]
+      },
+      {
+        "label": "3 Codes",
+        "features": [
+          "Unlimited sites",
+          "100 focus pages",
+          "900 keyword searches/month",
+          "900 audit suite pages/month",
+          "45,000 new keyword ideas/month"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.72",
+      "count": "495"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-SquirrlySEO_-_16_9_MMneoV6_uuid_59ec1c03-9d99-4755-8dc9-f440d8cee0c1.png",
+    "highlights": [
+      "Lifetime access to Squirrly SEO with all future Business Plan updates",
+      "AI-powered SEO guidance with data-driven SEO goals from an AI consultant",
+      "Keyword research, content optimization, technical SEO, site audits, rank tracking",
+      "Stack up to 10 codes to increase monthly limits",
+      "GDPR compliant"
+    ]
   },
   {
     "slug": "studiocart",
@@ -1185,7 +2592,33 @@
     ],
     "category": "E-commerce",
     "offer": "Studiocart is a WordPress plugin that lets you build streamlined checkout pages, sales funnels, and order bumps for digital and physical products without leaving your dashboard. It handles payments, subscriptions, and automated follow-ups so you can sell directly from your own site. This lifetime deal replaces recurring cart-plugin fees with a one-time purchase.",
-    "tagline": "Sell products right inside WordPress"
+    "tagline": "Sell products right inside WordPress",
+    "appsumoUrl": "https://appsumo.com/products/studiocart/",
+    "licenseTiers": [
+      {
+        "label": "Single Code",
+        "features": [
+          "All Plus Plan features & integrations",
+          "5 sites",
+          "Lifetime access with all future Plus Plan updates"
+        ]
+      },
+      {
+        "label": "License Tier 3",
+        "features": [
+          "All Plus Plan features & integrations",
+          "Unlimited sites",
+          "Lifetime access with all future Plus Plan updates"
+        ]
+      }
+    ],
+    "highlights": [
+      "Customizable WordPress checkout funnels",
+      "Unlimited products and funnels",
+      "Recurring/subscription payments",
+      "One-click upsells, downsells, and order bumps",
+      "Cart abandonment recovery"
+    ]
   },
   {
     "slug": "suitedash",
@@ -1221,7 +2654,60 @@
     ],
     "category": "Productivity",
     "offer": "SuiteDash brings a white-label client portal, CRM, project management, invoicing, and file sharing together in one platform so you can run client work from a single login. It's built to replace several separate subscriptions with a unified, branded workspace. As a lifetime deal, you get ongoing access for one payment instead of a monthly bill.",
-    "tagline": "Client portal, CRM, and business tools combined"
+    "tagline": "Client portal, CRM, and business tools combined",
+    "appsumoUrl": "https://appsumo.com/products/suitedash/",
+    "licenseTiers": [
+      {
+        "label": "1 Code",
+        "features": [
+          "3 staff members",
+          "100 GB storage",
+          "All core features"
+        ]
+      },
+      {
+        "label": "2 Codes",
+        "features": [
+          "6 staff members",
+          "200 GB storage",
+          "All core features"
+        ]
+      },
+      {
+        "label": "3 Codes",
+        "features": [
+          "12 staff members",
+          "300 GB storage",
+          "All core features"
+        ]
+      },
+      {
+        "label": "4 Codes",
+        "features": [
+          "15 staff members",
+          "400 GB storage",
+          "All core features"
+        ]
+      },
+      {
+        "label": "5-10 Codes",
+        "features": [
+          "Staff members and storage scale accordingly",
+          "All core features"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.46",
+      "count": "300"
+    },
+    "highlights": [
+      "Lifetime access with fully white-labeled environment",
+      "Customizable, fully branded client dashboard and portals",
+      "Integrated CRM with project templates and task management",
+      "Built-in learning management system (courses and modules)",
+      "File exchange with permission controls"
+    ]
   },
   {
     "slug": "sure-feedback",
@@ -1245,7 +2731,15 @@
     ],
     "category": "Design",
     "offer": "SureFeedback lets clients and teammates leave visual, pinned comments directly on live websites and design mockups, so revision notes stay clear and in context. It cuts down the back-and-forth of email threads and vague screenshots during web projects. Get it as a lifetime deal and skip the recurring subscription.",
-    "tagline": "Point-and-click feedback on any website"
+    "tagline": "Point-and-click feedback on any website",
+    "appsumoUrl": "https://appsumo.com/products/sure-feedback/",
+    "highlights": [
+      "Self-hosted WordPress client feedback plugin (formerly ProjectHuddle)",
+      "Visual feedback via sticky-note comments on live sites, designs, wireframes, and PDFs",
+      "Simple drag-and-drop management",
+      "Manage unlimited projects in one place with unlimited users",
+      "Integrates with 1500+ apps via Zapier"
+    ]
   },
   {
     "slug": "syncspider",
@@ -1269,7 +2763,51 @@
     ],
     "category": "Automation",
     "offer": "SyncSpider is an integration platform that connects your ecommerce stores, marketplaces, CRMs, and other apps to keep data flowing and in sync automatically. It's handy for pushing products, orders, and contacts between tools without manual exports. This lifetime deal gives you the integration engine for a single upfront payment.",
-    "tagline": "Connect and sync your apps automatically"
+    "tagline": "Connect and sync your apps automatically",
+    "appsumoUrl": "https://appsumo.com/products/syncspider/",
+    "licenseTiers": [
+      {
+        "label": "Starter (1 Code)",
+        "features": [
+          "5,000 task runs/month",
+          "500,000 items/operations/month",
+          "5 min minimum interval",
+          "1 account"
+        ]
+      },
+      {
+        "label": "Starter (2 Codes)",
+        "features": [
+          "10,000 task runs/month",
+          "700,000 items/operations/month",
+          "1 min minimum interval",
+          "1 account",
+          "3 sub-accounts"
+        ]
+      },
+      {
+        "label": "Starter (3 Codes)",
+        "features": [
+          "20,000 task runs/month",
+          "1M items/operations/month",
+          "1 min minimum interval",
+          "1 account",
+          "10 sub-accounts"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.8",
+      "count": "174"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-SyncSpider_mek1bzJ.jpg",
+    "highlights": [
+      "Connect e-commerce tools and automate multi-channel sales",
+      "Sync inventory across Amazon, eBay, Etsy, Shopify, Magento, WooCommerce",
+      "Integrations with ERP, accounting, CRM, and point-of-sale systems",
+      "Batch CSV file processing for mass product updates",
+      "Unlimited integrations, tasks, and team members"
+    ]
   },
   {
     "slug": "tailwind-ui",
@@ -1353,7 +2891,48 @@
     ],
     "category": "Productivity",
     "offer": "TidyCal gives you a clean booking page that syncs with your calendar so people can grab open time slots without the email back-and-forth. It supports multiple booking types, integrations, and even paid bookings, all from one straightforward interface. This lifetime deal makes it an easy one-time alternative to monthly scheduling tools.",
-    "tagline": "Simple scheduling and meeting booking"
+    "tagline": "Simple scheduling and meeting booking",
+    "appsumoUrl": "https://appsumo.com/products/tidycal/",
+    "licenseTiers": [
+      {
+        "label": "Individual Plan (1 Code) - $29",
+        "features": [
+          "10 integrated calendars",
+          "Unlimited bookings per month",
+          "Basic integrations (Google, Office 365, iCal)",
+          "Custom booking & branding",
+          "Paid bookings via Stripe & PayPal",
+          "Unlimited booking types",
+          "Custom emails",
+          "Group bookings"
+        ]
+      },
+      {
+        "label": "Agency Plan (2 Codes) - $79",
+        "features": [
+          "All Individual Plan features",
+          "25 integrated calendars",
+          "Advanced integrations (Zoom, Microsoft Teams)",
+          "Unlimited team members",
+          "Dedicated team pages",
+          "Team collective meetings",
+          "Team round-robin meetings",
+          "SMS reminders (U.S. & Canada)"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.35",
+      "count": "912"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-Tidycal-_16_9.png",
+    "highlights": [
+      "Create one-on-one, group, and recurring booking types without limits",
+      "Sell packages and subscriptions, accept payments via Stripe or PayPal",
+      "Customizable booking pages with multiple design options",
+      "Automatic review collection post-booking",
+      "Calendar syncing with Google, Apple, Microsoft"
+    ]
   },
   {
     "slug": "uptime-stack",
@@ -1377,7 +2956,52 @@
     ],
     "category": "Developer",
     "offer": "Uptime Stack, powered by Better Stack, watches your websites and services and alerts you the moment something goes down, with on-call scheduling and incident management built in. You also get clean status pages to keep users informed during outages. A lifetime deal here means always-on monitoring for a single payment instead of a subscription.",
-    "tagline": "Monitor uptime and resolve incidents fast"
+    "tagline": "Monitor uptime and resolve incidents fast",
+    "appsumoUrl": "https://appsumo.com/products/better-uptime/",
+    "licenseTiers": [
+      {
+        "label": "Tier 1 (1 Code)",
+        "features": [
+          "1 team member",
+          "100 monitors",
+          "5 status pages",
+          "50 phone calls/mo (USA & Canada)",
+          "30 SMS/mo (USA & Canada)"
+        ]
+      },
+      {
+        "label": "Tier 2 (2 Codes)",
+        "features": [
+          "5 team members",
+          "200 monitors",
+          "10 status pages",
+          "100 phone calls/mo (USA & Canada)",
+          "60 SMS/mo (USA & Canada)"
+        ]
+      },
+      {
+        "label": "Tier 3 (3 Codes)",
+        "features": [
+          "10 team members",
+          "400 monitors",
+          "20 status pages",
+          "200 phone calls/mo (USA & Canada)",
+          "120 SMS/mo (USA & Canada)"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.92",
+      "count": "189"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-BetterUptime_ImQzQTy.jpg",
+    "highlights": [
+      "30-second checks across multiple regions",
+      "Unlimited integrations with 100+ services",
+      "Incident escalation capabilities",
+      "Alert delivery via phone, SMS, Slack, and email",
+      "Screenshot and error logs with detailed event timeline"
+    ]
   },
   {
     "slug": "waybook",
@@ -1401,7 +3025,43 @@
     ],
     "category": "Productivity",
     "offer": "Waybook helps you capture standard operating procedures, training, and company knowledge in one searchable place so new hires can get up to speed on their own. You can track who has read what, quiz for understanding, and keep documentation current as your team grows. The lifetime deal gives you a lasting process hub for one upfront cost.",
-    "tagline": "Document your processes and onboard faster"
+    "tagline": "Document your processes and onboard faster",
+    "appsumoUrl": "https://appsumo.com/products/waybook/",
+    "licenseTiers": [
+      {
+        "label": "1 Code",
+        "features": [
+          "5 users",
+          "Lifetime access to all Core Plan features"
+        ]
+      },
+      {
+        "label": "2 Codes",
+        "features": [
+          "10 users",
+          "Lifetime access to all Core Plan features"
+        ]
+      },
+      {
+        "label": "3 Codes",
+        "features": [
+          "15 users",
+          "Lifetime access to all Core Plan features"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.88",
+      "count": "92"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-waybook.jpeg",
+    "highlights": [
+      "Unlimited subjects, documents, and steps",
+      "Full image and video embed functionality",
+      "Powerful content editor",
+      "Content tests and assessments",
+      "Customizable branding"
+    ]
   },
   {
     "slug": "webtotem",
@@ -1425,7 +3085,49 @@
     ],
     "category": "Security",
     "offer": "WebTotem is a website security platform that scans for malware, monitors for threats, and helps you respond to incidents from a single dashboard. It combines vulnerability checks, SSL and uptime monitoring, and real-time alerts so you can keep your sites protected without juggling multiple tools. Grab the lifetime deal and secure your sites with one upfront payment instead of an ongoing subscription.",
-    "tagline": "24/7 website security and monitoring"
+    "tagline": "24/7 website security and monitoring",
+    "appsumoUrl": "https://appsumo.com/products/webtotem/",
+    "licenseTiers": [
+      {
+        "label": "License Tier 1",
+        "features": [
+          "10 websites",
+          "3 sub-accounts",
+          "White labeling",
+          "All Professional Plan features"
+        ]
+      },
+      {
+        "label": "License Tier 2",
+        "features": [
+          "30 websites",
+          "5 sub-accounts",
+          "White labeling",
+          "All Professional Plan features"
+        ]
+      },
+      {
+        "label": "License Tier 3",
+        "features": [
+          "Unlimited websites",
+          "10 sub-accounts",
+          "White labeling",
+          "All Professional Plan features"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "3.52",
+      "count": "92"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-WebTotem.png",
+    "highlights": [
+      "Malware detection",
+      "Malware scan",
+      "Basic malware removal",
+      "Malware prevention",
+      "Web application firewall"
+    ]
   },
   {
     "slug": "wordhero",
@@ -1449,7 +3151,58 @@
     ],
     "category": "AI Writing",
     "offer": "WordHero is an AI writing assistant that helps you draft blog posts, marketing copy, emails, and social content from simple prompts and templates. It speeds up first drafts and helps beat writer's block so you can publish more consistently. With this lifetime deal you get ongoing access for a single payment rather than a recurring monthly fee.",
-    "tagline": "AI writing for content at scale"
+    "tagline": "AI writing for content at scale",
+    "appsumoUrl": "https://appsumo.com/products/marketplace-wordhero/",
+    "licenseTiers": [
+      {
+        "label": "Tier 1 (1 Code) - $89",
+        "features": [
+          "30,000 GPT-3.5 tokens/mo",
+          "1,000 GPT-4 tokens/mo",
+          "20 AI images/mo",
+          "1 Brand Voice"
+        ]
+      },
+      {
+        "label": "Tier 2 (2 Codes) - $178",
+        "features": [
+          "80,000 GPT-3.5 tokens/mo",
+          "5,000 GPT-4 tokens/mo",
+          "40 AI images/mo",
+          "2 Brand Voices"
+        ]
+      },
+      {
+        "label": "Tier 3 (3 Codes) - $267",
+        "features": [
+          "Unlimited GPT-3.5 tokens/mo",
+          "10,000 GPT-4 tokens/mo",
+          "80 AI images/mo",
+          "3 Brand Voices"
+        ]
+      },
+      {
+        "label": "Tier 4 (5 Codes) - $445",
+        "features": [
+          "Unlimited GPT-3.5 tokens/mo",
+          "50,000 GPT-4 tokens/mo",
+          "160 AI images/mo",
+          "5 Brand Voices"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.56",
+      "count": "434"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/selfsubmissions/images/c00d1c1b-5223-408d-800f-f226ca485abc.webp",
+    "highlights": [
+      "80+ writing tools available across all tiers",
+      "AI chatbot with custom prompts and library",
+      "GPT-4 Enhanced Mode for advanced content generation",
+      "WordHero Art for AI image creation",
+      "Long-form editor mode for seamless composition"
+    ]
   },
   {
     "slug": "wp-adminify",
@@ -1473,7 +3226,43 @@
     ],
     "category": "WordPress",
     "offer": "WP Adminify transforms the WordPress admin area with a cleaner dashboard, menu editor, white-label branding, login customizer, dark mode, and other management tools in one plugin. It's built for agencies, freelancers, and power users who want to tidy and rebrand the backend without stacking many separate plugins. The lifetime deal means one payment covers it going forward.",
-    "tagline": "Customize and control your WordPress dashboard"
+    "tagline": "Customize and control your WordPress dashboard",
+    "appsumoUrl": "https://appsumo.com/products/wp-adminify/",
+    "licenseTiers": [
+      {
+        "label": "Tier 1 (1 Code)",
+        "features": [
+          "5 sites",
+          "Lifetime access to all features"
+        ]
+      },
+      {
+        "label": "Tier 2 (2 Codes)",
+        "features": [
+          "200 sites",
+          "Lifetime access to all features"
+        ]
+      },
+      {
+        "label": "Tier 3 (3 Codes)",
+        "features": [
+          "Unlimited sites (initially 500 activations; contact support to extend)",
+          "Lifetime access to all features"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "3.67",
+      "count": "27"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-WP_Adminify_-_16_9.png",
+    "highlights": [
+      "White label your WordPress dashboard by adding your logo, colors, and more",
+      "Personalized themes, layouts, and Dark/Light mode toggle",
+      "Admin menu editor with role-based access controls",
+      "Dark mode with scheduling capabilities",
+      "Dashboard customization with pre-built templates"
+    ]
   },
   {
     "slug": "wp-courses",
@@ -1521,7 +3310,56 @@
     ],
     "category": "WordPress",
     "offer": "Stackable extends the WordPress block editor with a large library of custom Gutenberg blocks, a global design system, and layout tools for building pages without code. It's lightweight and works alongside your theme, making it easy to design polished, responsive pages directly in the native editor. The lifetime deal gets you the premium blocks and features for a single upfront payment.",
-    "tagline": "Powerful Gutenberg blocks for faster sites"
+    "tagline": "Powerful Gutenberg blocks for faster sites",
+    "appsumoUrl": "https://appsumo.com/products/stackable/",
+    "licenseTiers": [
+      {
+        "label": "1 Code - $69",
+        "features": [
+          "3 websites",
+          "44 custom blocks",
+          "Page builder-like options",
+          "Smart copy/paste styles",
+          "Global design system",
+          "Global color schemes",
+          "Advanced responsiveness",
+          "Flexbox layout"
+        ]
+      },
+      {
+        "label": "2 Codes - $138",
+        "features": [
+          "10 websites",
+          "Same features as Tier 1"
+        ]
+      },
+      {
+        "label": "3 Codes - $207",
+        "features": [
+          "50 websites",
+          "Same features as Tier 1"
+        ]
+      },
+      {
+        "label": "4 Codes - $276",
+        "features": [
+          "Unlimited websites",
+          "Same features as Tier 1"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.87",
+      "count": "53"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-Header-Stackable-16_9.png",
+    "highlights": [
+      "44 custom blocks for comprehensive site building",
+      "350+ ready-made layouts to accelerate design workflow",
+      "Global design system for consistent styling across sites",
+      "Dynamic content and advanced responsiveness controls",
+      "Motion effects, animations, and lightbox capabilities"
+    ]
   },
   {
     "slug": "wp-statistics",
@@ -1569,7 +3407,34 @@
     ],
     "category": "SEO",
     "offer": "WP 301 Redirects helps you manage 301 redirects, catch 404 errors, and monitor broken or risky outgoing links so you can preserve your SEO and keep visitors on track. It logs redirect activity and includes tools handy for rebranding and agency work. Pick up the lifetime deal to handle your site's redirects with a single payment instead of a subscription.",
-    "tagline": "Fix redirects, 404s, and broken links"
+    "tagline": "Fix redirects, 404s, and broken links",
+    "appsumoUrl": "https://appsumo.com/products/wp-301-redirects/",
+    "licenseTiers": [
+      {
+        "label": "License Tier 1 - $49 (was $158)",
+        "features": [
+          "20 sites",
+          "5 full site scans per month",
+          "White labeling",
+          "License & site manager",
+          "Remote site control",
+          "Stats",
+          "Lifetime access",
+          "60-day refund guarantee"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.85",
+      "count": "281"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-301ReDirects.jpg",
+    "highlights": [
+      "Broken Link Recovery: visitors who mistype URLs get redirected instead of landing on 404s",
+      "Smart Detection: set up automatic redirect rules with adjustable typo sensitivity",
+      "Link Scanning: identifies broken URLs and harmful outlinks using Google Safe Browsing and Alexa Rank API",
+      "Centralized Dashboard: track redirects, 404 errors, browser data, and export PDF reports"
+    ]
   },
   {
     "slug": "wpcompress",
@@ -1593,7 +3458,16 @@
     ],
     "category": "WordPress",
     "offer": "WP Compress optimizes images and assets to reduce page weight and improve WordPress load times, with bulk compression, WebP conversion, and automatic optimization of new uploads. Its adaptive modes serve appropriately sized media based on the visitor's device and connection to keep pages fast. The lifetime deal gives you these performance tools for one upfront payment.",
-    "tagline": "Speed up sites with smart optimization"
+    "tagline": "Speed up sites with smart optimization",
+    "appsumoUrl": "https://appsumo.com/products/wp-compress/",
+    "reviews": {
+      "rating": "4.6",
+      "count": "113"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-WPCompress2x2x.png?width=800&height=450&aspect_ratio=16:9",
+    "highlights": [
+      "Supercharge your site by adapting images and scripts for incoming visitors"
+    ]
   },
   {
     "slug": "wpreset",
@@ -1617,7 +3491,56 @@
     ],
     "category": "WordPress",
     "offer": "WP Reset is a development and recovery toolkit that lets you reset your WordPress site, create snapshots as restore points, and roll back changes with one click. It includes an emergency recovery tool, cleanup utilities, and plugin/theme collections that make testing and rebuilding sites much faster. This lifetime deal covers it with a single payment rather than a recurring fee.",
-    "tagline": "Reset, recover, and manage WordPress sites"
+    "tagline": "Reset, recover, and manage WordPress sites",
+    "appsumoUrl": "https://appsumo.com/products/wp-reset/",
+    "licenseTiers": [
+      {
+        "label": "License Tier 1 - $49 (was $158)",
+        "features": [
+          "5 site licenses",
+          "5 cloud licenses",
+          "3 GB storage per site",
+          "White labeling",
+          "25+ tools",
+          "Snapshots",
+          "Collections",
+          "Emergency recovery script"
+        ]
+      },
+      {
+        "label": "License Tier 2 - $129 (was $316)",
+        "features": [
+          "50 site licenses",
+          "15 cloud licenses",
+          "3 GB storage per site",
+          "All Tier 1 features",
+          "Remote actions/stats",
+          "Full rebranding",
+          "Staging environment"
+        ]
+      },
+      {
+        "label": "License Tier 3 - $299 (was $474)",
+        "features": [
+          "Unlimited site licenses",
+          "30 cloud licenses",
+          "3 GB storage per site",
+          "All Tier 2 features"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.93",
+      "count": "1311"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-WP_Reset_xl08uy1_uuid_ad3964a8-5aa9-46ea-8ffb-fc42ab5df930.png",
+    "highlights": [
+      "Instantly reset or delete sections of WordPress sites without reinstalling",
+      "Create plugin/theme Collections for bulk installations across sites",
+      "Automated snapshots with multi-cloud storage support (WP Reset Cloud, Dropbox, Google Drive, pCloud)",
+      "Emergency Recovery Script providing 12+ tools for critical site failures",
+      "Centralized dashboard managing multiple sites and licenses"
+    ]
   },
   {
     "slug": "xemailverify",
@@ -1641,6 +3564,44 @@
     ],
     "category": "Email",
     "offer": "X-Email Verify checks and cleans your email lists by validating syntax and verifying addresses to remove invalid or risky contacts. Cleaner lists mean lower bounce rates and a healthier sender reputation, which helps more of your emails actually reach the inbox. This lifetime plan includes a large one-time credit allotment so you can verify lists without a recurring subscription.",
-    "tagline": "Clean your list, improve deliverability"
+    "tagline": "Clean your list, improve deliverability",
+    "appsumoUrl": "https://appsumo.com/products/xemailverify/",
+    "licenseTiers": [
+      {
+        "label": "License Tier 1",
+        "features": [
+          "1 million emails per year",
+          "Lifetime access"
+        ]
+      },
+      {
+        "label": "License Tier 2",
+        "features": [
+          "2 million emails per year",
+          "5 sub-users",
+          "Lifetime access"
+        ]
+      },
+      {
+        "label": "License Tier 3",
+        "features": [
+          "3 million emails per year",
+          "10 sub-users",
+          "Lifetime access"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.4",
+      "count": "5"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-Xemailverify.png",
+    "highlights": [
+      "Bulk validate email lists to ensure deliverability and enhance digital marketing campaign reach",
+      "Single and bulk email verification with real-time validation API",
+      "Integrates with Zapier, SendGrid, Mailchimp, and Google Sheets",
+      "Includes blacklist monitor and syntax error validator",
+      "GDPR compliant"
+    ]
   }
 ]

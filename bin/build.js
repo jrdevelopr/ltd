@@ -137,6 +137,20 @@ function buildIndex() {
         <div class="stat"><b>${products.filter(p=>p.status!=='sold').length}</b><span>total products</span></div>
       </div>
       <div class="notice">💡 See something you want that isn't priced? Hit <b>Inquire</b> — I'm open to reasonable offers.</div>
+      <details class="howto">
+        <summary>How buying from me works</summary>
+        <div class="howto-body">
+          <p>These are lifetime software deals from my own AppSumo account that I'm passing along at a discount. I keep it simple and honest: you'll see which tier you're getting, what it unlocks, and how the handover happens before you pay.</p>
+          <ul>
+            <li><b>You'll know the tier and the real limits</b> — seats, usage, features — not just a product name.</li>
+            <li><b>I tell you the transfer method up front</b> — usually an unredeemed code you activate on your own account, or a vendor ownership transfer to your email.</li>
+            <li><b>Proof before payment</b> — I'll show a screenshot from my AppSumo dashboard so you can see the tier and status.</li>
+            <li><b>PayPal welcome</b> — Goods &amp; Services is fine, so you're covered.</li>
+            <li><b>Ask me anything first</b> — happy to confirm a deal's transfer policy with the vendor before you commit.</li>
+          </ul>
+          <p class="fineprint">Straight talk: reselling sits outside AppSumo's own terms, so transferability depends on each software vendor, and resold deals fall outside AppSumo's 60-day refund window. I won't list something as transferable unless it really is.</p>
+        </div>
+      </details>
     </div>
 
     <div class="controls"><div class="wrap">

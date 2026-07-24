@@ -4,8 +4,8 @@
     "name": "Be.Live",
     "desc": "",
     "homepage": "https://be.live/",
-    "image": "",
-    "localImg": "img/be-live.svg",
+    "image": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-Be.Live_eadKv4r.jpg?width=800&height=450&aspect_ratio=16:9",
+    "localImg": "img/be-live.jpg",
     "status": "available",
     "inquireOnly": true,
     "availCount": 1,
@@ -24,7 +24,19 @@
     ],
     "category": "Video & Audio",
     "offer": "Be.Live is a browser-based live streaming studio that lets you broadcast to Facebook, YouTube, LinkedIn and 40+ RTMP destinations at once, with on-screen branding, overlays, lower-thirds and guest hosting. No heavy software to install and no editing skills required. This is a transferable lifetime-deal license the owner still uses but is happy to part with for a fair offer, so send an inquiry if it fits your workflow.",
-    "tagline": "Browser-based multistreaming to every platform"
+    "tagline": "Browser-based multistreaming to every platform",
+    "appsumoUrl": "https://appsumo.com/products/belive/",
+    "reviews": {
+      "rating": "4.1",
+      "count": "136"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-Be.Live_eadKv4r.jpg?width=800&height=450&aspect_ratio=16:9",
+    "highlights": [
+      "Amplify your reach with branded livestreams you can repurpose anywhere",
+      "Up to 10 guests waiting in the Staging Area and feature up to four people on screen",
+      "Use different types of media in your stream and share your screen for walk-throughs",
+      "Best for coaches, hosts, infopreneurs, and influencers who want to produce and repurpose video content"
+    ]
   },
   {
     "slug": "brizy-design-kit",
@@ -51,7 +63,31 @@
     ],
     "category": "Design",
     "offer": "The Brizy Design Kit is a large library of professionally crafted, drag-and-drop blocks and sections that let you assemble polished websites and landing pages in minutes inside the Brizy builder. It is a genuine head start for anyone who wants great-looking pages without designing from scratch. The license here is a transferable lifetime deal, and while the owner has gotten good use from it, they're open to a reasonable offer, so reach out to inquire.",
-    "tagline": "Hundreds of ready-made website blocks"
+    "tagline": "Hundreds of ready-made website blocks",
+    "appsumoUrl": "https://appsumo.com/products/brizy-design-kit/",
+    "licenseTiers": [
+      {
+        "label": "Single tier (Lifetime access, non-stackable)",
+        "features": [
+          "250+ design blocks across nine page categories",
+          "All images and icons included",
+          "Sketch, Figma, InVision Studio compatibility",
+          "Assets approved for personal and commercial use",
+          "60-day refund window"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "3.67",
+      "count": "21"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-BrizyDesignKit.jpg?width=1200&quality=80&optimizer=gif",
+    "highlights": [
+      "Choose from nine page categories and 250+ blocks to set up your site in no time",
+      "Customizing the typography and color schemes is fast and simple",
+      "All kit assets are approved for personal and commercial use",
+      "Compatible with Sketch, InVision Studio, and Figma"
+    ]
   },
   {
     "slug": "burner-mail",
@@ -78,7 +114,14 @@
     ],
     "category": "Security",
     "offer": "Burner Mail generates a unique, anonymous email alias for every service you sign up with, forwarding messages to your real inbox while shielding your identity from trackers and spam. When an alias gets abused, you simply burn it and move on, keeping your primary address clean. This is a transferable lifetime-deal license; the owner still finds it handy but will let it go for the right offer, so send an inquiry.",
-    "tagline": "Disposable email aliases that guard privacy"
+    "tagline": "Disposable email aliases that guard privacy",
+    "appsumoUrl": "https://appsumo.com/products/burner-mail-premium/",
+    "highlights": [
+      "Generates a unique, anonymous email for every service you sign up with to prevent tracking",
+      "Instantly shut down any email sender and control who can send you emails",
+      "Safely receive emails and reply anonymously directly from within the web application",
+      "Trusted by 40,000+ users"
+    ]
   },
   {
     "slug": "coming-soon-maintenance-mode",
@@ -105,7 +148,35 @@
     ],
     "category": "WordPress",
     "offer": "This WordPress solution lets you flip your site into a branded coming-soon or maintenance-mode page with a click, using a library of templates and a drag-and-drop builder that needs no code. It's ideal for teasing a launch or hiding work-in-progress while keeping a professional face online. The license is a transferable lifetime deal, and the owner is open to a fair offer, so inquire if you'd put it to good use.",
-    "tagline": "Launch coming-soon and maintenance pages fast"
+    "tagline": "Launch coming-soon and maintenance pages fast",
+    "appsumoUrl": "https://appsumo.com/products/coming-soon-maintenance-mode/",
+    "licenseTiers": [
+      {
+        "label": "Agency Plan - 1 Year - $69 (retail $99, original lifetime deal ended)",
+        "features": [
+          "50 sites",
+          "License manager",
+          "White-label enabled",
+          "1M+ free images",
+          "150+ themes (4 new monthly)",
+          "Drag-and-drop builder",
+          "SEO setup",
+          "Client access"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.92",
+      "count": "159"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-comingsoon_XeXiskM.jpg",
+    "highlights": [
+      "170+ professional themes for customizable coming soon pages",
+      "Drag-and-drop builder for easy customization without coding",
+      "Secret preview links to share work-in-progress sites with clients",
+      "White-label capabilities to rebrand the plugin completely",
+      "Depositphotos & Unsplash integration for stock imagery"
+    ]
   },
   {
     "slug": "crello",
@@ -132,7 +203,33 @@
     ],
     "category": "Design",
     "offer": "Crello, now known as VistaCreate, is an easy online graphic design tool with thousands of templates for social posts, ads, stories, animations and print, so non-designers can produce polished visuals fast. It bundles a huge stock library plus animation and editing tools in one browser workspace. This is a transferable lifetime-deal license the owner is willing to sell for a reasonable offer, so reach out to inquire.",
-    "tagline": "Create pro graphics without a designer"
+    "tagline": "Create pro graphics without a designer",
+    "appsumoUrl": "https://appsumo.com/products/crello/",
+    "licenseTiers": [
+      {
+        "label": "Crello Pro Annual Plan (1 year of access, non-stackable)",
+        "features": [
+          "30,000+ graphic & animated templates",
+          "Instant access to 140 million stock images",
+          "Upload your own fonts & images",
+          "500,000+ premium images",
+          "32,000 videos & animations (or upload your own)",
+          "Create a team to collaborate on design"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.49",
+      "count": "316"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-Crello_1_PKGnoC7.jpg?width=832&height=468&aspect_ratio=16:9&optimizer=gif",
+    "highlights": [
+      "Speed up the design process with thousands of ready-made templates",
+      "One-click editing tools (text, resize, photo effects, crop, fade, contrast)",
+      "Over 250 fonts available; custom font uploads supported",
+      "Multi-page animations and animated text capabilities",
+      "Video editing toolkit with 50,000 free video clips"
+    ]
   },
   {
     "slug": "cromojo",
@@ -159,7 +256,47 @@
     ],
     "category": "Analytics",
     "offer": "Cromojo is an all-in-one website growth platform that combines real-time and revenue attribution analytics, automated search-engine indexing, and uptime and issue monitoring in a single dashboard. It's built to show marketers what actually drives revenue while keeping pages indexed and online. The license is a transferable lifetime deal, and although the owner still uses it, they'll consider a fair offer, so send an inquiry.",
-    "tagline": "Revenue-first analytics and site monitoring"
+    "tagline": "Revenue-first analytics and site monitoring",
+    "appsumoUrl": "https://appsumo.com/products/url-monitor/",
+    "licenseTiers": [
+      {
+        "label": "License Tier 1",
+        "features": [
+          "Lifetime access",
+          "5 websites",
+          "500 pages/day"
+        ]
+      },
+      {
+        "label": "License Tier 2",
+        "features": [
+          "Lifetime access",
+          "20 websites",
+          "1,200 pages/day"
+        ]
+      },
+      {
+        "label": "License Tier 3",
+        "features": [
+          "Lifetime access",
+          "50 websites",
+          "2,000 pages/day",
+          "White-labeled dashboard and reports"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "3.7",
+      "count": "63"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-URLMonitor-_16_9_uuid_d372e59b-e9e0-4e01-b958-bb33348983d4.png",
+    "highlights": [
+      "Daily URL monitoring and bulk indexing",
+      "Google and Bing indexing support",
+      "Automatic indexing capability",
+      "Sitemap synchronization",
+      "Manual page addition"
+    ]
   },
   {
     "slug": "depositphotos",
@@ -187,7 +324,60 @@
     "multiDate": true,
     "category": "Stock Media",
     "offer": "Depositphotos is a huge royalty-free marketplace of stock photos, vector images, videos and music for your creative and commercial projects. This is a transferable lifetime-deal license, so you get ongoing access without the recurring subscription. The owner still uses it but is open to a fair offer, so reach out to inquire.",
-    "tagline": "Royalty-free photos, video and music"
+    "tagline": "Royalty-free photos, video and music",
+    "appsumoUrl": "https://appsumo.com/products/depositphotos/",
+    "licenseTiers": [
+      {
+        "label": "1 Code",
+        "features": [
+          "100 one-time AI credits",
+          "100 one-time image/vector/video/audio credits",
+          "Lifetime access",
+          "Credits never expire"
+        ]
+      },
+      {
+        "label": "2 Codes",
+        "features": [
+          "200 one-time AI credits",
+          "200 one-time image/vector/video/audio credits"
+        ]
+      },
+      {
+        "label": "3 Codes",
+        "features": [
+          "300 one-time AI credits",
+          "300 one-time image/vector/video/audio credits"
+        ]
+      },
+      {
+        "label": "4 Codes",
+        "features": [
+          "400 one-time AI credits",
+          "400 one-time image/vector/video/audio credits"
+        ]
+      },
+      {
+        "label": "5+ Codes (up to 10)",
+        "features": [
+          "Up to 1,000 one-time AI credits",
+          "Up to 1,000 one-time image/vector/video/audio credits",
+          "Stack unlimited codes"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.85",
+      "count": "557"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-Header-DepositPhotos-16_9.png",
+    "highlights": [
+      "Access to 330M+ royalty-free images, videos, and music files",
+      "AI Image Generator with two model options (Bria for brand-safe visuals; Nano Banana for bold imagery)",
+      "AI-powered image editing (object removal, background removal, face modification)",
+      "Conversational AI Assistant for integrated search and generation",
+      "Over 600 curated collections with 5M+ new files monthly"
+    ]
   },
   {
     "slug": "divmagic",
@@ -214,7 +404,53 @@
     ],
     "category": "Developer",
     "offer": "DivMagic is a browser extension that lets you hover over any web element and instantly copy its code as HTML, CSS, Tailwind or React, plus convert styles and reuse components. It is a real time-saver for developers and designers who want to move fast. This is a transferable lifetime-deal license and the owner is open to a fair offer, so send an inquiry to make it yours.",
-    "tagline": "Copy any website's design instantly"
+    "tagline": "Copy any website's design instantly",
+    "appsumoUrl": "https://appsumo.com/products/divmagic/",
+    "licenseTiers": [
+      {
+        "label": "License Tier 1 (Lifetime Access)",
+        "features": [
+          "All features",
+          "Chrome and Firefox",
+          "Unlimited devices",
+          "$49 ($300 value)"
+        ]
+      },
+      {
+        "label": "License Tier 2",
+        "features": [
+          "All features",
+          "1 admin and 2 users",
+          "$98 ($600 value)"
+        ]
+      },
+      {
+        "label": "License Tier 3",
+        "features": [
+          "All features",
+          "1 admin and 3 users",
+          "$147 ($900 value)"
+        ]
+      },
+      {
+        "label": "License Tiers 4-10",
+        "features": [
+          "Scaled seats/pricing for up to 10 codes ($196-$490)"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.45",
+      "count": "40"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/selfsubmissions/images/4e900e63-e998-4a87-9931-7f7d154c1664.png",
+    "highlights": [
+      "Copy design from any website, copy code of any web element with one click",
+      "Convert captured elements into HTML, CSS, React, JSX, or Tailwind CSS formats",
+      "Built-in media query support for responsive designs",
+      "Convert standard CSS into Tailwind CSS automatically, including colors",
+      "DivMagic Studio integration for editing and storing components"
+    ]
   },
   {
     "slug": "docpro",
@@ -241,7 +477,34 @@
     ],
     "category": "Productivity",
     "offer": "DocPro gives you a large library of lawyer-approved legal, business and contract templates you can customize and generate on demand, with AI-assisted drafting tools. It is a practical way to handle everyday paperwork without the legal bills. This is a transferable lifetime-deal license and the owner is open to a fair offer, so inquire to take it over.",
-    "tagline": "Lawyer-approved legal and business documents"
+    "tagline": "Lawyer-approved legal and business documents",
+    "appsumoUrl": "https://appsumo.com/products/docpro/",
+    "licenseTiers": [
+      {
+        "label": "Single (Lifetime) - $179 (was $1,999)",
+        "features": [
+          "Lifetime access to unlimited documents",
+          "2,500+ templates",
+          "Lawyer-reviewed documents",
+          "Customizable forms",
+          "Jurisdiction engine",
+          "Request new documents",
+          "Word/PDF downloads"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.81",
+      "count": "52"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/selfsubmissions/images/2d256bf6-14c9-410a-9d8b-09412dee6359.png",
+    "highlights": [
+      "Instant access to 2,800+ lawyer-approved legal templates",
+      "Templates created by legal professionals with 20+ years of experience",
+      "Step-by-step customization guide for document creation",
+      "Multiple jurisdictions engine for governing law selection",
+      "Free document requests at no extra cost"
+    ]
   },
   {
     "slug": "emailit",
@@ -268,7 +531,72 @@
     ],
     "category": "Email",
     "offer": "Emailit is a developer-friendly email platform for sending transactional and marketing emails via SMTP or REST API, with domain management, open and click tracking, suppression lists and webhooks. Its pay-per-use model and broad language support make it a lean alternative to subscription email services. This is a transferable lifetime-deal license and the owner is open to a fair offer, so reach out to inquire.",
-    "tagline": "Fast pay-per-use email API"
+    "tagline": "Fast pay-per-use email API",
+    "appsumoUrl": "https://appsumo.com/products/emailit/",
+    "licenseTiers": [
+      {
+        "label": "License Tier 1 ($54)",
+        "features": [
+          "1 domain",
+          "1 workspace",
+          "1 member",
+          "20,000 credits/month"
+        ]
+      },
+      {
+        "label": "License Tier 2 ($79)",
+        "features": [
+          "2 domains",
+          "1 workspace",
+          "2 members",
+          "50,000 credits/month"
+        ]
+      },
+      {
+        "label": "License Tier 3 ($219)",
+        "features": [
+          "Unlimited domains",
+          "1 workspace",
+          "3 members",
+          "100,000 credits/month"
+        ]
+      },
+      {
+        "label": "License Tier 4 ($389)",
+        "features": [
+          "Unlimited domains",
+          "1 workspace",
+          "4 members",
+          "250,000 credits/month"
+        ]
+      },
+      {
+        "label": "License Tier 5 ($519)",
+        "features": [
+          "1 workspace",
+          "Premium tier"
+        ]
+      },
+      {
+        "label": "License Tier 6 ($819)",
+        "features": [
+          "1 workspace",
+          "Top tier"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.29",
+      "count": "203"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/emailit-licensing-v2-sl-select-oct-2025-as-Header-Emailit-16_9.png",
+    "highlights": [
+      "Send transactional and marketing emails quickly and reliably via SMTP or API",
+      "Domain verification using DKIM, SPF, MX, and DMARC records",
+      "Email list verification to reduce bounces and improve deliverability",
+      "Performance tracking and bounce management via webhooks",
+      "No-subscription, pay-as-you-go pricing model"
+    ]
   },
   {
     "slug": "frontly",
@@ -296,7 +624,58 @@
     "multiDate": true,
     "category": "Developer",
     "offer": "Frontly turns plain-language descriptions into working custom applications using AI, then lets you refine them in a visual no-code editor. It is a fast path to building internal tools and client apps without writing code. This is a transferable lifetime-deal license and the owner is open to a fair offer, so send an inquiry to grab it.",
-    "tagline": "Build apps with AI, no code"
+    "tagline": "Build apps with AI, no code",
+    "appsumoUrl": "https://appsumo.com/products/frontly/",
+    "licenseTiers": [
+      {
+        "label": "License Tier 1",
+        "features": [
+          "5 apps",
+          "5 admin users",
+          "5,000 users",
+          "10 AI tokens/month",
+          "Unlimited pages",
+          "White labeling",
+          "Lifetime access"
+        ]
+      },
+      {
+        "label": "License Tier 2",
+        "features": [
+          "10 apps",
+          "10 admin users",
+          "10,000 users",
+          "20 AI tokens/month",
+          "Unlimited pages",
+          "White labeling",
+          "Lifetime access"
+        ]
+      },
+      {
+        "label": "License Tier 3",
+        "features": [
+          "50 apps",
+          "50 admin users",
+          "50,000 users",
+          "100 AI tokens/month",
+          "Unlimited pages",
+          "White labeling",
+          "Lifetime access"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.29",
+      "count": "100"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-Frontly-_16_9_2.png",
+    "highlights": [
+      "AI-powered app generation from text prompts",
+      "No-code drag-and-drop builder",
+      "Google Sheets/Excel integration with workflow automation",
+      "Custom permissions and role-based access control",
+      "Mobile-responsive design out-of-the-box"
+    ]
   },
   {
     "slug": "getscreen-me",
@@ -323,7 +702,53 @@
     ],
     "category": "Productivity",
     "offer": "Getscreen.me is browser-based remote desktop software for cross-platform remote access, screen sharing, file transfer and IT support without installing heavy clients. It is handy for troubleshooting machines and managing devices from anywhere. This is a transferable lifetime-deal license and the owner is open to a fair offer, so inquire to take it over.",
-    "tagline": "Remote desktop access from any browser"
+    "tagline": "Remote desktop access from any browser",
+    "appsumoUrl": "https://appsumo.com/products/getscreenme/",
+    "licenseTiers": [
+      {
+        "label": "Stack 1 Code",
+        "features": [
+          "10 devices",
+          "5 clients/day support",
+          "20 GB video recording",
+          "4 GB file size limit"
+        ]
+      },
+      {
+        "label": "Stack 2 Codes",
+        "features": [
+          "50 devices",
+          "50 clients/day support",
+          "40 GB video recording",
+          "40 GB file size limit",
+          "2 team accounts"
+        ]
+      },
+      {
+        "label": "Stack 3 Codes",
+        "features": [
+          "100 devices",
+          "100 clients/day support",
+          "60 GB video recording",
+          "100 GB file size limit",
+          "Custom branding",
+          "7 team accounts",
+          "Wake-on-LAN"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.8",
+      "count": "363"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/getscreen-1.jpg",
+    "highlights": [
+      "Remote Desktop Access, instant, from a web browser",
+      "One-click connection to desktops from anywhere via personal account",
+      "Client invitations eliminate password management complications",
+      "Integrates with existing infrastructure using plugins or HTTP API",
+      "Available across Windows, macOS, Linux, and Android platforms"
+    ]
   },
   {
     "slug": "google-maps-scraper",
@@ -350,7 +775,35 @@
     ],
     "category": "Marketing",
     "offer": "Google Maps Scraper by Outscraper pulls business data straight from Google Maps, phones, websites, reviews, ratings and more, then exports it to CSV, Excel, or JSON in minutes for lead generation and market research. This is a transferable lifetime-deal license, so you skip the recurring subscription. The owner still uses tools like this and is open to a fair offer, so send an inquiry.",
-    "tagline": "Extract local business leads from Google Maps"
+    "tagline": "Extract local business leads from Google Maps",
+    "appsumoUrl": "https://appsumo.com/products/google-maps-scraper-by-outscraper/",
+    "licenseTiers": [
+      {
+        "label": "Lifetime Access",
+        "features": [
+          "5,000 businesses (places) from Google Maps per month",
+          "5,000 emails and social profiles per month",
+          "Filters: rating, status, phones, emails, websites, and others",
+          "Duplicate removal from same task",
+          "Phone verification with type identification",
+          "Easy category and location selection",
+          "CSV/XLSX/Parquet/JSON export formats",
+          "Task scheduling"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "3.55",
+      "count": "104"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/selfsubmissions/images/f295fe18-104b-4830-8743-b1e16218eb38.webp",
+    "highlights": [
+      "Export local business contacts from Google Maps into a CSV/XLSX/Parquet/JSON file",
+      "Enrich data with emails, social links, and additional phone numbers",
+      "Filter by phones, emails, or websites",
+      "Remove duplicates",
+      "Works across all countries where Google Maps operates"
+    ]
   },
   {
     "slug": "google-maps-widget",
@@ -377,7 +830,35 @@
     ],
     "category": "WordPress",
     "offer": "Maps Widget for Google Maps (PRO) adds fast-loading, thumbnail-based Google Maps to any WordPress site with custom pins, skins, clustering and more, without slowing your pages down. This is a transferable lifetime-deal license that avoids the usual renewal fees. The owner is happy to entertain a reasonable offer, so reach out to inquire.",
-    "tagline": "Fast, lightweight Google Maps for WordPress"
+    "tagline": "Fast, lightweight Google Maps for WordPress",
+    "appsumoUrl": "https://appsumo.com/products/google-maps-widget/",
+    "licenseTiers": [
+      {
+        "label": "Lifetime access (single tier)",
+        "features": [
+          "Lifetime access for 3 sites",
+          "Lifetime email support",
+          "Unlimited maps",
+          "Unlimited pins",
+          "14 predefined map styles",
+          "19 lightbox skins",
+          "Fast-loading thumbnail map + interactive map on demand",
+          "Pins clustering and filtering"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "5",
+      "count": "2"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/selfsubmissions/images/7f5b5967-3851-49c3-b8d1-83611d46e21d.jpg",
+    "highlights": [
+      "Add any map to any WordPress site in minutes",
+      "Multiple maps per page/post supported",
+      "Individually configurable pins with custom options",
+      "Shortcode placement available for sites without sidebars",
+      "Note: not compatible with Gutenberg editor; requires classic widgets editor"
+    ]
   },
   {
     "slug": "hoverify",
@@ -404,7 +885,15 @@
     ],
     "category": "Developer",
     "offer": "Hoverify is an all-in-one browser extension that lets web developers and designers inspect elements, edit styles live, test responsive breakpoints, capture screenshots and detect a site's tech stack, all without switching tools. This is a transferable lifetime-deal license, so you own it outright with no yearly renewal. The owner is open to a fair offer, so send an inquiry to make it yours.",
-    "tagline": "All-in-one browser toolkit for developers"
+    "tagline": "All-in-one browser toolkit for developers",
+    "appsumoUrl": "https://appsumo.com/products/hoverify/",
+    "highlights": [
+      "All-in-one browser extension suite for web developers (Chrome and Firefox)",
+      "Inspector: hover over any element to inspect CSS styles and HTML attributes",
+      "Live edit CSS, HTML, or content in real time",
+      "Color eyedropper to pick colors from the page",
+      "Responsive view to test sites across screen sizes"
+    ]
   },
   {
     "slug": "itubego",
@@ -431,7 +920,34 @@
     ],
     "category": "Video & Audio",
     "offer": "iTubeGo is a desktop downloader and converter that saves video and audio from thousands of streaming sites in formats like MP4, MP3 and more, up to high resolutions, for offline viewing. This is a transferable lifetime-deal license, so there is no ongoing subscription to worry about. The owner is open to a reasonable offer, so reach out to inquire.",
-    "tagline": "Download and convert video from anywhere"
+    "tagline": "Download and convert video from anywhere",
+    "appsumoUrl": "https://appsumo.com/products/itubego-for-windows/",
+    "licenseTiers": [
+      {
+        "label": "Lifetime access to iTubeGo Plan (single tier, not stackable)",
+        "features": [
+          "Download YouTube videos, audios, playlists, channels in one click",
+          "Convert to multiple formats (mp4, mp3, mov, avi, m4a, etc.)",
+          "Cut YouTube videos & music in built-in browser",
+          "Batch downloading from 1,000+ websites",
+          "Subtitle downloading (SRT format)",
+          "Private video mode",
+          "10X faster video download speed",
+          "HD/4K/8K video quality support"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.1",
+      "count": "42"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/selfsubmissions/images/bbe9b3e5-6453-4142-a61f-2901e765d7b3.jpg",
+    "highlights": [
+      "Download YouTube videos, audios, playlists, channels in one click",
+      "10X faster video download speed",
+      "Support for HD/4K/8K video quality",
+      "60-day money-back guarantee"
+    ]
   },
   {
     "slug": "jivochat",
@@ -458,7 +974,34 @@
     ],
     "category": "Communication",
     "offer": "JivoChat is an all-in-one customer communication tool that unifies live chat, social messengers, email and phone into a single agent dashboard so you can turn website visitors into customers. This is a transferable lifetime-deal license, sparing you the recurring per-agent fees. The owner is open to a fair offer, so send an inquiry.",
-    "tagline": "Omnichannel live chat for your website"
+    "tagline": "Omnichannel live chat for your website",
+    "appsumoUrl": "https://appsumo.com/products/jivochat/",
+    "licenseTiers": [
+      {
+        "label": "JivoChat Professional Plan - lifetime access (single tier)",
+        "features": [
+          "5 agents",
+          "Unlimited websites",
+          "10 team chat users",
+          "Real-time visitor monitoring and proactive chat triggers",
+          "Multi-channel support (email, Facebook, WhatsApp, Telegram, etc.)",
+          "Built-in CRM with deal pipeline management",
+          "Canned responses with smart suggestions",
+          "Chat history storage and transfer"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.78",
+      "count": "100"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-JivoChat.jpg",
+    "highlights": [
+      "Real-time visitor monitoring and proactive chat triggers",
+      "Multi-channel support (email, Facebook, WhatsApp, Telegram)",
+      "Built-in CRM with deal pipeline management",
+      "60-day money-back guarantee, new users only"
+    ]
   },
   {
     "slug": "keyword-hero",
@@ -485,7 +1028,40 @@
     ],
     "category": "SEO",
     "offer": "Keyword Hero brings your hidden (not provided) organic keywords back into Google Analytics, connecting each search term to sessions, intent and conversions so you can report SEO performance you can actually trust. This is a transferable lifetime-deal license, avoiding the usual monthly cost. The owner is open to a reasonable offer, so reach out to inquire.",
-    "tagline": "See your organic keywords in Analytics"
+    "tagline": "See your organic keywords in Analytics",
+    "appsumoUrl": "https://appsumo.com/products/keywordhero/",
+    "licenseTiers": [
+      {
+        "label": "1 Code",
+        "features": [
+          "50,000 sessions/month",
+          "1 project",
+          "Lifetime access",
+          "Unlimited URLs"
+        ]
+      },
+      {
+        "label": "2 Codes (Stacked)",
+        "features": [
+          "249,000 sessions/month",
+          "1 project",
+          "Lifetime access",
+          "Unlimited URLs"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.82",
+      "count": "127"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-KeywordHero2x.png",
+    "highlights": [
+      "Restores organic keyword data lost due to Google Analytics privacy changes",
+      "Up to 95% keyword recovery rate",
+      "View CTR, position, and impressions per keyword",
+      "See keyword rankings on SERPs",
+      "Access to conversion rates and revenue metrics"
+    ]
   },
   {
     "slug": "kingsumo",
@@ -512,7 +1088,45 @@
     ],
     "category": "Marketing",
     "offer": "KingSumo runs viral giveaways where participants share with friends to earn bonus entries, turning one contest into organic audience and email-list growth. It supports unlimited giveaways with smart, automated reminder emails to keep entrants engaged. This is a transferable lifetime-deal license, and the owner is open to a fair offer, so send an inquiry.",
-    "tagline": "Grow your list with viral giveaways"
+    "tagline": "Grow your list with viral giveaways",
+    "appsumoUrl": "https://appsumo.com/products/kingsumo/",
+    "licenseTiers": [
+      {
+        "label": "Free Plan ($0)",
+        "features": [
+          "Unlimited giveaways",
+          "Bonus entries",
+          "Embed anywhere",
+          "Multiple prizes/winners",
+          "Basic integrations (SendFox, Zapier)"
+        ]
+      },
+      {
+        "label": "Pro License ($49, was $228)",
+        "features": [
+          "All Free features",
+          "Custom branding",
+          "Meta Pixel tracking",
+          "Conversion tracking",
+          "Translation/localization",
+          "Custom rules",
+          "Additional entry fields",
+          "Remove AppSumo sponsorship"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "3.83",
+      "count": "65"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/KingSumo_PDP_update.png",
+    "highlights": [
+      "Grow your audience with viral giveaways that cut marketing costs",
+      "Create customizable giveaways in minutes with intuitive editor",
+      "Custom actions for bonus entries to boost brand visibility",
+      "GDPR-compliant with support for 20+ languages",
+      "Lifetime access with 60-day money-back guarantee"
+    ]
   },
   {
     "slug": "lumen5",
@@ -539,7 +1153,35 @@
     ],
     "category": "Video & Audio",
     "offer": "Lumen5 is an AI video maker that transforms blog posts, scripts, and plain text into polished, shareable videos in minutes, no editing skills required. It handles scene creation, media matching, and captions so marketers and creators can publish social-ready content fast. The lifetime-deal license is transferable and the owner welcomes a reasonable offer, so reach out to inquire.",
-    "tagline": "Turn text into video with AI"
+    "tagline": "Turn text into video with AI",
+    "appsumoUrl": "https://appsumo.com/products/lumen5/",
+    "licenseTiers": [
+      {
+        "label": "Lumen5 Freebie (1 year free access, single tier)",
+        "features": [
+          "Unlimited videos",
+          "15 million stock photos & videos",
+          "50+ templates",
+          "720p video resolution",
+          "35 popular fonts",
+          "No Lumen5 branding",
+          "Intelligent video assistance",
+          "Branded outro"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.1",
+      "count": "86"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-Lumen5_KmEVObu.jpg",
+    "highlights": [
+      "Generate business videos from existing web pages in minutes with AI",
+      "AI automatically selects relevant multimedia based on key concepts",
+      "Drag-and-drop customization",
+      "RSS feed integration for automatic content import",
+      "Team collaboration with commenting"
+    ]
   },
   {
     "slug": "mailpoet",
@@ -566,7 +1208,48 @@
     ],
     "category": "Email",
     "offer": "MailPoet lets you design, send, and automate newsletters and emails directly from your WordPress dashboard, with subscriber management and WooCommerce integration built in. It includes welcome series, post notifications, and professional templates that non-technical site owners can use with ease. This is a transferable lifetime-deal license and the owner is open to a fair offer, so send an inquiry.",
-    "tagline": "Beautiful email marketing inside WordPress"
+    "tagline": "Beautiful email marketing inside WordPress",
+    "appsumoUrl": "https://appsumo.com/products/mailpoet/",
+    "licenseTiers": [
+      {
+        "label": "Tier 1 (1 Code)",
+        "features": [
+          "5,000 subscribers per website",
+          "Unlimited websites, emails, lists",
+          "50 templates",
+          "Automation",
+          "WooCommerce integration",
+          "Analytics",
+          "No branding"
+        ]
+      },
+      {
+        "label": "Tier 2 (2 Codes)",
+        "features": [
+          "10,000 subscribers per website",
+          "All Tier 1 features"
+        ]
+      },
+      {
+        "label": "Tier 3 (3+ Codes)",
+        "features": [
+          "15,000 subscribers per website",
+          "All Tier 1 features"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "3.77",
+      "count": "84"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-MailPoet_1.jpg",
+    "highlights": [
+      "Design and manage award-winning emails inside WordPress",
+      "Drag-and-drop email editor requiring no HTML knowledge",
+      "WooCommerce integration for automated purchase notifications",
+      "Automatic welcome emails and abandoned cart functionality",
+      "60-day money-back guarantee"
+    ]
   },
   {
     "slug": "neuronwriter",
@@ -594,7 +1277,79 @@
     "multiDate": true,
     "category": "SEO",
     "offer": "NEURONwriter is a content optimization platform that combines keyword and competitor analysis with AI-assisted writing to help your pages rank on Google and surface in AI answer engines. It guides you toward SEO-friendly, well-structured content and tracks visibility across search and AI models. The lifetime-deal license is transferable and the owner welcomes a fair offer, so inquire to buy.",
-    "tagline": "Optimize content to rank and get cited"
+    "tagline": "Optimize content to rank and get cited",
+    "appsumoUrl": "https://appsumo.com/products/neuronwriter/",
+    "licenseTiers": [
+      {
+        "label": "1 Code (Bronze)",
+        "features": [
+          "2 projects",
+          "25 content analyses/month",
+          "15,000 AI credits/month",
+          "Standard AI templates",
+          "Read sharing",
+          "Basic analysis & content tools"
+        ]
+      },
+      {
+        "label": "2 Codes (Silver)",
+        "features": [
+          "5 projects",
+          "50 content analyses/month",
+          "30,000 AI credits/month",
+          "Standard AI templates",
+          "Read sharing"
+        ]
+      },
+      {
+        "label": "3 Codes (Gold)",
+        "features": [
+          "10 projects",
+          "75 content analyses/month",
+          "45,000 AI credits/month",
+          "Standard + Advanced + Custom AI templates",
+          "Create/Edit/Read sharing",
+          "75 plagiarism credits/month",
+          "Content Designer, integrations"
+        ]
+      },
+      {
+        "label": "4 Codes (Platinum)",
+        "features": [
+          "25 projects",
+          "100 content analyses/month",
+          "60,000 AI credits/month",
+          "All AI templates",
+          "Create/Edit/Read sharing",
+          "100 plagiarism credits/month",
+          "Full feature access"
+        ]
+      },
+      {
+        "label": "5-7 Codes (Diamond)",
+        "features": [
+          "Scaling projects",
+          "Scaling content analyses/month",
+          "Scaling AI credits/month",
+          "All AI templates",
+          "Create/Edit/Read sharing",
+          "100+ plagiarism credits/month",
+          "Maximum capacity"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.9",
+      "count": "804"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-NeuronWriter_-_16_9_Z0EDxBO_uuid_e141ffca-ec41-41aa-8f4e-266c22fd1d67.png",
+    "highlights": [
+      "Use semantic recommendations to boost SEO and plan high-ranking content",
+      "AI-powered SERP and competitor analysis",
+      "Real-time content optimization with NLP suggestions",
+      "Auto-optimization with internal link insertion",
+      "Plagiarism detection"
+    ]
   },
   {
     "slug": "pixlr",
@@ -621,7 +1376,34 @@
     ],
     "category": "Design",
     "offer": "Pixlr is a browser-based creative suite for photo editing, design, and AI image generation, with tools like generative fill, background removal, and object removal, no downloads needed. It scales from quick touch-ups to full design work, all in your browser. This is a transferable lifetime-deal license and the owner is open to a reasonable offer, so send an inquiry.",
-    "tagline": "Online photo editor with AI tools"
+    "tagline": "Online photo editor with AI tools",
+    "appsumoUrl": "https://appsumo.com/products/pixlr/",
+    "licenseTiers": [
+      {
+        "label": "Lifetime access to Pixlr Premium Plan (single tier, not stackable)",
+        "features": [
+          "Full access to Pixlr X and E",
+          "AI CutOut (and future AI tools)",
+          "3,000 extra overlays",
+          "7,000 extra icons/stickers",
+          "5,000 decorative texts",
+          "Exclusive video tutorials",
+          "Ad free"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.32",
+      "count": "38"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-pixlr.jpg",
+    "highlights": [
+      "One-click background removal",
+      "Professional photo editing without advanced design skills",
+      "Full access to Pixlr X and E",
+      "AI CutOut and future AI tools",
+      "60-day money-back guarantee"
+    ]
   },
   {
     "slug": "screentovideo",
@@ -648,7 +1430,33 @@
     ],
     "category": "Video & Audio",
     "offer": "ScreenToVideo captures your full screen, an application window, or a chosen area in one click, then lets you enhance recordings with text, zoom effects, sounds, images, and animations. It is a capable all-in-one screen recorder and video editor for tutorials, demos, and walkthroughs. The lifetime-deal license is transferable and the owner welcomes a fair offer, so reach out to inquire.",
-    "tagline": "Record your screen, edit like a pro"
+    "tagline": "Record your screen, edit like a pro",
+    "appsumoUrl": "https://appsumo.com/products/marketplace-screentovideo/",
+    "licenseTiers": [
+      {
+        "label": "ScreenToVideo - $59 (50% off regular $119, single tier, not stackable)",
+        "features": [
+          "One-time payment with lifetime access",
+          "Full-featured recorder and editor",
+          "Free lifetime upgrades and support",
+          "In-app and website support",
+          "Windows compatibility",
+          "Google Drive integration"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.69",
+      "count": "111"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/selfsubmissions/images/84c129f8-7491-4f2e-a78c-dc34adf42efb.png",
+    "highlights": [
+      "Record, edit, and share your videos with a powerful yet easy-to-use screen recorder",
+      "AI-powered virtual backgrounds, silence removal, and blur effects",
+      "Built-in captions with text-to-speech integration",
+      "Multiple export formats (MP4, WMV, GIF, MP3)",
+      "Hardware-accelerated export speed"
+    ]
   },
   {
     "slug": "semdash",
@@ -675,7 +1483,63 @@
     ],
     "category": "SEO",
     "offer": "Semdash bundles keyword research, competitor analysis, backlink data, and SERP checking into one AI-assisted workflow so you can find opportunities and rank higher without juggling multiple tools. This is a transferable lifetime-deal license, so you skip the recurring monthly credits and own your access outright. The owner still uses it and is open to a fair offer, so send an inquiry to start the conversation.",
-    "tagline": "All-in-one SEO research and analysis"
+    "tagline": "All-in-one SEO research and analysis",
+    "appsumoUrl": "https://appsumo.com/products/semdash/",
+    "licenseTiers": [
+      {
+        "label": "Tier 1 ($79)",
+        "features": [
+          "1,000 credits/month",
+          "ChatSEO",
+          "Keyword research",
+          "Competition analysis",
+          "Backlink research",
+          "SERP checker",
+          "AI SEO",
+          "Lead generation"
+        ]
+      },
+      {
+        "label": "Tier 2 ($219)",
+        "features": [
+          "4,000 credits/month",
+          "Same 8 features as Tier 1"
+        ]
+      },
+      {
+        "label": "Tier 3 ($399)",
+        "features": [
+          "10,000 credits/month",
+          "Same 8 features as Tier 1"
+        ]
+      },
+      {
+        "label": "Tier 4 ($509, Recommended)",
+        "features": [
+          "15,000 credits/month",
+          "Same 8 features as Tier 1"
+        ]
+      },
+      {
+        "label": "Tier 5 ($589)",
+        "features": [
+          "20,000 credits/month",
+          "Same 8 features as Tier 1"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.14",
+      "count": "125"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-Semdash_-_16_9_uuid_ab2b8749-53b6-434a-9012-78a49cb79ed3.png",
+    "highlights": [
+      "Analyze client competitors to uncover keywords and content gaps",
+      "Access a database of 40M local businesses with contact info",
+      "AI-powered ChatSEO tool integrating 27B keywords and 3T backlinks",
+      "12 months of ranking history data",
+      "White-label SEO report generation"
+    ]
   },
   {
     "slug": "shortpixel",
@@ -702,7 +1566,49 @@
     ],
     "category": "WordPress",
     "offer": "ShortPixel optimizes and compresses your images, converting them to modern formats like WebP and AVIF to speed up your site and improve SEO, with seamless WordPress plugins and a developer API. This is a transferable lifetime-deal license, giving you optimization credits without the ongoing subscription. The owner still uses it and would consider a fair offer, so reach out to inquire.",
-    "tagline": "Compress images without losing quality"
+    "tagline": "Compress images without losing quality",
+    "appsumoUrl": "https://appsumo.com/products/shortpixel/",
+    "licenseTiers": [
+      {
+        "label": "License Tier 1 (1 Code)",
+        "features": [
+          "Lifetime access",
+          "15,000 monthly credits",
+          "Up to 125 GB CDN traffic",
+          "All features included"
+        ]
+      },
+      {
+        "label": "License Tier 2 (2 Codes)",
+        "features": [
+          "Lifetime access",
+          "30,000 monthly credits",
+          "Up to 250 GB CDN traffic",
+          "All features included"
+        ]
+      },
+      {
+        "label": "License Tier 3 (3 Codes)",
+        "features": [
+          "Lifetime access",
+          "45,000 monthly credits",
+          "Up to 375 GB CDN traffic",
+          "All features included"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.8",
+      "count": "159"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-ShortPixel_1.jpg",
+    "highlights": [
+      "Compress image file sizes by up to 90% while maintaining quality",
+      "Three compression options: Lossy, Glossy, and Lossless",
+      "Two WordPress plugins for automatic optimization",
+      "Shopify app and PHP tools available",
+      "Images processed on the fly via global CDN"
+    ]
   },
   {
     "slug": "ticket-tailor",
@@ -729,7 +1635,34 @@
     ],
     "category": "E-commerce",
     "offer": "Ticket Tailor is a straightforward event ticketing platform that lets you design event pages, sell tickets, and check in attendees using your own payment provider like Stripe, Square, or PayPal. This is a transferable lifetime-deal license, so you get long-term access without recurring platform fees. The owner still uses it and is open to a fair offer, so send an inquiry if you run events.",
-    "tagline": "Sell event tickets online in minutes"
+    "tagline": "Sell event tickets online in minutes",
+    "appsumoUrl": "https://appsumo.com/products/ticket-tailor/",
+    "licenseTiers": [
+      {
+        "label": "Single Tier (not stackable)",
+        "features": [
+          "1 year of free access",
+          "100 tickets per month (non-rolling)",
+          "Unlimited events",
+          "Additional tickets at standard price + Stripe fees",
+          "Plan updates included for 1 year",
+          "10% renewal discount in year 2",
+          "New users only; redeem within 60 days"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.5",
+      "count": "4"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web-TicketTailor.png",
+    "highlights": [
+      "Fully customizable, branded event pages",
+      "Seating chart tool for venue events",
+      "Support for recurring events with time slots and day passes",
+      "Live sales reporting and analytics",
+      "Third-party integrations: Mailchimp, Constant Contact, Zapier, Stripe, PayPal"
+    ]
   },
   {
     "slug": "voicedash",
@@ -756,7 +1689,67 @@
     ],
     "category": "Productivity",
     "offer": "VoiceDash is an AI voice dictation tool that turns natural speech into clean, punctuated, structured text right where your cursor sits, working across apps on Mac, Windows, iPhone, and Android. It removes filler words, fixes grammar, and supports personal dictionaries and snippet libraries for faster writing. This is a transferable lifetime-deal license and the owner is open to a fair offer, so reach out to inquire.",
-    "tagline": "Turn speech into polished writing instantly"
+    "tagline": "Turn speech into polished writing instantly",
+    "appsumoUrl": "https://appsumo.com/products/voicedash/",
+    "licenseTiers": [
+      {
+        "label": "License Tier 1 ($59)",
+        "features": [
+          "Lifetime access",
+          "1 team member",
+          "200,000 words/month",
+          "Unlimited devices",
+          "Personal dictionary",
+          "Snippet library",
+          "Advanced AI editing",
+          "Zero data retention option"
+        ]
+      },
+      {
+        "label": "License Tier 2 ($149)",
+        "features": [
+          "Lifetime access",
+          "3 team members",
+          "600,000 words/month",
+          "Unlimited devices",
+          "All Tier 1 features",
+          "Words pooling",
+          "Shared snippet library"
+        ]
+      },
+      {
+        "label": "License Tier 3 ($299)",
+        "features": [
+          "Lifetime access",
+          "7 team members",
+          "1,400,000 words/month",
+          "Unlimited devices",
+          "All Tier 2 features"
+        ]
+      },
+      {
+        "label": "License Tier 4 ($499)",
+        "features": [
+          "Lifetime access",
+          "15 team members",
+          "3,000,000 words/month",
+          "Unlimited devices",
+          "All Tier 3 features"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.43",
+      "count": "233"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/voicedash-as-Header-VoiceDash-16_9.png",
+    "highlights": [
+      "Converts speech to polished text across Mac, Windows, Linux, Android, iOS",
+      "Removes filler words and corrects grammar in real time",
+      "Works system-wide in any application",
+      "Supports 50+ languages",
+      "Zero Data Retention (ZDR) privacy standard"
+    ]
   },
   {
     "slug": "wp-courseware",
@@ -783,7 +1776,46 @@
     ],
     "category": "WordPress",
     "offer": "WP Courseware is a long-running WordPress LMS plugin from Fly Plugins with a drag-and-drop course builder, quizzes, student management, and progress tracking so you can create and sell online courses right from your own site. This is a transferable lifetime-deal license, meaning no annual renewals to keep it running. The owner still uses it and will sell for the right offer, so send an inquiry to learn more.",
-    "tagline": "Build and sell WordPress online courses"
+    "tagline": "Build and sell WordPress online courses",
+    "appsumoUrl": "https://appsumo.com/products/wp-courseware/",
+    "licenseTiers": [
+      {
+        "label": "License Tier 1",
+        "features": [
+          "Lifetime access",
+          "10 WordPress sites",
+          "All features, no limitations"
+        ]
+      },
+      {
+        "label": "License Tier 2",
+        "features": [
+          "Lifetime access",
+          "25 WordPress sites",
+          "All features, no limitations"
+        ]
+      },
+      {
+        "label": "License Tier 3",
+        "features": [
+          "Lifetime access",
+          "Unlimited WordPress sites",
+          "All features, no limitations"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.56",
+      "count": "32"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-web--WP-Courseware.jpg",
+    "highlights": [
+      "Self-hosted course creation on your own WordPress website with no revenue sharing",
+      "Drag-and-drop course builder requiring no coding expertise",
+      "Flexible payment options: one-time payments, installments, or recurring subscriptions",
+      "Quiz and survey functionality to enhance learning retention",
+      "Visual certificate builder for course completion"
+    ]
   },
   {
     "slug": "yay-images",
@@ -810,6 +1842,54 @@
     ],
     "category": "Stock Media",
     "offer": "Yay Images is a royalty-free stock media platform with millions of images, videos, and vectors, plus built-in AI image generation, upscaling, and background removal, all under commercial licensing. This is a transferable lifetime-deal license, so you get ongoing download access without a monthly subscription. The owner still uses it and is open to a fair offer, so reach out to inquire.",
-    "tagline": "Royalty-free stock images, video, vectors"
+    "tagline": "Royalty-free stock images, video, vectors",
+    "appsumoUrl": "https://appsumo.com/products/yay-images/",
+    "licenseTiers": [
+      {
+        "label": "Plan 1 (1 Code)",
+        "features": [
+          "Lifetime access",
+          "5 downloads/day",
+          "1 user",
+          "Standard and extended commercial licenses",
+          "Project folders",
+          "Advanced search"
+        ]
+      },
+      {
+        "label": "Plan 2 (2 Codes)",
+        "features": [
+          "Lifetime access",
+          "10 downloads/day",
+          "1 user",
+          "Copyright protection ($25K/image)",
+          "$450K partner perks access",
+          "Standard and extended commercial licenses"
+        ]
+      },
+      {
+        "label": "Plan 3 (3 Codes)",
+        "features": [
+          "Lifetime access",
+          "15 downloads/day",
+          "1 user",
+          "Copyright protection ($25K/image)",
+          "$450K partner perks access",
+          "Standard and extended commercial licenses"
+        ]
+      }
+    ],
+    "reviews": {
+      "rating": "4.86",
+      "count": "28"
+    },
+    "appsumoImage": "https://appsumo2-cdn.appsumo.com/media/deals/images/718a8d27-99ea-4c0d-8809-9e21662c0e39_uuid_4b1eda1a-1ddd-4462-93b4-cdffd86f4d55.png",
+    "highlights": [
+      "Over 15 million stock photos, 3 million vectors, and 250,000 HD videos",
+      "Royalty-free assets usable for commercial purposes (online and print)",
+      "Advanced search with reverse image search, color filtering, and text-space detection",
+      "Lifetime access with 60-day money-back guarantee",
+      "Codes stackable up to 5 total"
+    ]
   }
 ]
