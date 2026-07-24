@@ -6,7 +6,7 @@ const ROOT = path.join(__dirname, '..');
 const SITE = path.join(ROOT, 'site');
 const products = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'products.json'), 'utf8'));
 
-const PAYPAL_EMAIL = 'paypal@shrockservice.com';  // receives Buy Now payments (carries item name + id)
+const PAYPAL_BIZ = 'YTJ6CLJMBBZAL';  // PayPal Merchant ID — receives Buy Now payments (carries item name + id)
 const SITE_URL = 'https://ltd.jrdevelopr.com';
 const SITE_NAME = 'LTD Software Vault';
 
@@ -22,7 +22,7 @@ function payForm(amount, itemName, itemNumber, btnClass, btnHtml) {
   const amt = amount != null ? `<input type="hidden" name="amount" value="${Number(amount).toFixed(2)}">` : '';
   return `<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" rel="noopener" class="payform">
 <input type="hidden" name="cmd" value="_xclick">
-<input type="hidden" name="business" value="${esc(PAYPAL_EMAIL)}">
+<input type="hidden" name="business" value="${esc(PAYPAL_BIZ)}">
 <input type="hidden" name="item_name" value="${esc(nm)}">
 <input type="hidden" name="item_number" value="${esc(itemNumber)}">
 ${amt}<input type="hidden" name="currency_code" value="USD">
