@@ -120,7 +120,7 @@ function buildIndex() {
   const data = products.map(p => ({
     slug: p.slug, name: p.name, tag: p.tagline || '', cat: p.category || 'Software',
     desc: p.desc || '', status: p.status, inq: !!p.inquireOnly, avail: p.availCount, sold: p.soldCount,
-    min: p.minPrice, soldp: p.soldPrice, img: img(p),
+    min: p.minPrice, soldp: p.soldPrice, img: img(p), tier: p.tier || null, code: p.codeCount || null,
   }));
 
   const html = head(
@@ -185,7 +185,10 @@ function priceCell(p){
   return '<span class="price">'+from+money(p.min)+'</span>';
 }
 function row(p){
-  const units=p.status==='sold'?'—':(p.avail+' license'+(p.avail>1?'s':''))+(p.sold?' · '+p.sold+' sold':'');
+  let units;
+  if(p.status==='sold') units='—';
+  else if(p.inq) units='Tier '+p.tier+' · 1 license'+(p.code>1?' ('+p.code+' codes)':'');
+  else units=(p.avail+' license'+(p.avail>1?'s':''))+(p.sold?' · '+p.sold+' sold':'');
   const badge=p.status==='sold'?'<span class="badge so">SOLD</span>':(p.inq?'<span class="badge inq">INQUIRE</span>':'<span class="badge av">FOR SALE</span>');
   return '<tr class="'+(p.status==='sold'?'sold':'')+'" onclick="location.href=\\'p/'+p.slug+'.html\\'">'
     +'<td><div class="pname"><img class="thumb" loading="lazy" src="'+p.img+'" alt="" onerror="this.style.visibility=\\'hidden\\'">'
@@ -239,7 +242,8 @@ function buildProduct(p) {
 
   let priceLabel, primaryBtn, entice = '';
   if (p.inquireOnly) {
-    priceLabel = `<div class="pricebox"><span class="big" style="color:var(--gold)">Open to offers</span></div>`;
+    const tierNote = p.tier ? `· Tier ${p.tier} account${p.codeCount > 1 ? ` (${p.codeCount} AppSumo codes stacked)` : ''}` : '';
+    priceLabel = `<div class="pricebox"><span class="big" style="color:var(--gold)">Open to offers</span><span class="lbl">${tierNote}</span></div>`;
     primaryBtn = inquireBtn(p.name, p.slug, 'btn-offer', `Inquire &amp; make an offer`);
     entice = `<p class="entice">Still in active use — but everything here is for sale at the right price. Send an offer and it could be yours.</p>`;
   } else if (p.status === 'sold') {
@@ -259,7 +263,7 @@ function buildProduct(p) {
       return `<div class="unit"><div class="u-meta"><b>${label}</b><small>No longer available</small></div>
         <span class="u-price strike">${u.price ? money(u.price) : 'Sold'}</span><span class="btn sold">Sold</span></div>`;
     if (p.inquireOnly || u.priceKind === 'inquire')
-      return `<div class="unit"><div class="u-meta"><b>${label}</b><small>Lifetime deal · open to offers</small></div>
+      return `<div class="unit"><div class="u-meta"><b>${label}</b><small>Lifetime deal · one account, sold as a single sale (not per code) · open to offers</small></div>
         ${inquireBtn(p.name, p.slug, 'btn-offer', 'Inquire')}</div>`;
     const price = u.priceKind === 'fixed' ? u.price : null;
     const itemName = `${p.name}${u.account ? ` (${u.account})` : ''} - Lifetime Deal`;
@@ -271,7 +275,7 @@ function buildProduct(p) {
   }
 
   const unitsHeading = p.inquireOnly
-    ? (p.availCount > 1 ? `${p.availCount} licenses available — open to offers` : 'Available — open to offers')
+    ? `One license${p.tier ? ` · Tier ${p.tier}` : ''} — open to offers`
     : (p.availCount > 1 ? `${p.availCount} licenses available` : 'Get this deal');
   const unitsPanel = (availUnits.length || soldUnits.length) ? `
     <div class="panel">

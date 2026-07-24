@@ -8,28 +8,18 @@
     "localImg": "img/be-live.svg",
     "status": "available",
     "inquireOnly": true,
-    "availCount": 3,
+    "availCount": 1,
     "soldCount": 0,
     "minPrice": null,
     "soldPrice": null,
+    "tier": 3,
+    "codeCount": 3,
     "units": [
       {
         "status": "available",
         "priceKind": "inquire",
         "price": null,
-        "account": "AppSumo LTD code"
-      },
-      {
-        "status": "available",
-        "priceKind": "inquire",
-        "price": null,
-        "account": "AppSumo LTD code"
-      },
-      {
-        "status": "available",
-        "priceKind": "inquire",
-        "price": null,
-        "account": "AppSumo LTD code"
+        "account": "Tier 3 account · 3 codes stacked"
       }
     ],
     "category": "Video & Audio",
@@ -49,12 +39,14 @@
     "soldCount": 0,
     "minPrice": null,
     "soldPrice": null,
+    "tier": 1,
+    "codeCount": 1,
     "units": [
       {
         "status": "available",
         "priceKind": "inquire",
         "price": null,
-        "account": "AppSumo LTD code"
+        "account": "Tier 1 account"
       }
     ],
     "category": "Design",
@@ -74,12 +66,14 @@
     "soldCount": 0,
     "minPrice": null,
     "soldPrice": null,
+    "tier": 1,
+    "codeCount": 1,
     "units": [
       {
         "status": "available",
         "priceKind": "inquire",
         "price": null,
-        "account": "AppSumo LTD code"
+        "account": "Tier 1 account"
       }
     ],
     "category": "Security",
@@ -99,12 +93,14 @@
     "soldCount": 0,
     "minPrice": null,
     "soldPrice": null,
+    "tier": 3,
+    "codeCount": 1,
     "units": [
       {
         "status": "available",
         "priceKind": "inquire",
         "price": null,
-        "account": "License Tier 3"
+        "account": "Tier 3 account"
       }
     ],
     "category": "WordPress",
@@ -124,12 +120,14 @@
     "soldCount": 0,
     "minPrice": null,
     "soldPrice": null,
+    "tier": 1,
+    "codeCount": 1,
     "units": [
       {
         "status": "available",
         "priceKind": "inquire",
         "price": null,
-        "account": "AppSumo LTD code"
+        "account": "Tier 1 account"
       }
     ],
     "category": "Design",
@@ -149,12 +147,14 @@
     "soldCount": 0,
     "minPrice": null,
     "soldPrice": null,
+    "tier": 2,
+    "codeCount": 1,
     "units": [
       {
         "status": "available",
         "priceKind": "inquire",
         "price": null,
-        "account": "License Tier 2"
+        "account": "Tier 2 account"
       }
     ],
     "category": "Analytics",
@@ -170,42 +170,21 @@
     "localImg": "img/depositphotos.jpg",
     "status": "available",
     "inquireOnly": true,
-    "availCount": 5,
+    "availCount": 1,
     "soldCount": 0,
     "minPrice": null,
     "soldPrice": null,
+    "tier": 5,
+    "codeCount": 5,
     "units": [
       {
         "status": "available",
         "priceKind": "inquire",
         "price": null,
-        "account": "AppSumo LTD code"
-      },
-      {
-        "status": "available",
-        "priceKind": "inquire",
-        "price": null,
-        "account": "AppSumo LTD code"
-      },
-      {
-        "status": "available",
-        "priceKind": "inquire",
-        "price": null,
-        "account": "AppSumo LTD code"
-      },
-      {
-        "status": "available",
-        "priceKind": "inquire",
-        "price": null,
-        "account": "AppSumo LTD code"
-      },
-      {
-        "status": "available",
-        "priceKind": "inquire",
-        "price": null,
-        "account": "AppSumo LTD code"
+        "account": "Tier 5 account · 5 codes stacked"
       }
     ],
+    "multiDate": true,
     "category": "Stock Media",
     "offer": "Depositphotos is a huge royalty-free marketplace of stock photos, vector images, videos and music for your creative and commercial projects. This is a transferable lifetime-deal license, so you get ongoing access without the recurring subscription. The owner still uses it but is open to a fair offer, so reach out to inquire.",
     "tagline": "Royalty-free photos, video and music"
@@ -223,12 +202,14 @@
     "soldCount": 0,
     "minPrice": null,
     "soldPrice": null,
+    "tier": 1,
+    "codeCount": 1,
     "units": [
       {
         "status": "available",
         "priceKind": "inquire",
         "price": null,
-        "account": "AppSumo LTD code"
+        "account": "Tier 1 account"
       }
     ],
     "category": "Developer",
@@ -248,12 +229,14 @@
     "soldCount": 0,
     "minPrice": null,
     "soldPrice": null,
+    "tier": 1,
+    "codeCount": 1,
     "units": [
       {
         "status": "available",
         "priceKind": "inquire",
         "price": null,
-        "account": "AppSumo LTD code"
+        "account": "Tier 1 account"
       }
     ],
     "category": "Productivity",
@@ -273,12 +256,14 @@
     "soldCount": 0,
     "minPrice": null,
     "soldPrice": null,
+    "tier": 3,
+    "codeCount": 1,
     "units": [
       {
         "status": "available",
         "priceKind": "inquire",
         "price": null,
-        "account": "License Tier 3"
+        "account": "Tier 3 account"
       }
     ],
     "category": "Email",
@@ -294,36 +279,21 @@
     "localImg": "img/frontly.png",
     "status": "available",
     "inquireOnly": true,
-    "availCount": 4,
+    "availCount": 1,
     "soldCount": 0,
     "minPrice": null,
     "soldPrice": null,
+    "tier": 4,
+    "codeCount": 4,
     "units": [
       {
         "status": "available",
         "priceKind": "inquire",
         "price": null,
-        "account": "AppSumo LTD code"
-      },
-      {
-        "status": "available",
-        "priceKind": "inquire",
-        "price": null,
-        "account": "AppSumo LTD code"
-      },
-      {
-        "status": "available",
-        "priceKind": "inquire",
-        "price": null,
-        "account": "AppSumo LTD code"
-      },
-      {
-        "status": "available",
-        "priceKind": "inquire",
-        "price": null,
-        "account": "AppSumo LTD code"
+        "account": "Tier 4 account · 4 codes stacked"
       }
     ],
+    "multiDate": true,
     "category": "Developer",
     "offer": "Frontly turns plain-language descriptions into working custom applications using AI, then lets you refine them in a visual no-code editor. It is a fast path to building internal tools and client apps without writing code. This is a transferable lifetime-deal license and the owner is open to a fair offer, so send an inquiry to grab it.",
     "tagline": "Build apps with AI, no code"
@@ -337,28 +307,18 @@
     "localImg": "img/getscreen-me.png",
     "status": "available",
     "inquireOnly": true,
-    "availCount": 3,
+    "availCount": 1,
     "soldCount": 0,
     "minPrice": null,
     "soldPrice": null,
+    "tier": 3,
+    "codeCount": 3,
     "units": [
       {
         "status": "available",
         "priceKind": "inquire",
         "price": null,
-        "account": "AppSumo LTD code"
-      },
-      {
-        "status": "available",
-        "priceKind": "inquire",
-        "price": null,
-        "account": "AppSumo LTD code"
-      },
-      {
-        "status": "available",
-        "priceKind": "inquire",
-        "price": null,
-        "account": "AppSumo LTD code"
+        "account": "Tier 3 account · 3 codes stacked"
       }
     ],
     "category": "Productivity",
@@ -378,12 +338,14 @@
     "soldCount": 0,
     "minPrice": null,
     "soldPrice": null,
+    "tier": 1,
+    "codeCount": 1,
     "units": [
       {
         "status": "available",
         "priceKind": "inquire",
         "price": null,
-        "account": "AppSumo LTD code"
+        "account": "Tier 1 account"
       }
     ],
     "category": "Marketing",
@@ -403,12 +365,14 @@
     "soldCount": 0,
     "minPrice": null,
     "soldPrice": null,
+    "tier": 1,
+    "codeCount": 1,
     "units": [
       {
         "status": "available",
         "priceKind": "inquire",
         "price": null,
-        "account": "AppSumo LTD code"
+        "account": "Tier 1 account"
       }
     ],
     "category": "WordPress",
@@ -424,22 +388,18 @@
     "localImg": "img/hoverify.png",
     "status": "available",
     "inquireOnly": true,
-    "availCount": 2,
+    "availCount": 1,
     "soldCount": 0,
     "minPrice": null,
     "soldPrice": null,
+    "tier": 2,
+    "codeCount": 2,
     "units": [
       {
         "status": "available",
         "priceKind": "inquire",
         "price": null,
-        "account": "AppSumo LTD code"
-      },
-      {
-        "status": "available",
-        "priceKind": "inquire",
-        "price": null,
-        "account": "AppSumo LTD code"
+        "account": "Tier 2 account · 2 codes stacked"
       }
     ],
     "category": "Developer",
@@ -459,12 +419,14 @@
     "soldCount": 0,
     "minPrice": null,
     "soldPrice": null,
+    "tier": 1,
+    "codeCount": 1,
     "units": [
       {
         "status": "available",
         "priceKind": "inquire",
         "price": null,
-        "account": "AppSumo LTD code"
+        "account": "Tier 1 account"
       }
     ],
     "category": "Video & Audio",
@@ -480,28 +442,18 @@
     "localImg": "img/jivochat.png",
     "status": "available",
     "inquireOnly": true,
-    "availCount": 3,
+    "availCount": 1,
     "soldCount": 0,
     "minPrice": null,
     "soldPrice": null,
+    "tier": 3,
+    "codeCount": 3,
     "units": [
       {
         "status": "available",
         "priceKind": "inquire",
         "price": null,
-        "account": "AppSumo LTD code"
-      },
-      {
-        "status": "available",
-        "priceKind": "inquire",
-        "price": null,
-        "account": "AppSumo LTD code"
-      },
-      {
-        "status": "available",
-        "priceKind": "inquire",
-        "price": null,
-        "account": "AppSumo LTD code"
+        "account": "Tier 3 account · 3 codes stacked"
       }
     ],
     "category": "Communication",
@@ -521,18 +473,19 @@
     "soldCount": 0,
     "minPrice": null,
     "soldPrice": null,
+    "tier": 1,
+    "codeCount": 1,
     "units": [
       {
         "status": "available",
         "priceKind": "inquire",
         "price": null,
-        "account": "AppSumo LTD code"
+        "account": "Tier 1 account"
       }
     ],
     "category": "SEO",
     "offer": "Keyword Hero brings your hidden (not provided) organic keywords back into Google Analytics, connecting each search term to sessions, intent and conversions so you can report SEO performance you can actually trust. This is a transferable lifetime-deal license, avoiding the usual monthly cost. The owner is open to a reasonable offer, so reach out to inquire.",
-    "tagline": "See your organic keywords in Analytics",
-    "flagged": true
+    "tagline": "See your organic keywords in Analytics"
   },
   {
     "slug": "kingsumo",
@@ -547,12 +500,14 @@
     "soldCount": 0,
     "minPrice": null,
     "soldPrice": null,
+    "tier": 1,
+    "codeCount": 1,
     "units": [
       {
         "status": "available",
         "priceKind": "inquire",
         "price": null,
-        "account": "AppSumo LTD code"
+        "account": "Tier 1 account"
       }
     ],
     "category": "Marketing",
@@ -572,12 +527,14 @@
     "soldCount": 0,
     "minPrice": null,
     "soldPrice": null,
+    "tier": 1,
+    "codeCount": 1,
     "units": [
       {
         "status": "available",
         "priceKind": "inquire",
         "price": null,
-        "account": "AppSumo LTD code"
+        "account": "Tier 1 account"
       }
     ],
     "category": "Video & Audio",
@@ -593,22 +550,18 @@
     "localImg": "img/mailpoet.png",
     "status": "available",
     "inquireOnly": true,
-    "availCount": 2,
+    "availCount": 1,
     "soldCount": 0,
     "minPrice": null,
     "soldPrice": null,
+    "tier": 2,
+    "codeCount": 2,
     "units": [
       {
         "status": "available",
         "priceKind": "inquire",
         "price": null,
-        "account": "AppSumo LTD code"
-      },
-      {
-        "status": "available",
-        "priceKind": "inquire",
-        "price": null,
-        "account": "AppSumo LTD code"
+        "account": "Tier 2 account · 2 codes stacked"
       }
     ],
     "category": "Email",
@@ -624,36 +577,21 @@
     "localImg": "img/neuronwriter.webp",
     "status": "available",
     "inquireOnly": true,
-    "availCount": 4,
+    "availCount": 1,
     "soldCount": 0,
     "minPrice": null,
     "soldPrice": null,
+    "tier": 4,
+    "codeCount": 4,
     "units": [
       {
         "status": "available",
         "priceKind": "inquire",
         "price": null,
-        "account": "AppSumo LTD code"
-      },
-      {
-        "status": "available",
-        "priceKind": "inquire",
-        "price": null,
-        "account": "AppSumo LTD code"
-      },
-      {
-        "status": "available",
-        "priceKind": "inquire",
-        "price": null,
-        "account": "AppSumo LTD code"
-      },
-      {
-        "status": "available",
-        "priceKind": "inquire",
-        "price": null,
-        "account": "AppSumo LTD code"
+        "account": "Tier 4 account · 4 codes stacked"
       }
     ],
+    "multiDate": true,
     "category": "SEO",
     "offer": "NEURONwriter is a content optimization platform that combines keyword and competitor analysis with AI-assisted writing to help your pages rank on Google and surface in AI answer engines. It guides you toward SEO-friendly, well-structured content and tracks visibility across search and AI models. The lifetime-deal license is transferable and the owner welcomes a fair offer, so inquire to buy.",
     "tagline": "Optimize content to rank and get cited"
@@ -671,12 +609,14 @@
     "soldCount": 0,
     "minPrice": null,
     "soldPrice": null,
+    "tier": 1,
+    "codeCount": 1,
     "units": [
       {
         "status": "available",
         "priceKind": "inquire",
         "price": null,
-        "account": "AppSumo LTD code"
+        "account": "Tier 1 account"
       }
     ],
     "category": "Design",
@@ -696,12 +636,14 @@
     "soldCount": 0,
     "minPrice": null,
     "soldPrice": null,
+    "tier": 1,
+    "codeCount": 1,
     "units": [
       {
         "status": "available",
         "priceKind": "inquire",
         "price": null,
-        "account": "AppSumo LTD code"
+        "account": "Tier 1 account"
       }
     ],
     "category": "Video & Audio",
@@ -721,12 +663,14 @@
     "soldCount": 0,
     "minPrice": null,
     "soldPrice": null,
+    "tier": 2,
+    "codeCount": 1,
     "units": [
       {
         "status": "available",
         "priceKind": "inquire",
         "price": null,
-        "account": "License Tier 2"
+        "account": "Tier 2 account"
       }
     ],
     "category": "SEO",
@@ -742,40 +686,18 @@
     "localImg": "img/shortpixel.jpg",
     "status": "available",
     "inquireOnly": true,
-    "availCount": 5,
+    "availCount": 1,
     "soldCount": 0,
     "minPrice": null,
     "soldPrice": null,
+    "tier": 5,
+    "codeCount": 5,
     "units": [
       {
         "status": "available",
         "priceKind": "inquire",
         "price": null,
-        "account": "AppSumo LTD code"
-      },
-      {
-        "status": "available",
-        "priceKind": "inquire",
-        "price": null,
-        "account": "AppSumo LTD code"
-      },
-      {
-        "status": "available",
-        "priceKind": "inquire",
-        "price": null,
-        "account": "AppSumo LTD code"
-      },
-      {
-        "status": "available",
-        "priceKind": "inquire",
-        "price": null,
-        "account": "AppSumo LTD code"
-      },
-      {
-        "status": "available",
-        "priceKind": "inquire",
-        "price": null,
-        "account": "AppSumo LTD code"
+        "account": "Tier 5 account · 5 codes stacked"
       }
     ],
     "category": "WordPress",
@@ -795,12 +717,14 @@
     "soldCount": 0,
     "minPrice": null,
     "soldPrice": null,
+    "tier": 1,
+    "codeCount": 1,
     "units": [
       {
         "status": "available",
         "priceKind": "inquire",
         "price": null,
-        "account": "AppSumo LTD code"
+        "account": "Tier 1 account"
       }
     ],
     "category": "E-commerce",
@@ -820,12 +744,14 @@
     "soldCount": 0,
     "minPrice": null,
     "soldPrice": null,
+    "tier": 2,
+    "codeCount": 1,
     "units": [
       {
         "status": "available",
         "priceKind": "inquire",
         "price": null,
-        "account": "License Tier 2"
+        "account": "Tier 2 account"
       }
     ],
     "category": "Productivity",
@@ -845,18 +771,19 @@
     "soldCount": 0,
     "minPrice": null,
     "soldPrice": null,
+    "tier": 3,
+    "codeCount": 1,
     "units": [
       {
         "status": "available",
         "priceKind": "inquire",
         "price": null,
-        "account": "License Tier 3"
+        "account": "Tier 3 account"
       }
     ],
     "category": "WordPress",
     "offer": "WP Courseware is a long-running WordPress LMS plugin from Fly Plugins with a drag-and-drop course builder, quizzes, student management, and progress tracking so you can create and sell online courses right from your own site. This is a transferable lifetime-deal license, meaning no annual renewals to keep it running. The owner still uses it and will sell for the right offer, so send an inquiry to learn more.",
-    "tagline": "Build and sell WordPress online courses",
-    "flagged": true
+    "tagline": "Build and sell WordPress online courses"
   },
   {
     "slug": "yay-images",
@@ -871,12 +798,14 @@
     "soldCount": 0,
     "minPrice": null,
     "soldPrice": null,
+    "tier": 1,
+    "codeCount": 1,
     "units": [
       {
         "status": "available",
         "priceKind": "inquire",
         "price": null,
-        "account": "AppSumo LTD code"
+        "account": "Tier 1 account"
       }
     ],
     "category": "Stock Media",
