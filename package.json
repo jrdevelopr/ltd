@@ -1,0 +1,17 @@
+{
+  "name": "ltd",
+  "version": "1.0.0",
+  "description": "Static storefront for reselling lifetime-deal (LTD) software licenses. Styled with Tailwind CSS v4 (compiled to site/style.css).",
+  "scripts": {
+    "css": "tailwindcss -i site/src/input.css -o site/style.css --minify",
+    "css:watch": "tailwindcss -i site/src/input.css -o site/style.css --watch",
+    "html": "node bin/build.js",
+    "build": "npm run css && npm run html"
+  },
+  "keywords": ["lifetime-deal", "appsumo", "storefront"],
+  "license": "MIT",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}

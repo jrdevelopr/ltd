@@ -16,8 +16,15 @@ Static storefront reselling lifetime-deal software licenses. **https://ltd.jrdev
 - **Data model:** each product has `units[]` (individual license accounts, each with its own
   price + status available/sold). Catalog groups them; the product page lists each unit with a
   buy button. Sold items are shown greyed with a SOLD badge (owner directive — social proof).
-- **Editing:** change price/copy in `products.json` then `node bin/build.js` + reload (volume
-  mount is live). Re-importing the sheet overwrites `products.json` — re-run `merge.js` after.
+- **Styling = Tailwind CSS v4.** Authored in `site/src/input.css` (`@import "tailwindcss"` +
+  `@theme` tokens aliased to the runtime light/dark CSS vars + component styles), compiled to the
+  served `site/style.css` via `npm run css` (or `npm run build` for css+html). Edit `input.css`,
+  never `style.css` (it's the built artifact, committed so the container serves it without a build).
+  Design tokens are exposed as utilities (`bg-brand`, `text-ink`, `border-line`, …) for new markup.
+- **Editing:** change price/copy in `products.json` (or `inventory.json`) then `node bin/build.js`
+  + reload (volume mount is live). Re-importing the sheet overwrites `products.json` — re-run
+  `merge.js` after. Inventory items live in `data/inventory.json` (one license each; tier = stacked
+  codes). AppSumo tier tables/ratings come from `bin/merge-appsumo.js`.
 - **Public exposure:** Cloudflare DNS CNAME `ltd` → tunnel UUID, ingress hostname rule in
   `~/server-setup/cloudflared/config.yml` (above the 404 catch-all), Caddy route
   `~/server-setup/caddy/apps.d/ltd.caddy` (ungated — no `import gate`). Repo is PUBLIC — keep secret-free.

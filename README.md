@@ -23,6 +23,24 @@ node bin/fetch-images.js  # download hero images locally to site/img/ (SVG lette
 node bin/build.js         # render site/index.html + site/p/<slug>.html
 ```
 
+Inventory (inquire-to-buy items from the AppSumo purchase history) and the AppSumo
+tier/rating deep-dive have their own scripts: `bin/add-inventory.js`, `bin/merge-appsumo.js`.
+
+### Styling — Tailwind CSS v4
+
+Styles are authored in **`site/src/input.css`** (Tailwind v4: `@import "tailwindcss"`,
+`@theme` design tokens, component styles) and compiled to the served **`site/style.css`**:
+
+```
+npm install          # one-time: installs tailwindcss v4 CLI
+npm run css          # compile site/src/input.css -> site/style.css (minified)
+npm run css:watch    # recompile on change
+npm run build        # css + html together
+```
+
+`site/style.css` is the built artifact (committed so the container can serve it without a build);
+edit `site/src/input.css`, never `site/style.css` directly.
+
 Then reload — the `site/` dir is volume-mounted read-only, so no rebuild of the container is needed.
 
 ### Editing a listing
