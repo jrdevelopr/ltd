@@ -1,0 +1,1646 @@
+[
+  {
+    "slug": "amzimage",
+    "name": "Amzimage",
+    "desc": "This WP Plugin lets you add images the way Amazon wants you to – using their API.",
+    "homepage": "https://www.amzimage.com/",
+    "image": "https://www.amzimage.com/wp-content/uploads/2019/03/AMZ-YT-1024x576.jpg",
+    "localImg": "img/amzimage.jpg",
+    "status": "sold",
+    "availCount": 0,
+    "soldCount": 1,
+    "minPrice": null,
+    "soldPrice": 60,
+    "units": [
+      {
+        "status": "sold",
+        "priceKind": "fixed",
+        "price": 60,
+        "account": "Appsumo 1 Code"
+      }
+    ],
+    "category": "WordPress",
+    "offer": "Amzimage is a WordPress plugin that lets you search and drop Amazon product images straight into your posts using Amazon's official API, keeping your affiliate setup compliant. You can pick image sizes and turn pictures into affiliate links without leaving the editor. As a lifetime deal, it's a one-time payment that replaces recurring plugin fees for affiliate publishers.",
+    "tagline": "Insert Amazon images the compliant way"
+  },
+  {
+    "slug": "anywhereapp",
+    "name": "Anywhereapp",
+    "desc": "Dead simple project and task management software.",
+    "homepage": "https://anywhereapp.io/",
+    "image": "https://i.imgur.com/JuqvYfu.jpeg",
+    "localImg": "img/anywhereapp.jpg",
+    "status": "available",
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": 165,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "fixed",
+        "price": 165,
+        "account": "Appsumo 3 Codes"
+      }
+    ],
+    "category": "Project Management",
+    "offer": "Anywhere is a lightweight project and task management tool built for small teams and startups that want structure without complexity. It offers Kanban boards, task organization, and internal and external collaboration alongside automations and integrations. With this lifetime deal you pay once and skip the ongoing per-seat subscription costs.",
+    "tagline": "Dead simple project and task management"
+  },
+  {
+    "slug": "berrycast",
+    "name": "BerryCast",
+    "desc": "Your video communication tool for work - Similar to Loom",
+    "homepage": "https://www.berrycast.com/pricing",
+    "image": "https://media.berrycast.app/static/website/assets/og_frontpage_default.20230331.jpg",
+    "localImg": "img/berrycast.jpg",
+    "status": "available",
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": 245,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "fixed",
+        "price": 245,
+        "account": "Appsumo 1 Code"
+      }
+    ],
+    "category": "Video & Audio",
+    "offer": "BerryCast is a screen recording and video messaging tool for Windows and Mac, a straightforward alternative to Loom for explaining work asynchronously. Capture your screen, share a link, and let teammates or clients watch without downloads. This lifetime deal means one payment instead of a monthly video-tool subscription.",
+    "tagline": "Record and share screen videos fast"
+  },
+  {
+    "slug": "better-uptime-stack",
+    "name": "Better UpTime Stack",
+    "desc": "Get notified with a radically better infrastructure monitoring platform.",
+    "homepage": "https://betterstack.com/",
+    "image": "https://betterstack.com/assets/v2/og_homepage_v3-fdca4632.jpg",
+    "localImg": "img/better-uptime-stack.jpg",
+    "status": "sold",
+    "availCount": 0,
+    "soldCount": 1,
+    "minPrice": null,
+    "soldPrice": 115,
+    "units": [
+      {
+        "status": "sold",
+        "priceKind": "fixed",
+        "price": 115,
+        "account": "Appsumo 2 Codes"
+      }
+    ],
+    "category": "Developer",
+    "offer": "Better Stack combines uptime monitoring, log management, and incident management so you get notified the moment infrastructure has a problem. It brings status pages, on-call alerting, and observability together in a single platform. Grabbing it as a lifetime deal means paying once for monitoring instead of an ongoing per-metric subscription.",
+    "tagline": "Monitoring and incident management in one"
+  },
+  {
+    "slug": "bit-social-integrations",
+    "name": "Bit Social + Integrations",
+    "desc": "Connect WordPress Plugins and external applications seamlessly to save time and simplify automations",
+    "homepage": "https://bit-social.com/",
+    "image": "https://bit-social.com/wp-content/uploads/2026/02/Bit-Social-Preview.png",
+    "localImg": "img/bit-social-integrations.png",
+    "status": "sold",
+    "availCount": 0,
+    "soldCount": 1,
+    "minPrice": null,
+    "soldPrice": 265,
+    "units": [
+      {
+        "status": "sold",
+        "priceKind": "fixed",
+        "price": 265,
+        "account": "Appsumo 2 Codes"
+      }
+    ],
+    "category": "Marketing",
+    "offer": "Bit Social is a WordPress plugin that automatically shares and schedules your posts across major social networks like Facebook, X, LinkedIn, Pinterest, and more, right from your dashboard. It handles auto-posting on publish, scheduling, and custom captions so your content reaches every channel without manual work. With the integrations bundle and a lifetime license, it's a one-time payment with no recurring social-scheduler fees.",
+    "tagline": "Auto-post WordPress content to social media"
+  },
+  {
+    "slug": "blocksy-theme",
+    "name": "Blocksy Theme",
+    "desc": "A versatile WordPress theme known for its flexibility and customization options",
+    "homepage": "https://creativethemes.com/blocksy/",
+    "image": "https://creativethemes.com/blocksy/wp-content/uploads/2022/06/home-hero-demo-1.jpg",
+    "localImg": "img/blocksy-theme.webp",
+    "status": "sold",
+    "availCount": 0,
+    "soldCount": 1,
+    "minPrice": null,
+    "soldPrice": 345,
+    "units": [
+      {
+        "status": "sold",
+        "priceKind": "fixed",
+        "price": 345,
+        "account": "Agency LTD Plan"
+      }
+    ],
+    "category": "WordPress",
+    "offer": "Blocksy is a lightweight and highly customizable WordPress theme that works smoothly with major page builders and the block editor. It gives you extensive header, footer, and layout controls plus performance-focused defaults for building almost any kind of site. This lifetime deal unlocks the premium features for a single upfront payment instead of an annual renewal.",
+    "tagline": "Flexible, fast, deeply customizable WordPress theme"
+  },
+  {
+    "slug": "blogely",
+    "name": "Blogely",
+    "desc": "A comprehensive content creation and management platform that may help in planning - Professional LTD",
+    "homepage": "https://blogely.com/plans/",
+    "image": "https://blogely.com/wp-content/uploads/brizy/imgs/blogely-logo-original-146x26x0x0x146x26x1685905764.png",
+    "localImg": "img/blogely.png",
+    "status": "available",
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": 95,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "fixed",
+        "price": 95,
+        "account": "Appsumo 3 Codes"
+      }
+    ],
+    "category": "Content",
+    "offer": "Blogely is an all-in-one content workspace where you research, write, organize assets, optimize for SEO, and publish from one place. It pairs a block-based writing app with editorial planning, SEO scoring, and one-click WordPress publishing to keep your whole content workflow tidy. As a lifetime deal it's a one-time payment covering the content tools a creator or team uses daily.",
+    "tagline": "Plan, write, and publish content together"
+  },
+  {
+    "slug": "bricks-builder",
+    "name": "Bricks Builder",
+    "desc": "An innovative, visual site builder for WordPress.",
+    "homepage": "https://bricksbuilder.io/",
+    "image": "https://bricksbuilder.io/wp-content/uploads/2026/06/social-share.jpg",
+    "localImg": "img/bricks-builder.jpg",
+    "status": "sold",
+    "availCount": 0,
+    "soldCount": 1,
+    "minPrice": null,
+    "soldPrice": 450,
+    "units": [
+      {
+        "status": "sold",
+        "priceKind": "fixed",
+        "price": 450,
+        "account": "Ultimate LTD Plan"
+      }
+    ],
+    "category": "WordPress",
+    "offer": "Bricks is a visual, performance-oriented site builder for WordPress that lets you design full websites on a live canvas with fine control over markup and styling. It's popular with developers and agencies for its clean output, dynamic data, and flexible layout tools. This lifetime deal gives you the builder and future updates for one upfront payment rather than a yearly license.",
+    "tagline": "Visual site builder for WordPress pros"
+  },
+  {
+    "slug": "brizy-webuilder",
+    "name": "Brizy Webuilder",
+    "desc": "WP Website builder that simplifies the creation of websites with a drag-and-drop interface.  w/ Cloud Brizy Free Plan",
+    "homepage": "https://brizy.io/",
+    "image": "https://i.imgur.com/zghAuzF.png",
+    "localImg": "img/brizy-webuilder.png",
+    "status": "sold",
+    "availCount": 0,
+    "soldCount": 1,
+    "minPrice": null,
+    "soldPrice": 425,
+    "units": [
+      {
+        "status": "sold",
+        "priceKind": "fixed",
+        "price": 425,
+        "account": "LTD Brizy Web Builder"
+      }
+    ],
+    "category": "WordPress",
+    "offer": "Brizy is a drag-and-drop website builder that makes creating pages simple, available both as a WordPress plugin and as a hosted Brizy Cloud option. Its visual interface, prebuilt blocks, and templates help you launch sites quickly without touching code. Picking it up as a lifetime deal means one payment for the builder instead of an ongoing subscription.",
+    "tagline": "Drag-and-drop website building made simple"
+  },
+  {
+    "slug": "css-hero",
+    "name": "Css Hero",
+    "desc": "A powerful plugin to easily customize the look of your WordPress site with an intuitive point-and-click interface /animator",
+    "homepage": "https://www.csshero.org/",
+    "image": "https://i.imgur.com/XcjopWP.png",
+    "localImg": "img/css-hero.png",
+    "status": "available",
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": 395,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "fixed",
+        "price": 395,
+        "account": "CSS Hero LTD w/ animator"
+      }
+    ],
+    "category": "WordPress",
+    "offer": "CSS Hero lets you restyle your WordPress site visually with a point-and-click interface, adjusting fonts, colors, spacing, and more without writing CSS. It works across most themes and shows changes live so you can fine-tune your design in real time. This lifetime deal gives you the customization tool for a single payment instead of a recurring license.",
+    "tagline": "Point-and-click styling for any WordPress site"
+  },
+  {
+    "slug": "dynamic-ooo",
+    "name": "Dynamic.ooo",
+    "desc": "Enhances your WordPress website with dynamic content capabilities",
+    "homepage": "https://www.dynamic.ooo/",
+    "image": "https://u9m4v4n3.delivery.rocketcdn.me/wp-content/uploads/2023/03/dynamic-content-for-elementor-banner-1024x410.jpg",
+    "localImg": "img/dynamic-ooo.jpg",
+    "status": "sold",
+    "availCount": 0,
+    "soldCount": 1,
+    "minPrice": null,
+    "soldPrice": 193,
+    "units": [
+      {
+        "status": "sold",
+        "priceKind": "fixed",
+        "price": 193,
+        "account": "LTD Elementor"
+      }
+    ],
+    "category": "WordPress",
+    "offer": "Dynamic.ooo (Dynamic Content for Elementor) adds a large set of advanced widgets, dynamic data connections, and display logic to the Elementor page builder, no code required. It helps you build data-driven, highly customized WordPress sites with more design flexibility than Elementor offers alone. As a lifetime deal, you pay once for the extension and its capabilities instead of renewing every year.",
+    "tagline": "Supercharge Elementor with dynamic content"
+  },
+  {
+    "slug": "easynote",
+    "name": "Easynote",
+    "desc": "Project management tool designed to help teams organize work and manage projects and tasks efficiently.",
+    "homepage": "https://easynote.com",
+    "image": "https://easynote.com/wp-content/uploads/2020/12/easynote-easyview.png",
+    "localImg": "img/easynote.png",
+    "status": "available",
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": 75,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "fixed",
+        "price": 75,
+        "account": "Appsumo 1 Code"
+      }
+    ],
+    "category": "Project Management",
+    "offer": "Easynote is an all-in-one work management platform that brings projects, tasks, calendars, documents and files together so your team stops switching between tools. It is built to be easy to pick up, making it a practical alternative to heavier apps like Asana or ClickUp. With this lifetime deal you get ongoing access for a single one-time payment instead of a recurring subscription.",
+    "tagline": "Organize projects and teamwork in one place"
+  },
+  {
+    "slug": "editor-do",
+    "name": "Editor.do",
+    "desc": "The all-in-one online IDE and host to create",
+    "homepage": "https://editor.do/#pricing",
+    "image": "https://editor.do/static/ogimage.png",
+    "localImg": "img/editor-do.png",
+    "status": "available",
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": 78,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "fixed",
+        "price": 78,
+        "account": "Appsumo 2 Codes"
+      }
+    ],
+    "category": "Developer",
+    "offer": "Editor.do is an online IDE and web host that lets you write code, build pages and publish them straight from the browser, complete with free SSL and domain management. It is handy for developers and makers who want to ship small sites and projects without setting up separate hosting. This lifetime deal replaces recurring hosting and editor fees with a single one-time payment.",
+    "tagline": "Code, build and host sites in your browser"
+  },
+  {
+    "slug": "elite-licenser",
+    "name": "Elite Licenser",
+    "desc": "A software license manager for product licensing and software updates",
+    "homepage": "https://elitelicenser.com",
+    "image": "https://i.imgur.com/bvgHQYQ.png",
+    "localImg": "img/elite-licenser.png",
+    "status": "available",
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": 145,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "fixed",
+        "price": 145,
+        "account": "Agency-Life Time"
+      }
+    ],
+    "category": "Developer",
+    "offer": "Elite Licenser is a WordPress-based license manager that lets you issue, track and validate license keys for your plugins, themes, apps and other software. It can generate licenses automatically on purchase and works alongside WooCommerce, so you can sell and manage activations from one dashboard. Buying it as a lifetime deal means one payment to keep licensing your products, with no yearly renewal.",
+    "tagline": "License and protect the software you sell"
+  },
+  {
+    "slug": "encharge-email",
+    "name": "Encharge Email",
+    "desc": "Nurture, convert, and onboard customers with advanced behavior emails  (*Email not changeable)",
+    "homepage": "https://encharge.io",
+    "image": "https://i.imgur.com/vOJAP5H.png",
+    "localImg": "img/encharge-email.png",
+    "status": "sold",
+    "availCount": 0,
+    "soldCount": 1,
+    "minPrice": null,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "sold",
+        "priceKind": "na",
+        "price": null,
+        "account": "License Tier 5"
+      }
+    ],
+    "category": "Email",
+    "offer": "Encharge is a marketing automation platform that lets you build email flows triggered by what users actually do in your product or on your site. With a visual flow builder, segmentation and integrations for tools like Stripe and HubSpot, it helps you onboard, nurture and convert customers automatically. This lifetime deal gives you that automation for a one-time payment instead of a monthly bill.",
+    "tagline": "Behavior-based email automation for SaaS"
+  },
+  {
+    "slug": "ewww-image-optimizer",
+    "name": "Ewww Image Optimizer",
+    "desc": "A tool that helps in optimizing images to improve website speed and performance by reducing the size of images without losing quality.",
+    "homepage": "https://ewww.io/plans/",
+    "image": "https://ps.w.org/ewww-image-optimizer/assets/banner-1544x500.jpg",
+    "localImg": "img/ewww-image-optimizer.jpg",
+    "status": "sold",
+    "availCount": 0,
+    "soldCount": 1,
+    "minPrice": null,
+    "soldPrice": 192,
+    "units": [
+      {
+        "status": "sold",
+        "priceKind": "fixed",
+        "price": 192,
+        "account": "License Tier 3"
+      }
+    ],
+    "category": "WordPress",
+    "offer": "EWWW Image Optimizer is a WordPress plugin and service that automatically compresses your images to shrink file sizes and speed up your site without a visible drop in quality. It can optimize new uploads on the fly and add WebP conversion and CDN delivery for even better performance. A lifetime deal means you keep leaner, faster pages for a single one-time payment.",
+    "tagline": "Compress WordPress images for faster pages"
+  },
+  {
+    "slug": "feed-bear",
+    "name": "Feed Bear",
+    "desc": "Collect & prioritize customer feedback, the easy way.",
+    "homepage": "https://feedbear.com",
+    "image": "https://i.imgur.com/svi6zVv.png",
+    "localImg": "img/feed-bear.png",
+    "status": "available",
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": 195,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "fixed",
+        "price": 195,
+        "account": "Appsumo 2 Codes"
+      }
+    ],
+    "category": "Productivity",
+    "offer": "FeedBear gives you a branded hub where customers can submit ideas, report bugs and upvote feature requests, so you always know what to build next. It also includes a public roadmap and changelog to keep users in the loop as things ship. With this lifetime deal you get an ongoing feedback and roadmap tool for one upfront payment rather than a monthly subscription.",
+    "tagline": "Collect and prioritize customer feedback easily"
+  },
+  {
+    "slug": "getformly",
+    "name": "Getformly",
+    "desc": "Formly - Forms & Surveys (Typeform/Jotform alternative)",
+    "homepage": "https://www.getformly.com",
+    "image": "https://static.wixstatic.com/media/370223_9c2ea2a99f244110b171c13d2f100d78~mv2.png",
+    "localImg": "img/getformly.png",
+    "status": "available",
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": 75,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "fixed",
+        "price": 75,
+        "account": "Appsumo 1 Code"
+      }
+    ],
+    "category": "Forms & Surveys",
+    "offer": "Formly is a no-code form builder for creating polished forms, surveys and quizzes with a drag-and-drop editor and ready-made templates. It supports conditional logic, multi-page forms, payment collection and live result charts, making it a solid alternative to Typeform or Jotform. This lifetime deal lets you build unlimited branded forms for a single one-time payment.",
+    "tagline": "Build interactive forms, surveys and quizzes"
+  },
+  {
+    "slug": "getgenie",
+    "name": "Getgenie",
+    "desc": "Write Wordpress Content etc - Adored by Google to Boost Organic Traffic",
+    "homepage": "https://getgenie.ai",
+    "image": "https://i.imgur.com/y3qpYiE.png",
+    "localImg": "img/getgenie.png",
+    "status": "available",
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": 145,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "fixed",
+        "price": 145,
+        "account": "GetGenie Lifetime - Tier 1"
+      }
+    ],
+    "category": "AI Writing",
+    "offer": "GetGenie is an AI-powered WordPress plugin that helps you research keywords, analyze competitors and write SEO-optimized blog posts and product copy without leaving your dashboard. It scores your content as you write and supports many languages, streamlining the whole write-and-optimize workflow. As a lifetime deal, it swaps recurring AI-writing fees for one upfront payment.",
+    "tagline": "AI content and SEO inside WordPress"
+  },
+  {
+    "slug": "getwpfunnels",
+    "name": "Getwpfunnels",
+    "desc": "A tool for creating and managing marketing funnels within a WordPress environment.",
+    "homepage": "https://getwpfunnels.com",
+    "image": "https://i.imgur.com/sFQNCUo.png",
+    "localImg": "img/getwpfunnels.png",
+    "status": "sold",
+    "availCount": 0,
+    "soldCount": 1,
+    "minPrice": null,
+    "soldPrice": 116,
+    "units": [
+      {
+        "status": "sold",
+        "priceKind": "fixed",
+        "price": 116,
+        "account": "License Tier 3"
+      }
+    ],
+    "category": "Marketing",
+    "offer": "WPFunnels is a visual funnel builder for WordPress that lets you design landing, checkout and thank-you pages and connect them into a complete buyer journey without code. It adds order bumps, one-click upsells, A/B testing and email automation to help you increase order value. This lifetime deal gives you the funnel builder for a single one-time payment instead of an annual license.",
+    "tagline": "Build sales funnels right inside WordPress"
+  },
+  {
+    "slug": "happy-forms",
+    "name": "Happy Forms",
+    "desc": "A user-friendly WordPress form builder designed to create contact forms",
+    "homepage": "https://happyforms.io/upgrade/",
+    "image": "https://ps.w.org/happyforms/assets/banner-1544x500.jpg",
+    "localImg": "img/happy-forms.jpg",
+    "status": "available",
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": 175,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "fixed",
+        "price": 175,
+        "account": "Appsumo 3 Codes"
+      }
+    ],
+    "category": "Forms & Surveys",
+    "offer": "HappyForms is a WordPress form builder for creating contact, registration, survey and order forms with features like conditional logic, multi-page forms, file uploads and payments built in. It keeps everything inside WordPress so you manage submissions and forms from one place. A lifetime deal means you get the builder and its features for a single one-time payment.",
+    "tagline": "Flexible WordPress form builder without add-ons"
+  },
+  {
+    "slug": "happyscribe",
+    "name": "Happyscribe",
+    "desc": "Provides automatic transcription and subtitling services that convert audio and video to text efficiently. (12 hours per month for life)",
+    "homepage": "https://www.happyscribe.com/pricing",
+    "image": "https://www.happyscribe.com/assets/og-image-2dd37547.jpg",
+    "localImg": "img/happyscribe.jpg",
+    "status": "available",
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": 475,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "fixed",
+        "price": 475,
+        "account": "Appsumo 6 Codes"
+      }
+    ],
+    "category": "Video & Audio",
+    "offer": "HappyScribe converts your audio and video into text with automatic transcription and subtitles across many languages, with an option for human-made accuracy when you need it. It is useful for interviews, podcasts, meetings and captioning video content, and includes tools for exporting and editing subtitles. This lifetime deal includes a set monthly transcription allowance for a one-time payment.",
+    "tagline": "Turn audio and video into accurate text"
+  },
+  {
+    "slug": "imagely",
+    "name": "Imagely",
+    "desc": "Photography - A WordPress plugin known for its photography management capabilities",
+    "homepage": "https://www.imagely.com/pricing/",
+    "image": "https://i.imgur.com/uFc4G5K.png",
+    "localImg": "img/imagely.png",
+    "status": "available",
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": 245,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "fixed",
+        "price": 245,
+        "account": "LTD Unlimited Sites"
+      }
+    ],
+    "category": "WordPress",
+    "offer": "Imagely (built around the NextGEN Gallery ecosystem) helps photographers build stunning WordPress galleries, sell prints and digital downloads, and protect their work with watermarking and client proofing. This lifetime deal gives you the pro gallery tools and templates for a one-time payment, so you can launch a polished photography site without recurring fees.",
+    "tagline": "Beautiful photography websites on WordPress"
+  },
+  {
+    "slug": "internxt",
+    "name": "Internxt",
+    "desc": "All Internxt plans are fully featured with complete access to all of our privacy services.",
+    "homepage": "https://internxt.com/",
+    "image": "https://internxt.com/images/previewLink/PreviewGenericEN.png",
+    "localImg": "img/internxt.png",
+    "status": "sold",
+    "availCount": 0,
+    "soldCount": 1,
+    "minPrice": null,
+    "soldPrice": 240,
+    "units": [
+      {
+        "status": "sold",
+        "priceKind": "fixed",
+        "price": 240,
+        "account": "5TB Plan"
+      }
+    ],
+    "category": "Security",
+    "offer": "Internxt is a zero-knowledge, end-to-end encrypted cloud storage service where only you can access your files. With a lifetime plan you get secure file storage, sharing, and backup for a single upfront payment instead of an ongoing subscription. A solid pick if privacy and long-term ownership of your storage matter to you.",
+    "tagline": "Private end-to-end encrypted cloud storage"
+  },
+  {
+    "slug": "kadencewp",
+    "name": "Kadencewp",
+    "desc": "A WordPress theme and plugin company known for lightweight",
+    "homepage": "https://www.kadencewp.com/",
+    "image": "https://i.imgur.com/0bIXypL.png",
+    "localImg": "img/kadencewp.png",
+    "status": "sold",
+    "availCount": 0,
+    "soldCount": 1,
+    "minPrice": null,
+    "soldPrice": 600,
+    "units": [
+      {
+        "status": "sold",
+        "priceKind": "fixed",
+        "price": 600,
+        "account": "LTD Unlimited Sites"
+      }
+    ],
+    "category": "WordPress",
+    "offer": "Kadence is a lightweight WordPress theme and page-building toolkit designed for speed, with a powerful theme, Kadence Blocks, and design tools for building sites without bloat. A lifetime bundle unlocks the premium theme and block features for a one-time payment, making it a practical choice for anyone running multiple WordPress projects.",
+    "tagline": "Fast, flexible WordPress theme and blocks"
+  },
+  {
+    "slug": "kaliforms",
+    "name": "Kaliforms",
+    "desc": "A drag-and-drop form builder for WordPress that makes it easy to create various forms like contact forms - Agency Plan",
+    "homepage": "https://kaliforms.com/",
+    "image": "https://i.imgur.com/tNyWDLR.png",
+    "localImg": "img/kaliforms.png",
+    "status": "available",
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": 135,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "fixed",
+        "price": 135,
+        "account": "Appsumo 1 Code"
+      }
+    ],
+    "category": "Forms & Surveys",
+    "offer": "Kali Forms is a user-friendly WordPress form builder with a drag-and-drop editor and ready-made templates for contact forms, surveys, multi-page forms, and payment collection. The Agency lifetime deal unlocks the pro features and integrations for a one-time payment, so you can build unlimited forms across client sites without a recurring subscription.",
+    "tagline": "Drag-and-drop WordPress form builder"
+  },
+  {
+    "slug": "launch-cart",
+    "name": "Launch Cart",
+    "desc": "Launch Cart is a user-friendly ecommerce platform that lets you build, manage, and scale your ecommerce store to make more sales.",
+    "homepage": "https://appsumo.com/products/launch-cart/#pricePlans",
+    "image": "https://launchcart.com/wp-content/uploads/2022/08/Group-21702-2.png",
+    "localImg": "img/launch-cart.png",
+    "status": "available",
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": 185,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "fixed",
+        "price": 185,
+        "account": "License Tier 2"
+      }
+    ],
+    "category": "E-commerce",
+    "offer": "Launch Cart is an ecommerce platform for building and managing online stores, with a drag-and-drop builder, shopping cart, payment integrations, and sales tools like order bumps, funnels, and one-click upsells. This lifetime deal gives you store-building and selling features for a one-time payment instead of ongoing monthly fees.",
+    "tagline": "Launch and scale your online store"
+  },
+  {
+    "slug": "listnr",
+    "name": "Listnr",
+    "desc": "Listnr's Generative AI Engine lets you create voiceovers with 1000+ different voices in over 142 languages, including a clone of your own voice.",
+    "homepage": "https://listnr.ai/",
+    "image": "https://i.imgur.com/dFYXpEh.png",
+    "localImg": "img/listnr.png",
+    "status": "available",
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": 75,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "fixed",
+        "price": 75,
+        "account": "Appsumo 1 Code"
+      }
+    ],
+    "category": "AI Media",
+    "offer": "Listnr is a generative AI text-to-speech platform that turns text into natural-sounding voiceovers, with a large library of voices across many languages and support for voice cloning. A lifetime deal lets you generate voiceovers for videos, podcasts, and content for a one-time payment rather than a monthly plan.",
+    "tagline": "Realistic AI voiceovers in many languages"
+  },
+  {
+    "slug": "livewebinar",
+    "name": "LiveWebinar",
+    "desc": "Most Advanced Webinar Platform Collaborate Anywhere. - AppSumo Pro 500",
+    "homepage": "https://www.livewebinar.com/pricing",
+    "image": "https://www.livewebinar.com/images/global/fb_og_image.png",
+    "localImg": "img/livewebinar.png",
+    "status": "available",
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": 445,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "fixed",
+        "price": 445,
+        "account": "Appsumo 1 Code"
+      }
+    ],
+    "category": "Video & Audio",
+    "offer": "LiveWebinar is a cloud-based webinar and live streaming platform for hosting online meetings, presentations, and events with screen sharing, recording, and audience engagement tools. This lifetime deal provides webinar hosting and collaboration features for a single upfront payment, a cost-effective option for regular presenters and marketers.",
+    "tagline": "Host webinars and live events online"
+  },
+  {
+    "slug": "mainwp",
+    "name": "MainWP",
+    "desc": "Private WordPress Manager to Manage Multiple Sites",
+    "homepage": "https://mainwp.com/",
+    "image": "https://mainwp.com/wp-content/uploads/2026/06/mainwp-default-og-2026.jpg",
+    "localImg": "img/mainwp.jpg",
+    "status": "sold",
+    "availCount": 0,
+    "soldCount": 1,
+    "minPrice": null,
+    "soldPrice": 350,
+    "units": [
+      {
+        "status": "sold",
+        "priceKind": "fixed",
+        "price": 350,
+        "account": "LTD Plan"
+      }
+    ],
+    "category": "WordPress",
+    "offer": "MainWP is a self-hosted WordPress management dashboard that lets you run updates, backups, security checks, and reporting across all your sites from one place, with your data staying on your own server. A lifetime license unlocks the premium extensions for a one-time payment, ideal for agencies and freelancers juggling many client sites.",
+    "tagline": "Manage all your WordPress sites centrally"
+  },
+  {
+    "slug": "micro-themeover",
+    "name": "Micro Themeover",
+    "desc": "A visual CSS editor for WordPress that allows designers to tweak the appearance of their site using a point-and-click interface.",
+    "homepage": "https://themeover.com/",
+    "image": "https://i.imgur.com/nj4aHEu.png",
+    "localImg": "img/micro-themeover.png",
+    "status": "available",
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": 320,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "fixed",
+        "price": 320,
+        "account": "Developer Lifetime"
+      }
+    ],
+    "category": "WordPress",
+    "offer": "Microthemer (by Themeover) is a visual, point-and-click CSS editor for WordPress that lets you style any part of your site without writing code, while still offering a full code editor for developers. It works alongside popular page builders and organizes CSS for performance. A lifetime license unlocks the full editor for a one-time payment.",
+    "tagline": "Visual point-and-click CSS editor for WordPress"
+  },
+  {
+    "slug": "moovly",
+    "name": "Moovly",
+    "desc": "Video - An online platform that enables users to create and edit videos using customizable templates",
+    "homepage": "https://www.moovly.com/",
+    "image": "https://i.imgur.com/4qNcuqy.png",
+    "localImg": "img/moovly.png",
+    "status": "available",
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": 155,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "fixed",
+        "price": 155,
+        "account": "License Tier 2"
+      }
+    ],
+    "category": "Video & Audio",
+    "offer": "Moovly is a browser-based video creation platform for making explainer videos, marketing clips, tutorials, and social content using a drag-and-drop editor, a large media library, and AI tools like text-to-speech and automatic subtitles. A lifetime deal gives you these video creation features for a one-time payment instead of a subscription.",
+    "tagline": "Create videos with templates and AI"
+  },
+  {
+    "slug": "niftypm",
+    "name": "NiftyPM",
+    "desc": "Nifty is the remote collaboration hub to manage projects, tasks, and communications — 6 team members 200 GB storage space",
+    "homepage": "https://appsumo.com/products/nifty/",
+    "image": "https://niftypm.com/og-image.png",
+    "localImg": "img/niftypm.png",
+    "status": "available",
+    "availCount": 2,
+    "soldCount": 0,
+    "minPrice": 245,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "fixed",
+        "price": 245,
+        "account": "2 Appsumo Codes"
+      },
+      {
+        "status": "available",
+        "priceKind": "fixed",
+        "price": 245,
+        "account": "2 Appsumo Codes"
+      }
+    ],
+    "category": "Project Management",
+    "offer": "Nifty is a collaboration hub that brings projects, tasks, milestones, docs, and team communication into one workspace, making it easier for remote teams to stay aligned. This lifetime deal gives you the project management and collaboration features for a one-time payment, a good fit for teams tired of recurring per-seat pricing.",
+    "tagline": "Manage projects, tasks, and team chat"
+  },
+  {
+    "slug": "orderable",
+    "name": "Orderable",
+    "desc": "Take restaurant orders online with Orderable. The WordPress plugin designed to help you manage your restaurant website your way.",
+    "homepage": "https://orderable.com",
+    "image": "https://i.imgur.com/HxdwGqy.png",
+    "localImg": "img/orderable.png",
+    "status": "available",
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": 375,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "fixed",
+        "price": 375,
+        "account": "LTD 25 Sites"
+      }
+    ],
+    "category": "E-commerce",
+    "offer": "Orderable is a WordPress plugin that adds a full online ordering system to your restaurant, bakery, or takeaway website, letting customers order directly without per-order transaction fees. You control menus, order timing, and delivery or pickup right from your own site. Grab it as a one-time lifetime deal and keep taking orders without a monthly subscription.",
+    "tagline": "Take restaurant orders on WordPress"
+  },
+  {
+    "slug": "oxygenbuilder",
+    "name": "Oxygenbuilder",
+    "desc": "A powerful website builder for WordPress that offers visual editing with drag-and-drop functionality",
+    "homepage": "https://oxygenbuilder.com/pricing/",
+    "image": "https://oxygenbuilder.com/wp-content/uploads/2025/01/cover-placeholder.jpg",
+    "localImg": "img/oxygenbuilder.jpg",
+    "status": "available",
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": 135,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "fixed",
+        "price": 135,
+        "account": "Ultimate LTD"
+      }
+    ],
+    "category": "WordPress",
+    "offer": "Oxygen is a developer-friendly visual website builder for WordPress that gives you drag-and-drop control while outputting clean, lightweight code. It replaces bloated page builders so you can design entire sites, headers, and templates exactly the way you want. A lifetime license means one payment for ongoing access instead of recurring builder fees.",
+    "tagline": "Visual website building for WordPress"
+  },
+  {
+    "slug": "plutio",
+    "name": "Plutio",
+    "desc": "A business management tool that combines project management, and much, much more",
+    "homepage": "https://www.plutio.com/pricing",
+    "image": "https://plutio.com/static/images/meta/meta_image.jpg",
+    "localImg": "img/plutio.jpg",
+    "status": "available",
+    "availCount": 5,
+    "soldCount": 0,
+    "minPrice": 295,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "fixed",
+        "price": 295,
+        "account": "Appsumo 2 Codes"
+      },
+      {
+        "status": "available",
+        "priceKind": "fixed",
+        "price": 295,
+        "account": "Appsumo 2 Codes"
+      },
+      {
+        "status": "available",
+        "priceKind": "fixed",
+        "price": 295,
+        "account": "Appsumo 2 Codes"
+      },
+      {
+        "status": "available",
+        "priceKind": "fixed",
+        "price": 295,
+        "account": "Appsumo 2 Codes"
+      },
+      {
+        "status": "available",
+        "priceKind": "fixed",
+        "price": 295,
+        "account": "Appsumo 2 Codes"
+      }
+    ],
+    "category": "Project Management",
+    "offer": "Plutio brings projects, tasks, proposals, invoices, contracts, forms, and client messaging together in a single workspace, so freelancers and small teams can stop juggling separate tools. Everything a client project needs, from first proposal to final invoice, lives in one place. This lifetime deal lets you replace several monthly subscriptions with a single one-time payment.",
+    "tagline": "Run your whole business in one app"
+  },
+  {
+    "slug": "postly",
+    "name": "Postly",
+    "desc": "A social media management tool that allows scheduling and posting across multiple platforms",
+    "homepage": "https://www.postly.ai",
+    "image": "https://i.imgur.com/Z5nCnun.png",
+    "localImg": "img/postly.png",
+    "status": "available",
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": 275,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "fixed",
+        "price": 275,
+        "account": "Appsumo 1 Code"
+      }
+    ],
+    "category": "Marketing",
+    "offer": "Postly is a social media management tool for scheduling, automating, and publishing content across multiple platforms from one calendar. It adds team approvals, bulk publishing, a social inbox, and analytics so you can plan campaigns without hopping between apps. Buy it once as a lifetime deal and keep posting without an ongoing monthly fee.",
+    "tagline": "Schedule and manage all your social"
+  },
+  {
+    "slug": "prestomade",
+    "name": "Prestomade",
+    "desc": "The Ultimate WordPress Video Player Plugin.",
+    "homepage": "https://prestoplayer.com",
+    "image": "https://i.imgur.com/Ug4I6lN.png",
+    "localImg": "img/prestomade.png",
+    "status": "sold",
+    "availCount": 0,
+    "soldCount": 1,
+    "minPrice": null,
+    "soldPrice": 225,
+    "units": [
+      {
+        "status": "sold",
+        "priceKind": "fixed",
+        "price": 225,
+        "account": "LTD 25 Sites"
+      }
+    ],
+    "category": "WordPress",
+    "offer": "Presto Player, from Prestomade, is a WordPress video player plugin that lets you embed fast, private, and customizable videos from sources like YouTube, Vimeo, and self-hosted files. It adds chapters, email opt-in gates, and playback analytics to help turn viewers into leads. A lifetime license gives you all of it for a single payment instead of a recurring subscription.",
+    "tagline": "The powerful WordPress video player plugin"
+  },
+  {
+    "slug": "remastermedia",
+    "name": "Remastermedia",
+    "desc": "A web-based application designed to improve the quality of audio and video files",
+    "homepage": "https://www.remastermedia.com",
+    "image": "https://remastermedia-web-assets.s3-accelerate.amazonaws.com/clip1-poster.jpg",
+    "localImg": "img/remastermedia.jpg",
+    "status": "available",
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": null,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "offer",
+        "price": null,
+        "account": ""
+      }
+    ],
+    "category": "Video & Audio",
+    "offer": "ReMasterMedia is an online tool that uses AI to enhance the audio in your video and audio files, reducing noise and making voices clearer and more professional. You upload a file, pick an enhancement profile, and get back polished sound suitable for podcasts, courses, and content. Pick it up as a lifetime deal to keep remastering without a subscription.",
+    "tagline": "AI cleanup for your audio and video"
+  },
+  {
+    "slug": "rytr",
+    "name": "Rytr",
+    "desc": "Rytr's AI generates original and compelling content that sounds like you, not a robot",
+    "homepage": "https://rytr.me",
+    "image": "https://rytr.me/icon.png",
+    "localImg": "img/rytr.svg",
+    "status": "available",
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": null,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "offer",
+        "price": null,
+        "account": ""
+      }
+    ],
+    "category": "AI Writing",
+    "offer": "Rytr is an AI writing assistant that helps you draft original content across dozens of use cases, from emails and blog posts to ad copy and social captions. It supports many languages and tones so the output reads in a voice that fits you. A lifetime deal means one payment for ongoing AI writing instead of a monthly plan.",
+    "tagline": "AI writing assistant in your tone"
+  },
+  {
+    "slug": "sendfox",
+    "name": "SendFox",
+    "desc": "SendFox is the most affordable newsletter solution on the planet.",
+    "homepage": "https://sendfox.com",
+    "image": "https://cdn.sendfox.com/img/share-image.png",
+    "localImg": "img/sendfox.png",
+    "status": "available",
+    "availCount": 2,
+    "soldCount": 0,
+    "minPrice": null,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "offer",
+        "price": null,
+        "account": "Lifetime Tier 3"
+      },
+      {
+        "status": "available",
+        "priceKind": "offer",
+        "price": null,
+        "account": "Lifetime Tier 3"
+      }
+    ],
+    "category": "Email",
+    "offer": "SendFox is a straightforward email marketing tool built for creators to grow a list and send newsletters people actually open. It keeps things simple with a clean editor, automated sequences, and scheduling, without the complexity of heavier platforms. This lifetime deal replaces recurring email-tool fees with a single one-time payment.",
+    "tagline": "Simple, affordable email for creators"
+  },
+  {
+    "slug": "sessions",
+    "name": "Sessions",
+    "desc": "SESSIONS is an AI-powered platform that makes meetings & webinars insanely productive.",
+    "homepage": "https://sessions.us",
+    "image": "",
+    "localImg": "img/sessions.svg",
+    "status": "available",
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": null,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "offer",
+        "price": null,
+        "account": ""
+      }
+    ],
+    "category": "Productivity",
+    "offer": "Sessions is an all-in-one platform for hosting interactive meetings, workshops, and webinars, with tools for agendas, scheduling, recordings, and cloud storage. AI features help you run and follow up on sessions so your calls stay organized and productive. A lifetime deal gives you long-term access for a single payment rather than a recurring subscription.",
+    "tagline": "AI-powered meetings and webinars platform"
+  },
+  {
+    "slug": "signaturely",
+    "name": "Signaturely",
+    "desc": "Super simple signatures Upload a document now — get it legally signed blazing fast",
+    "homepage": "https://signaturely.com",
+    "image": "https://signaturely.com/wp-content/uploads/2020/06/Signaturely.png",
+    "localImg": "img/signaturely.png",
+    "status": "available",
+    "availCount": 3,
+    "soldCount": 0,
+    "minPrice": 145,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "fixed",
+        "price": 145,
+        "account": ""
+      },
+      {
+        "status": "available",
+        "priceKind": "fixed",
+        "price": 145,
+        "account": ""
+      },
+      {
+        "status": "available",
+        "priceKind": "fixed",
+        "price": 145,
+        "account": ""
+      }
+    ],
+    "category": "Productivity",
+    "offer": "Signaturely is an electronic signature tool that lets you upload a document and collect legally binding signatures without printing, scanning, or mailing. You can sign yourself or send documents to others and track their status through to completion. Grab the lifetime deal to handle e-signatures with a one-time payment instead of a monthly plan.",
+    "tagline": "Get documents legally signed online"
+  },
+  {
+    "slug": "smart-slider3",
+    "name": "Smart Slider3",
+    "desc": "A responsive slider plugin for WordPress that allows users to create beautiful sliders and blocks with layers and animations.",
+    "homepage": "https://smartslider3.com",
+    "image": "https://i.imgur.com/FZRE6zS.png",
+    "localImg": "img/smart-slider3.png",
+    "status": "sold",
+    "availCount": 0,
+    "soldCount": 1,
+    "minPrice": null,
+    "soldPrice": 245,
+    "units": [
+      {
+        "status": "sold",
+        "priceKind": "fixed",
+        "price": 245,
+        "account": ""
+      }
+    ],
+    "category": "WordPress",
+    "offer": "Smart Slider 3 is a WordPress plugin for building responsive sliders, carousels, and block layouts with a drag-and-drop editor, layers, and animations, no coding required. It comes with ready-made templates so you can add polished visual content to any page quickly. A lifetime license unlocks its premium features for one payment instead of an annual renewal.",
+    "tagline": "Build responsive WordPress sliders visually"
+  },
+  {
+    "slug": "smarttask",
+    "name": "Smarttask",
+    "desc": "A project management and collaboration tool that helps teams manage tasks - 7 Appsumo Codes (35 Users)",
+    "homepage": "https://www.smarttask.io",
+    "image": "https://i.imgur.com/ts1XCbh.png",
+    "localImg": "img/smarttask.png",
+    "status": "available",
+    "availCount": 3,
+    "soldCount": 0,
+    "minPrice": 225,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "fixed",
+        "price": 225,
+        "account": ""
+      },
+      {
+        "status": "available",
+        "priceKind": "fixed",
+        "price": 225,
+        "account": ""
+      },
+      {
+        "status": "available",
+        "priceKind": "fixed",
+        "price": 225,
+        "account": ""
+      }
+    ],
+    "category": "Project Management",
+    "offer": "SmartTask combines project and task management with a built-in CRM, time tracking, and team chat so your whole team can work from a single hub. Manage clients, plan work across timelines and portfolios, and keep everyone aligned without juggling separate tools. This lifetime deal gives you ongoing access for a one-time payment instead of a recurring subscription.",
+    "tagline": "Projects, tasks, and CRM in one"
+  },
+  {
+    "slug": "squirrly",
+    "name": "Squirrly",
+    "desc": "SEO tools that help to optimize your content and improve search engine rankings with real-time advice and SEO automation.",
+    "homepage": "https://www.squirrly.co",
+    "image": "https://www.squirrly.co/media/2026/04/Your-Reviews-Did-This-Squirrly-SEO-Wins-New-G2-Awards-for-Spring-2026.webp",
+    "localImg": "img/squirrly.webp",
+    "status": "sold",
+    "availCount": 0,
+    "soldCount": 1,
+    "minPrice": null,
+    "soldPrice": 195,
+    "units": [
+      {
+        "status": "sold",
+        "priceKind": "fixed",
+        "price": 195,
+        "account": "Appsumo 3 Codes"
+      }
+    ],
+    "category": "SEO",
+    "offer": "Squirrly SEO helps you optimize content with real-time, page-by-page advice and step-by-step tasks that guide non-experts toward better rankings. It handles on-page checks, keyword research, and automated SEO settings so you can focus on writing. Grab it as a lifetime deal and get the toolkit with a single payment.",
+    "tagline": "Real-time SEO guidance as you write"
+  },
+  {
+    "slug": "studiocart",
+    "name": "Studiocart",
+    "desc": "A plugin for WordPress that provides a streamlined checkout process for selling digital products",
+    "homepage": "https://www.studiocart.co",
+    "image": "https://www.studiocart.co/wp-content/uploads/2022/11/as-web-Studiocart-1-e1669404475663.webp",
+    "localImg": "img/studiocart.webp",
+    "status": "sold",
+    "availCount": 0,
+    "soldCount": 1,
+    "minPrice": null,
+    "soldPrice": 335,
+    "units": [
+      {
+        "status": "sold",
+        "priceKind": "fixed",
+        "price": 335,
+        "account": ""
+      }
+    ],
+    "category": "E-commerce",
+    "offer": "Studiocart is a WordPress plugin that lets you build streamlined checkout pages, sales funnels, and order bumps for digital and physical products without leaving your dashboard. It handles payments, subscriptions, and automated follow-ups so you can sell directly from your own site. This lifetime deal replaces recurring cart-plugin fees with a one-time purchase.",
+    "tagline": "Sell products right inside WordPress"
+  },
+  {
+    "slug": "suitedash",
+    "name": "Suitedash",
+    "desc": "Client Portal Software + CRM + a lot of other features",
+    "homepage": "https://suitedash.com",
+    "image": "https://suitedash.com/wp-content/uploads/2026/03/og-suitedash-homepage.png",
+    "localImg": "img/suitedash.png",
+    "status": "sold",
+    "availCount": 0,
+    "soldCount": 3,
+    "minPrice": null,
+    "soldPrice": 225,
+    "units": [
+      {
+        "status": "sold",
+        "priceKind": "fixed",
+        "price": 150,
+        "account": "2 Appsumo Codes"
+      },
+      {
+        "status": "sold",
+        "priceKind": "fixed",
+        "price": 225,
+        "account": "3 Appsumo Codes"
+      },
+      {
+        "status": "sold",
+        "priceKind": "fixed",
+        "price": 75,
+        "account": "1 Appsumo Codes"
+      }
+    ],
+    "category": "Productivity",
+    "offer": "SuiteDash brings a white-label client portal, CRM, project management, invoicing, and file sharing together in one platform so you can run client work from a single login. It's built to replace several separate subscriptions with a unified, branded workspace. As a lifetime deal, you get ongoing access for one payment instead of a monthly bill.",
+    "tagline": "Client portal, CRM, and business tools combined"
+  },
+  {
+    "slug": "sure-feedback",
+    "name": "Sure Feedback",
+    "desc": "Helps you get feedback quickly and easily.",
+    "homepage": "https://surefeedback.com",
+    "image": "https://surefeedback.com/wp-content/uploads/2026/01/Home-Hero-Img-scaled-1-1024x668.png",
+    "localImg": "img/sure-feedback.png",
+    "status": "available",
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": 400,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "fixed",
+        "price": 400,
+        "account": ""
+      }
+    ],
+    "category": "Design",
+    "offer": "SureFeedback lets clients and teammates leave visual, pinned comments directly on live websites and design mockups, so revision notes stay clear and in context. It cuts down the back-and-forth of email threads and vague screenshots during web projects. Get it as a lifetime deal and skip the recurring subscription.",
+    "tagline": "Point-and-click feedback on any website"
+  },
+  {
+    "slug": "syncspider",
+    "name": "SyncSpider",
+    "desc": "",
+    "homepage": "https://syncspider.com",
+    "image": "https://syncspider.com/wp-content/uploads/2023/05/syncspider-com.png",
+    "localImg": "img/syncspider.png",
+    "status": "available",
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": null,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "offer",
+        "price": null,
+        "account": ""
+      }
+    ],
+    "category": "Automation",
+    "offer": "SyncSpider is an integration platform that connects your ecommerce stores, marketplaces, CRMs, and other apps to keep data flowing and in sync automatically. It's handy for pushing products, orders, and contacts between tools without manual exports. This lifetime deal gives you the integration engine for a single upfront payment.",
+    "tagline": "Connect and sync your apps automatically"
+  },
+  {
+    "slug": "tailwind-ui",
+    "name": "Tailwind UI",
+    "desc": "",
+    "homepage": "https://tailwindcss.com/plus",
+    "image": "https://tailwindcss.com/plus-assets/img/og/default.png",
+    "localImg": "img/tailwind-ui.png",
+    "status": "available",
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": null,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "offer",
+        "price": null,
+        "account": ""
+      }
+    ],
+    "category": "Developer",
+    "offer": "Tailwind UI is a library of professionally designed, responsive UI components and page templates built with Tailwind CSS that you can copy straight into your projects. It saves front-end time by giving you polished HTML and React building blocks for real interfaces. Buying it outright means you own the component library without an ongoing fee.",
+    "tagline": "Ready-made components for Tailwind CSS"
+  },
+  {
+    "slug": "templately",
+    "name": "Templately",
+    "desc": "A cloud-based storage and sharing service for WordPress design templates",
+    "homepage": "https://templately.com",
+    "image": "https://assets.templately.com/frontend/Templately.jpg",
+    "localImg": "img/templately.jpg",
+    "status": "sold",
+    "availCount": 0,
+    "soldCount": 1,
+    "minPrice": null,
+    "soldPrice": 195,
+    "units": [
+      {
+        "status": "sold",
+        "priceKind": "fixed",
+        "price": 195,
+        "account": ""
+      }
+    ],
+    "category": "WordPress",
+    "offer": "Templately is a cloud-based library of ready-to-use templates for Elementor and Gutenberg, letting you insert full-page and section designs into WordPress in a few clicks. Its cloud workspace also lets you save and share your own designs across sites and teammates. Grab the lifetime deal to build faster with a one-time payment.",
+    "tagline": "Cloud library of WordPress design templates"
+  },
+  {
+    "slug": "tidycal",
+    "name": "TidyCal",
+    "desc": "The simplest way to book and schedule meetings",
+    "homepage": "https://tidycal.com",
+    "image": "https://asset-tidycal.b-cdn.net/img/social-share.png",
+    "localImg": "img/tidycal.png",
+    "status": "available",
+    "availCount": 3,
+    "soldCount": 0,
+    "minPrice": null,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "offer",
+        "price": null,
+        "account": ""
+      },
+      {
+        "status": "available",
+        "priceKind": "offer",
+        "price": null,
+        "account": ""
+      },
+      {
+        "status": "available",
+        "priceKind": "offer",
+        "price": null,
+        "account": ""
+      }
+    ],
+    "category": "Productivity",
+    "offer": "TidyCal gives you a clean booking page that syncs with your calendar so people can grab open time slots without the email back-and-forth. It supports multiple booking types, integrations, and even paid bookings, all from one straightforward interface. This lifetime deal makes it an easy one-time alternative to monthly scheduling tools.",
+    "tagline": "Simple scheduling and meeting booking"
+  },
+  {
+    "slug": "uptime-stack",
+    "name": "Uptime Stack",
+    "desc": "Better Stack lets you see inside any stack, debug any issue, and resolve any incident.",
+    "homepage": "https://betterstack.com/uptime",
+    "image": "https://betterstack.com/assets/v2/og_uptime_v3-be776325.jpg",
+    "localImg": "img/uptime-stack.jpg",
+    "status": "sold",
+    "availCount": 0,
+    "soldCount": 1,
+    "minPrice": null,
+    "soldPrice": 110,
+    "units": [
+      {
+        "status": "sold",
+        "priceKind": "fixed",
+        "price": 110,
+        "account": "Appsumo 2 Codes"
+      }
+    ],
+    "category": "Developer",
+    "offer": "Uptime Stack, powered by Better Stack, watches your websites and services and alerts you the moment something goes down, with on-call scheduling and incident management built in. You also get clean status pages to keep users informed during outages. A lifetime deal here means always-on monitoring for a single payment instead of a subscription.",
+    "tagline": "Monitor uptime and resolve incidents fast"
+  },
+  {
+    "slug": "waybook",
+    "name": "Waybook",
+    "desc": "A tool designed to document standard operating procedures",
+    "homepage": "https://www.waybook.com",
+    "image": "https://www.waybook.com/assets/images-old/6138739b755cea3b778c8793_SocialShare.png",
+    "localImg": "img/waybook.png",
+    "status": "available",
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": null,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "offer",
+        "price": null,
+        "account": ""
+      }
+    ],
+    "category": "Productivity",
+    "offer": "Waybook helps you capture standard operating procedures, training, and company knowledge in one searchable place so new hires can get up to speed on their own. You can track who has read what, quiz for understanding, and keep documentation current as your team grows. The lifetime deal gives you a lasting process hub for one upfront cost.",
+    "tagline": "Document your processes and onboard faster"
+  },
+  {
+    "slug": "webtotem",
+    "name": "Webtotem",
+    "desc": "A security service platform that provides web application security",
+    "homepage": "https://wtotem.com",
+    "image": "https://ps.w.org/wt-security/assets/banner-1544x500.jpg",
+    "localImg": "img/webtotem.jpg",
+    "status": "available",
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": null,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "offer",
+        "price": null,
+        "account": ""
+      }
+    ],
+    "category": "Security",
+    "offer": "WebTotem is a website security platform that scans for malware, monitors for threats, and helps you respond to incidents from a single dashboard. It combines vulnerability checks, SSL and uptime monitoring, and real-time alerts so you can keep your sites protected without juggling multiple tools. Grab the lifetime deal and secure your sites with one upfront payment instead of an ongoing subscription.",
+    "tagline": "24/7 website security and monitoring"
+  },
+  {
+    "slug": "wordhero",
+    "name": "WordHero",
+    "desc": "",
+    "homepage": "https://wordhero.co",
+    "image": "https://wordhero.co/wp-content/uploads/2024/10/cropped-Group-10.png",
+    "localImg": "img/wordhero.png",
+    "status": "available",
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": null,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "offer",
+        "price": null,
+        "account": ""
+      }
+    ],
+    "category": "AI Writing",
+    "offer": "WordHero is an AI writing assistant that helps you draft blog posts, marketing copy, emails, and social content from simple prompts and templates. It speeds up first drafts and helps beat writer's block so you can publish more consistently. With this lifetime deal you get ongoing access for a single payment rather than a recurring monthly fee.",
+    "tagline": "AI writing for content at scale"
+  },
+  {
+    "slug": "wp-adminify",
+    "name": "WP Adminify",
+    "desc": "A utility plugin that enhances the WordPress admin area with tools to organize and manage the backend more efficiently.",
+    "homepage": "https://wpadminify.com",
+    "image": "https://i.imgur.com/EfJPpMz.png",
+    "localImg": "img/wp-adminify.png",
+    "status": "sold",
+    "availCount": 0,
+    "soldCount": 1,
+    "minPrice": null,
+    "soldPrice": 235,
+    "units": [
+      {
+        "status": "sold",
+        "priceKind": "fixed",
+        "price": 235,
+        "account": "Appsumo 2 Codes"
+      }
+    ],
+    "category": "WordPress",
+    "offer": "WP Adminify transforms the WordPress admin area with a cleaner dashboard, menu editor, white-label branding, login customizer, dark mode, and other management tools in one plugin. It's built for agencies, freelancers, and power users who want to tidy and rebrand the backend without stacking many separate plugins. The lifetime deal means one payment covers it going forward.",
+    "tagline": "Customize and control your WordPress dashboard"
+  },
+  {
+    "slug": "wp-courses",
+    "name": "Wp Courses",
+    "desc": "WP Courses is the easiest to use course builder",
+    "homepage": "https://wpcoursesplugin.com/pricing/",
+    "image": "https://wpcoursesplugin.com/wp-content/uploads/2023/03/wp_courses_javascript.jpg",
+    "localImg": "img/wp-courses.jpg",
+    "status": "available",
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": 165,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "fixed",
+        "price": 165,
+        "account": "1 App sumo code"
+      }
+    ],
+    "category": "WordPress",
+    "offer": "WP Courses is a WordPress LMS plugin that lets you create and sell online courses with a drag-and-drop builder, lessons, quizzes, and student progress tracking. It integrates with WooCommerce for payments and supports drip content, memberships, and certificates so you can run a course business from your own site. This lifetime deal gives you the plugin for a one-time payment.",
+    "tagline": "Build online courses inside WordPress"
+  },
+  {
+    "slug": "wp-stackable",
+    "name": "WP Stackable",
+    "desc": "A Gutenberg blocks plugin for WordPress that provides additional blocks and options to enhance page building capabilities.",
+    "homepage": "https://wpstackable.com",
+    "image": "https://wpstackable.com/wp-content/uploads/2025/03/website-share.webp",
+    "localImg": "img/wp-stackable.webp",
+    "status": "available",
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": 175,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "fixed",
+        "price": 175,
+        "account": ""
+      }
+    ],
+    "category": "WordPress",
+    "offer": "Stackable extends the WordPress block editor with a large library of custom Gutenberg blocks, a global design system, and layout tools for building pages without code. It's lightweight and works alongside your theme, making it easy to design polished, responsive pages directly in the native editor. The lifetime deal gets you the premium blocks and features for a single upfront payment.",
+    "tagline": "Powerful Gutenberg blocks for faster sites"
+  },
+  {
+    "slug": "wp-statistics",
+    "name": "WP-Statistics",
+    "desc": "A plugin for WordPress that provides comprehensive analytics and statistics without the need for external services.",
+    "homepage": "https://wp-statistics.com",
+    "image": "https://wp-statistics.com/wp-content/uploads/2024/11/opengraph_Thumbnail_wp_statistics.png",
+    "localImg": "img/wp-statistics.png",
+    "status": "sold",
+    "availCount": 0,
+    "soldCount": 1,
+    "minPrice": null,
+    "soldPrice": 63,
+    "units": [
+      {
+        "status": "sold",
+        "priceKind": "fixed",
+        "price": 63,
+        "account": ""
+      }
+    ],
+    "category": "Analytics",
+    "offer": "WP Statistics is a self-hosted, privacy-focused analytics plugin that tracks visitors, content performance, and traffic sources without cookies or external services. Because your data stays on your own server, it helps you stay compliant with privacy regulations while still understanding your audience. With this lifetime deal you get premium analytics for a one-time payment.",
+    "tagline": "Privacy-focused analytics for WordPress"
+  },
+  {
+    "slug": "wp301redirects",
+    "name": "WP301redirects",
+    "desc": "A plugin designed to manage and implement 301 redirects in WordPress",
+    "homepage": "https://wp301redirects.com",
+    "image": "https://wp301redirects.com/wp-content/uploads/2019/10/cropped-wp-301-redirects-icon-v2-270x270.png",
+    "localImg": "img/wp301redirects.png",
+    "status": "sold",
+    "availCount": 0,
+    "soldCount": 1,
+    "minPrice": null,
+    "soldPrice": 45,
+    "units": [
+      {
+        "status": "sold",
+        "priceKind": "fixed",
+        "price": 45,
+        "account": ""
+      }
+    ],
+    "category": "SEO",
+    "offer": "WP 301 Redirects helps you manage 301 redirects, catch 404 errors, and monitor broken or risky outgoing links so you can preserve your SEO and keep visitors on track. It logs redirect activity and includes tools handy for rebranding and agency work. Pick up the lifetime deal to handle your site's redirects with a single payment instead of a subscription.",
+    "tagline": "Fix redirects, 404s, and broken links"
+  },
+  {
+    "slug": "wpcompress",
+    "name": "WPcompress",
+    "desc": "A WordPress plugin that optimizes images and scripts to reduce website load times and improve performance.",
+    "homepage": "https://wpcompress.com",
+    "image": "https://ps.w.org/wp-compress-image-optimizer/assets/banner-1544x500.jpg",
+    "localImg": "img/wpcompress.jpg",
+    "status": "sold",
+    "availCount": 0,
+    "soldCount": 1,
+    "minPrice": null,
+    "soldPrice": 240,
+    "units": [
+      {
+        "status": "sold",
+        "priceKind": "fixed",
+        "price": 240,
+        "account": ""
+      }
+    ],
+    "category": "WordPress",
+    "offer": "WP Compress optimizes images and assets to reduce page weight and improve WordPress load times, with bulk compression, WebP conversion, and automatic optimization of new uploads. Its adaptive modes serve appropriately sized media based on the visitor's device and connection to keep pages fast. The lifetime deal gives you these performance tools for one upfront payment.",
+    "tagline": "Speed up sites with smart optimization"
+  },
+  {
+    "slug": "wpreset",
+    "name": "WPReset",
+    "desc": "A plugin that helps quickly reset the database of a WordPress site to the default installation state without modifying files.",
+    "homepage": "https://wpreset.com",
+    "image": "https://wpreset.com/wp-content/uploads/2018/06/wp-reset-coder-at-work.png",
+    "localImg": "img/wpreset.png",
+    "status": "available",
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": null,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "offer",
+        "price": null,
+        "account": ""
+      }
+    ],
+    "category": "WordPress",
+    "offer": "WP Reset is a development and recovery toolkit that lets you reset your WordPress site, create snapshots as restore points, and roll back changes with one click. It includes an emergency recovery tool, cleanup utilities, and plugin/theme collections that make testing and rebuilding sites much faster. This lifetime deal covers it with a single payment rather than a recurring fee.",
+    "tagline": "Reset, recover, and manage WordPress sites"
+  },
+  {
+    "slug": "xemailverify",
+    "name": "Xemailverify",
+    "desc": "An email verification tool designed to check and ensure email list hygiene, 1,000,000 Credit Plan",
+    "homepage": "https://xemailverify.com",
+    "image": "https://i.imgur.com/ldGJ1W3.png",
+    "localImg": "img/xemailverify.png",
+    "status": "available",
+    "availCount": 1,
+    "soldCount": 0,
+    "minPrice": null,
+    "soldPrice": null,
+    "units": [
+      {
+        "status": "available",
+        "priceKind": "offer",
+        "price": null,
+        "account": "Credits Balance : 987178"
+      }
+    ],
+    "category": "Email",
+    "offer": "X-Email Verify checks and cleans your email lists by validating syntax and verifying addresses to remove invalid or risky contacts. Cleaner lists mean lower bounce rates and a healthier sender reputation, which helps more of your emails actually reach the inbox. This lifetime plan includes a large one-time credit allotment so you can verify lists without a recurring subscription.",
+    "tagline": "Clean your list, improve deliverability"
+  }
+]

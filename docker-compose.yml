@@ -1,0 +1,14 @@
+name: ltd
+services:
+  web:
+    image: caddy:2-alpine
+    container_name: ltd-web
+    restart: unless-stopped
+    command: caddy run --config /etc/caddy/Caddyfile --adapter caddyfile
+    volumes:
+      - ./site:/srv:ro
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro
+    ports:
+      - "0.0.0.0:8089:80"

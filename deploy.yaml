@@ -1,0 +1,13 @@
+name: ltd
+type: docker
+domain: ltd.jrdevelopr.com   # public storefront; route: caddy/apps.d/ltd.caddy (ungated)
+port: 8089                   # host port (0.0.0.0) -> http://192.168.20.108:8089
+container_port: 80
+public: true
+auth: false                  # OPEN on purpose — public storefront, NO lab-gate
+self_managed: true           # tiny caddy:2-alpine file-server; brought up manually, not deploy.sh
+icon: cart-outline
+# Static storefront: "LTD Software Vault" — resale of lifetime-deal software licenses.
+# Source of truth = data/products.json (built from data/software.csv). Build pipeline:
+#   node bin/parse.js  ->  node bin/merge.js  ->  node bin/fetch-images.js  ->  node bin/build.js
+# Payments: PayPal.Me (paypal.me/shrockbusiness/<amount>). Edit copy/prices in products.json + rebuild.
