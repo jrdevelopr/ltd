@@ -60,6 +60,13 @@ a:hover{text-decoration:underline}
 .brand .b2{font-weight:600;color:var(--muted);margin-left:-3px}
 .brand:hover{text-decoration:none}
 .spacer{flex:1}
+.topline{color:var(--muted);font-size:13px;font-weight:600;margin-left:14px;padding-left:16px;border-left:1px solid var(--line);white-space:nowrap}
+.topstat{color:var(--muted);font-size:12.5px;background:color-mix(in srgb,var(--good) 10%,transparent);
+  border:1px solid color-mix(in srgb,var(--good) 25%,var(--line));border-radius:999px;padding:5px 12px;white-space:nowrap}
+.topstat b{color:var(--good)}
+.topbtn{border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:9px;
+  padding:6px 11px;font-size:13px;font-weight:600;white-space:nowrap}
+.topbtn:hover{text-decoration:none;border-color:var(--brand);color:var(--brand)}
 .themebtn{border:1px solid var(--line);background:var(--panel);color:var(--muted);border-radius:9px;
   padding:6px 10px;cursor:pointer;font-size:13px}
 

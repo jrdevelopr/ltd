@@ -84,11 +84,19 @@ ${image ? `<meta property="og:image" content="${esc(image)}">` : ''}
 const LOGO_SVG = `<svg class="logomark" viewBox="0 0 48 48" aria-hidden="true"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2563eb"/><stop offset="1" stop-color="#0ea5a4"/></linearGradient></defs><rect width="48" height="48" rx="12" fill="url(#lg)"/><circle cx="24" cy="24" r="12.5" fill="none" stroke="#fff" stroke-width="3.4"/><g stroke="#fff" stroke-width="3.4" stroke-linecap="round"><line x1="24" y1="4.5" x2="24" y2="11.5"/><line x1="24" y1="36.5" x2="24" y2="43.5"/><line x1="4.5" y1="24" x2="11.5" y2="24"/><line x1="36.5" y1="24" x2="43.5" y2="24"/></g><circle cx="24" cy="24" r="4" fill="#fff"/></svg>`;
 const FAVICON = `data:image/svg+xml,${encodeURIComponent(LOGO_SVG.replace(' class="logomark"', ' xmlns="http://www.w3.org/2000/svg"'))}`;
 
-const topbar = rel => `<div class="topbar"><div class="wrap">
+const topbar = rel => {
+  const forSaleLic = products.filter(p => p.status === 'available' && !p.inquireOnly).reduce((n, p) => n + p.availCount, 0);
+  const contactMail = `mailto:${INQUIRE_EMAIL}?subject=${encodeURIComponent('LTD Software Vault — question / offer')}`;
+  const msgr = MESSENGER_URL ? `<a class="topbtn" href="${esc(MESSENGER_URL)}" target="_blank" rel="noopener">💬 Messenger</a>` : '';
+  return `<div class="topbar"><div class="wrap">
 <a class="brand" href="${rel}index.html">${LOGO_SVG}<span class="b1">LTD</span><span class="b2">Software Vault</span></a>
+<span class="topline hidem">Lifetime software deals — one-time price, direct from me</span>
 <div class="spacer"></div>
+<span class="topstat hidem"><b>${forSaleLic}</b> licenses for sale</span>
+<a class="topbtn" href="${contactMail}">✉️ Contact me</a>${msgr}
 <button class="themebtn" onclick="(function(){var d=document.documentElement,n=d.getAttribute('data-theme')==='dark'?'light':'dark';d.setAttribute('data-theme',n);localStorage.setItem('theme',n);})()">◐ Theme</button>
 </div></div>`;
+};
 
 const footer = `<div class="footer wrap">These are lifetime licenses I'm passing on personally — no store, no middleman.
 Pay me directly with <b>PayPal</b>, or <a href="mailto:${INQUIRE_EMAIL}">email me</a> to ask about anything or make an offer.
