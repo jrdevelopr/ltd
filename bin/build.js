@@ -72,14 +72,18 @@ function head(title, desc, image, canonical) {
 <meta property="og:description" content="${esc(desc)}"><meta property="og:url" content="${canonical}">
 ${image ? `<meta property="og:image" content="${esc(image)}">` : ''}
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%232563eb'/><text x='16' y='23' font-size='18' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='bold'>%24</text></svg>">
+<link rel="icon" href="${FAVICON}">
 <link rel="stylesheet" href="${canonical === SITE_URL + '/' ? '' : '../'}style.css">
 <script>(function(){var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);})();</script>
 </head><body>`;
 }
 
+// Logo: vault-wheel mark — rounded square in the brand gradient with a white vault dial.
+const LOGO_SVG = `<svg class="logomark" viewBox="0 0 48 48" aria-hidden="true"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2563eb"/><stop offset="1" stop-color="#0ea5a4"/></linearGradient></defs><rect width="48" height="48" rx="12" fill="url(#lg)"/><circle cx="24" cy="24" r="12.5" fill="none" stroke="#fff" stroke-width="3.4"/><g stroke="#fff" stroke-width="3.4" stroke-linecap="round"><line x1="24" y1="4.5" x2="24" y2="11.5"/><line x1="24" y1="36.5" x2="24" y2="43.5"/><line x1="4.5" y1="24" x2="11.5" y2="24"/><line x1="36.5" y1="24" x2="43.5" y2="24"/></g><circle cx="24" cy="24" r="4" fill="#fff"/></svg>`;
+const FAVICON = `data:image/svg+xml,${encodeURIComponent(LOGO_SVG.replace(' class="logomark"', ' xmlns="http://www.w3.org/2000/svg"'))}`;
+
 const topbar = rel => `<div class="topbar"><div class="wrap">
-<a class="brand" href="${rel}index.html"><span class="dot"></span> ${SITE_NAME}</a>
+<a class="brand" href="${rel}index.html">${LOGO_SVG}<span class="b1">LTD</span><span class="b2">Software Vault</span></a>
 <div class="spacer"></div>
 <button class="themebtn" onclick="(function(){var d=document.documentElement,n=d.getAttribute('data-theme')==='dark'?'light':'dark';d.setAttribute('data-theme',n);localStorage.setItem('theme',n);})()">◐ Theme</button>
 </div></div>`;
@@ -164,6 +168,7 @@ function buildIndex() {
           <button data-st="all">All</button>
           <button data-st="sold">Sold</button>
         </div>
+        <button class="favtoggle" id="favToggle" title="Show only your favorites">♥ Favorites <span id="favCount"></span></button>
       </div>
       <div class="chips" id="cats">
         <span class="chip on" data-cat="">All categories</span>
@@ -186,12 +191,20 @@ function buildIndex() {
         </table>
         <div class="empty" id="empty" style="display:none">No software matches your search.</div>
       </div>
+    </div>
+
+    <div class="modal" id="modal" hidden>
+      <div class="modal-back" onclick="closeModal()"></div>
+      <div class="modal-card" role="dialog" aria-modal="true">
+        <button class="modal-x" onclick="closeModal()" aria-label="Close">✕</button>
+        <div class="modal-body" id="modalBody"></div>
+      </div>
     </div>` +
     footer +
     `<script>const PRODUCTS=${JSON.stringify(data)};</script>
 <script>
 const $=s=>document.querySelector(s), rowsEl=$('#rows'), emptyEl=$('#empty');
-let state={q:'',cat:'',status:'available',sort:'name',dir:1};
+let state={q:'',cat:'',status:'available',sort:'name',dir:1,fav:false};
 const money=n=>'$'+Number(n).toLocaleString('en-US',{maximumFractionDigits:0});
 function priceCell(p){
   if(p.status==='sold') return '<span class="strike">'+(p.soldp?money(p.soldp):'Sold')+'</span>';
@@ -206,17 +219,42 @@ function row(p){
   else if(p.inq) units='Tier '+p.tier+' · 1 license'+(p.code>1?' ('+p.code+' codes)':'');
   else units=(p.avail+' license'+(p.avail>1?'s':''))+(p.sold?' · '+p.sold+' sold':'');
   const badge=p.status==='sold'?'<span class="badge so">SOLD</span>':(p.inq?'<span class="badge inq">INQUIRE</span>':'<span class="badge av">FOR SALE</span>');
-  return '<tr class="'+(p.status==='sold'?'sold':'')+'" onclick="location.href=\\'p/'+p.slug+'.html\\'">'
+  const fav=FAVS.has(p.slug);
+  return '<tr class="'+(p.status==='sold'?'sold':'')+'" onclick="openModal(\\''+p.slug+'\\')">'
     +'<td><div class="pname"><img class="thumb" loading="lazy" src="'+p.img+'" alt="" onerror="this.style.visibility=\\'hidden\\'">'
       +'<div class="pn-txt"><b>'+p.name+'</b><small>'+(p.tag||p.desc||'')+'</small></div></div></td>'
     +'<td class="hidem"><span class="cat">'+p.cat+'</span></td>'
     +'<td class="hidem"><span class="units">'+units+'</span></td>'
     +'<td>'+priceCell(p)+'</td>'
     +'<td>'+badge+'</td>'
-    +'<td class="c-view"><span class="viewbtn">View →</span></td></tr>';
+    +'<td class="c-fav"><button class="favbtn'+(fav?' on':'')+'" title="Favorite" onclick="event.stopPropagation();toggleFav(\\''+p.slug+'\\',this)">'+(fav?'♥':'♡')+'</button></td>'
+    +'<td class="c-view"><a class="viewbtn" href="p/'+p.slug+'.html" onclick="event.stopPropagation()">View →</a></td></tr>';
 }
+/* favorites (localStorage) */
+let FAVS=new Set();try{FAVS=new Set(JSON.parse(localStorage.getItem('ltd-favs')||'[]'))}catch(e){}
+function saveFavs(){localStorage.setItem('ltd-favs',JSON.stringify([...FAVS]));updateFavUI();}
+function toggleFav(slug,btn){FAVS.has(slug)?FAVS.delete(slug):FAVS.add(slug);saveFavs();
+  if(btn){const on=FAVS.has(slug);btn.classList.toggle('on',on);btn.textContent=on?'♥':'♡';}
+  if(state.fav)apply();}
+function updateFavUI(){const c=FAVS.size;document.getElementById('favCount').textContent=c?('('+c+')'):'';}
+/* modal detail view */
+async function openModal(slug){
+  try{
+    const r=await fetch('p/'+slug+'.html');if(!r.ok)throw 0;
+    const doc=new DOMParser().parseFromString(await r.text(),'text/html');
+    const w=doc.querySelector('.pwrap');if(!w)throw 0;
+    const back=w.querySelector('.back');if(back)back.remove();
+    document.getElementById('modalBody').innerHTML=w.innerHTML;
+    const m=document.getElementById('modal');m.hidden=false;m.scrollTop=0;
+    m.querySelector('.modal-card').scrollTop=0;document.body.style.overflow='hidden';
+  }catch(e){location.href='p/'+slug+'.html';}
+}
+function closeModal(){const m=document.getElementById('modal');m.hidden=true;
+  document.getElementById('modalBody').innerHTML='';document.body.style.overflow='';}
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal();});
 function apply(){
   let list=PRODUCTS.filter(p=>{
+    if(state.fav&&!FAVS.has(p.slug))return false;
     if(state.status==='available'&&(p.status==='sold'||p.inq))return false;
     if(state.status==='inquire'&&!p.inq)return false;
     if(state.status==='sold'&&p.status!=='sold')return false;
@@ -244,6 +282,9 @@ document.querySelectorAll('#cats .chip').forEach(c=>c.onclick=()=>{
 document.querySelectorAll('th[data-sort]').forEach(th=>th.onclick=()=>{
   const s=th.dataset.sort;if(s==='units')return;
   if(state.sort===s)state.dir*=-1;else{state.sort=s;state.dir=1;}apply();});
+document.getElementById('favToggle').onclick=function(){
+  state.fav=!state.fav;this.classList.toggle('on',state.fav);apply();};
+updateFavUI();
 apply();
 </script>
 </body></html>`;
