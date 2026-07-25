@@ -28,3 +28,10 @@ Static storefront reselling lifetime-deal software licenses. **https://ltd.jrdev
 - **Public exposure:** Cloudflare DNS CNAME `ltd` → tunnel UUID, ingress hostname rule in
   `~/server-setup/cloudflared/config.yml` (above the 404 catch-all), Caddy route
   `~/server-setup/caddy/apps.d/ltd.caddy` (ungated — no `import gate`). Repo is PUBLIC — keep secret-free.
+- **Admin backend** (`admin/server.js`, native Node, **LAN-only :8093**, not routed publicly):
+  login-gated editor for prices/sold/units/copy + site settings (Messenger link, inquiry email →
+  `data/config.json`, read by build.js). First visit shows a one-time set-your-password screen;
+  scrypt hash + session secret live in `~/.config/ltd-admin/env` (600, outside the repo — delete
+  that file to re-run setup). Every save rewrites the JSON + reruns `bin/build.js` (site updates
+  instantly via the volume mount). "Publish to GitHub" = git add/commit/push. Persistence: systemd
+  unit `app-ltd-admin.service` (install requires owner consent / manual sudo).

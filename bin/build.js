@@ -11,9 +11,11 @@ const inventory = fs.existsSync(invFile) ? JSON.parse(fs.readFileSync(invFile, '
 const products = [...forSale, ...inventory]
   .sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
 
+// site config — editable from the admin app (data/config.json overrides the defaults here)
+const CONFIG = (() => { try { return JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'config.json'), 'utf8')); } catch { return {}; } })();
 const PAYPAL_BIZ = 'YTJ6CLJMBBZAL';               // PayPal Merchant ID — receives Buy Now payments
-const INQUIRE_EMAIL = 'jrdevelopr@gmail.com';     // inquiries land here (carries product name + id)
-const MESSENGER_URL = '';                         // set to your m.me/<user> or FB page URL to show a "Message me" button (leave '' to hide)
+const INQUIRE_EMAIL = CONFIG.inquireEmail || 'jrdevelopr@gmail.com';  // inquiries land here (carries product name + id)
+const MESSENGER_URL = CONFIG.messengerUrl || '';  // m.me/<user> link shows a "Message me" button ('' hides; set via admin)
 const PAY_METHODS = ['paypal', 'visa', 'mastercard', 'amex']; // accepted-payment logos shown on buyable items (PayPal checkout also takes cards)
 const SITE_URL = 'https://ltd.jrdevelopr.com';
 const SITE_NAME = 'LTD Software Vault';
