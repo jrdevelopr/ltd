@@ -101,7 +101,7 @@ const topbar = rel => {
 const footer = `<div class="footer wrap">These are lifetime licenses I'm passing on personally — no store, no middleman.
 Pay me directly with <b>PayPal</b>, or <a href="mailto:${INQUIRE_EMAIL}">email me</a> to ask about anything or make an offer.
 Items marked <b>“open to offers”</b> are ones I still use but would sell for the right price. Once payment clears I transfer the account/codes to you.<br>
-Software is sold <b>as-is</b> — if a deal turns out not to be transferable, you get a full refund; that's the only refund offered.</div>`;
+Software is sold <b>as-is</b>, with a full refund if for some reason it's non-transferable.</div>`;
 
 // "Other ways to reach me" — email always, Facebook Messenger only when MESSENGER_URL is set.
 function contactPanel(p) {
@@ -165,7 +165,7 @@ function buildIndex() {
             <li><b>PayPal welcome</b> — Goods &amp; Services is fine, so you're covered.</li>
             <li><b>Ask me anything first</b> — happy to confirm a deal's transfer policy with the vendor before you commit.</li>
           </ul>
-          <p class="fineprint">Straight talk: reselling sits outside AppSumo's own terms, so transferability depends on each software vendor, and resold deals fall outside AppSumo's 60-day refund window. I do my best to list only deals that can actually be transferred — but if I've overlooked something and your purchase turns out not to be transferable, I'll refund your money in full. That's the one guarantee: otherwise all software is sold <b>as-is</b>, and the non-transferable refund is the only refund offered.</p>
+          <p class="fineprint">Straight talk: reselling sits outside AppSumo's own terms, so transferability depends on each software vendor, and resold deals fall outside AppSumo's 60-day refund window. I do my best to list only deals that can actually be transferred — and if one ever turns out not to be, I'll refund you in full. Otherwise, software is sold <b>as-is</b>.</p>
         </div>
       </details>
     </div>
