@@ -1,0 +1,14 @@
+[Unit]
+Description=LTD Software Vault admin backend (LAN-only :8093)
+After=network.target
+
+[Service]
+Type=simple
+User=jrdevelopr
+WorkingDirectory=/home/jrdevelopr/apps/ltd
+ExecStart=/usr/bin/node /home/jrdevelopr/apps/ltd/admin/server.js
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
