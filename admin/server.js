@@ -304,7 +304,7 @@ const server = http.createServer((req, res) => {
     if (checkoutLimited(ip)) return json(res, 429, { error: 'Too many attempts — try again in a few minutes.' });
     return body(req, async b => {
       try {
-        const { slug, unit } = JSON.parse(b);
+        const { slug, unit, embed } = JSON.parse(b);
         const all = [...readData('products'), ...readData('inventory')];
         const prod = all.find(x => x.slug === slug);
         if (!prod || prod.status !== 'available' || prod.inquireOnly) return json(res, 404, { error: 'Not available for card checkout.' });
@@ -318,9 +318,15 @@ const server = http.createServer((req, res) => {
         q.set('mode', 'payment');
         // card only — the button says 'Pay by Card'; PayPal has its own button
         q.set('payment_method_types[0]', 'card');
-        // embedded checkout — mounted in a modal on the storefront
-        q.set('ui_mode', 'embedded');
-        q.set('return_url', 'https://ltd.jrdevelopr.com/thanks.html?session_id={CHECKOUT_SESSION_ID}');
+        if (embed === true) {
+          // embedded checkout — mounted in a modal on the storefront
+          q.set('ui_mode', 'embedded');
+          q.set('return_url', 'https://ltd.jrdevelopr.com/thanks.html?session_id={CHECKOUT_SESSION_ID}');
+        } else {
+          // hosted fallback — keeps stale cached pages (pre-modal handler) working
+          q.set('success_url', 'https://ltd.jrdevelopr.com/thanks.html?session_id={CHECKOUT_SESSION_ID}');
+          q.set('cancel_url', `https://ltd.jrdevelopr.com/p/${prod.slug}.html`);
+        }
         q.set('line_items[0][quantity]', '1');
         q.set('line_items[0][price_data][currency]', 'usd');
         q.set('line_items[0][price_data][unit_amount]', String(Math.round(u.price * 100)));
@@ -334,7 +340,7 @@ const server = http.createServer((req, res) => {
         });
         const session = await resp.json();
         if (!resp.ok) { console.log('stripe error:', session?.error?.message); return json(res, 502, { error: 'Could not start card checkout.' }); }
-        return json(res, 200, { clientSecret: session.client_secret });
+        return json(res, 200, embed === true ? { clientSecret: session.client_secret } : { url: session.url });
       } catch (e) { return json(res, 500, { error: String(e.message || e) }); }
     });
   }

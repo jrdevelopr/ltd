@@ -130,7 +130,7 @@ const CHECKOUT_MODAL = `
     m.hidden=false;document.body.style.overflow='hidden';
     document.getElementById('coError').hidden=true;document.getElementById('coLoading').hidden=false;
     fetch('/api/stripe-checkout',{method:'POST',headers:{'Content-Type':'application/json'},
-      body:JSON.stringify({slug:parts[0],unit:Number(parts[1])})})
+      body:JSON.stringify({slug:parts[0],unit:Number(parts[1]),embed:true})})
       .then(function(r){return r.json().then(function(j){return{ok:r.ok,j:j};});})
       .then(function(x){
         if(!x.ok||!x.j.clientSecret)throw new Error(x.j.error||'failed');
