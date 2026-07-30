@@ -97,8 +97,8 @@ const topbar = rel => {
 <span class="topline hidem">Lifetime software deals — one-time price, direct from me</span>
 <div class="spacer"></div>
 <span class="topstat hidem"><b>${forSaleLic}</b> licenses for sale</span>
-<a class="topbtn" href="${contactMail}">✉️ Contact me</a>${msgr}
-<button class="themebtn" onclick="(function(){var d=document.documentElement,n=d.getAttribute('data-theme')==='dark'?'light':'dark';d.setAttribute('data-theme',n);localStorage.setItem('theme',n);})()">◐ Theme</button>
+<a class="topbtn" href="${contactMail}" aria-label="Contact me">✉️<span class="hidem"> Contact me</span></a>${msgr}
+<button class="themebtn" aria-label="Toggle theme" onclick="(function(){var d=document.documentElement,n=d.getAttribute('data-theme')==='dark'?'light':'dark';d.setAttribute('data-theme',n);localStorage.setItem('theme',n);})()">◐<span class="hidem"> Theme</span></button>
 </div></div>`;
 };
 

@@ -54,7 +54,7 @@ a:hover{text-decoration:underline}
 .topbar{position:sticky;top:0;z-index:30;background:color-mix(in srgb,var(--panel) 88%,transparent);
   backdrop-filter:saturate(1.2) blur(8px);border-bottom:1px solid var(--line)}
 .topbar .wrap{display:flex;align-items:center;gap:14px;height:58px}
-.brand{display:flex;align-items:center;gap:9px;font-size:16.5px;letter-spacing:-.02em}
+.brand{display:flex;align-items:center;gap:9px;font-size:16.5px;letter-spacing:-.02em;white-space:nowrap}
 .brand .logomark{width:27px;height:27px;border-radius:8px;box-shadow:var(--shadow)}
 .brand .b1{font-weight:800;color:var(--ink)}
 .brand .b2{font-weight:600;color:var(--muted);margin-left:-3px}
@@ -233,6 +233,11 @@ td{padding:11px 14px;vertical-align:middle}
 @media (max-width:820px){
   .phead{grid-template-columns:1fr}
   .hidem{display:none}
+}
+@media (max-width:480px){
+  .topbar .wrap{gap:8px;height:52px}
+  .brand{font-size:15px}
+  .topbtn,.themebtn{padding:6px 9px}
 }
 @media (max-width:620px){
   thead{display:none}
