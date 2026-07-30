@@ -71,7 +71,7 @@ a:hover{text-decoration:underline}
   padding:6px 10px;cursor:pointer;font-size:13px}
 
 /* hero */
-.hero{padding:34px 0 10px}
+.hero{padding-top:34px;padding-bottom:10px}
 .hero h1{margin:.1em 0 .15em;font-size:clamp(24px,3.4vw,36px);letter-spacing:-.03em;line-height:1.1}
 .hero p{margin:.2em 0;color:var(--muted);font-size:15.5px}
 .hero .stats{display:flex;gap:22px;flex-wrap:wrap;margin-top:16px}
@@ -234,17 +234,37 @@ td{padding:11px 14px;vertical-align:middle}
   .phead{grid-template-columns:1fr}
   .hidem{display:none}
 }
+@media (max-width:620px){
+  .hero{padding-top:12px;padding-bottom:4px}
+  .hero h1{font-size:21px}
+  .hero p{display:none}                 /* long intro — desktop only */
+  .notice{display:none}                 /* inquire tip — desktop only */
+  .hero .stats{gap:7px;margin-top:8px}
+  .hero .stat{padding:5px 10px;border-radius:9px;box-shadow:none}
+  .hero .stat b{display:inline;font-size:14px;margin-right:5px}
+  .hero .stat span{font-size:11px}
+  .howto{margin-top:10px}
+  .howto summary{padding:10px 14px;font-size:13.5px}
+  .controls{padding:8px 0 8px;margin-top:8px}
+  .chips{display:none}                  /* category filters — desktop only */
+  .tablewrap{margin-top:2px}
+}
 @media (max-width:480px){
   .topbar .wrap{gap:8px;height:52px}
+  .controls{top:52px}
   .brand{font-size:15px}
   .topbtn,.themebtn{padding:6px 9px}
 }
 @media (max-width:620px){
   thead{display:none}
-  table,tbody,tr,td{display:block;width:100%}
-  tbody tr{padding:12px 14px;position:relative}
-  td{padding:4px 0;border:0}
-  td.c-view{position:absolute;right:14px;top:14px}
+  table,tbody,tr{display:block;width:100%}
+  tbody tr{padding:10px 44px 12px 14px;position:relative}
+  td{display:inline-block;padding:2px 8px 0 0;border:0;vertical-align:middle}
+  td:first-child{display:block;padding:0 0 2px}
+  .pn-txt b,.pn-txt small{white-space:normal;max-width:none}
+  .thumb{width:40px;height:40px}
+  td.c-fav{position:absolute;top:8px;right:4px;padding:0}
+  td.c-view{display:none}   /* whole row taps open the product */
 }
 
 /* ===== preflight compatibility: Tailwind's reset strips list markers; restore
