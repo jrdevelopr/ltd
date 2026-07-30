@@ -102,6 +102,51 @@ const topbar = rel => {
 </div></div>`;
 };
 
+// shared embedded-checkout modal — stacked above the catalog's product modal;
+// Esc (capture phase) closes only the checkout when it's open.
+const CHECKOUT_MODAL = `
+<div id="coModal" class="comodal" hidden>
+  <div class="comodal-back" id="coBack"></div>
+  <div class="comodal-card">
+    <div class="comodal-head"><span class="t">🔒 Secure card checkout</span><span class="s">Payments processed by Shrock Services LLC — the name on the form &amp; your statement</span><button id="coClose" aria-label="Close">✕</button></div>
+    <div id="coLoading" class="comodal-note">Loading secure checkout…</div>
+    <div id="coError" class="comodal-note comodal-err" hidden>Couldn't start card checkout — PayPal still works, or email me.</div>
+    <div id="coMount"></div>
+  </div>
+</div>
+<script src="https://js.stripe.com/v3/"><\/script>
+<script>
+(function(){
+  var inst=null;
+  function closeCo(){var m=document.getElementById('coModal');if(!m||m.hidden)return false;
+    m.hidden=true;document.body.style.overflow='';
+    if(inst){try{inst.destroy();}catch(e){}inst=null;}
+    document.getElementById('coMount').innerHTML='';return true;}
+  document.addEventListener('click',function(e){
+    if(e.target&&(e.target.id==='coBack'||e.target.id==='coClose')){closeCo();return;}
+    var b=e.target.closest&&e.target.closest('[data-stripe]');if(!b)return;
+    var parts=b.getAttribute('data-stripe').split('|');
+    var m=document.getElementById('coModal');
+    m.hidden=false;document.body.style.overflow='hidden';
+    document.getElementById('coError').hidden=true;document.getElementById('coLoading').hidden=false;
+    fetch('/api/stripe-checkout',{method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({slug:parts[0],unit:Number(parts[1])})})
+      .then(function(r){return r.json().then(function(j){return{ok:r.ok,j:j};});})
+      .then(function(x){
+        if(!x.ok||!x.j.clientSecret)throw new Error(x.j.error||'failed');
+        if(!window.Stripe)throw new Error('payment library blocked');
+        return Stripe('pk_live_51HzSIsAcMAUfCdYvN6qglzGilTpREkDyJ5k4uww8IVJhMNLZ5Akztr9SbQBHCDfMr2qyLL3gjzI9sHUWjFFv62Ht00LazVUnjb')
+          .initEmbeddedCheckout({clientSecret:x.j.clientSecret});})
+      .then(function(c){inst=c;document.getElementById('coLoading').hidden=true;inst.mount('#coMount');})
+      .catch(function(err){document.getElementById('coLoading').hidden=true;
+        var el=document.getElementById('coError');el.textContent=err.message+' — PayPal still works, or email me.';el.hidden=false;});
+  });
+  document.addEventListener('keydown',function(e){
+    if(e.key==='Escape'&&closeCo())e.stopImmediatePropagation();
+  },true);
+})();
+<\/script>`;
+
 const footer = `<div class="footer wrap">These are lifetime licenses I'm passing on personally — no store, no middleman.
 Pay me directly with <b>PayPal</b>, or <a href="mailto:${INQUIRE_EMAIL}">email me</a> to ask about anything or make an offer.
 Items marked <b>“open to offers”</b> are ones I still use but would sell for the right price. Once payment clears I transfer the account/codes to you.<br>
@@ -215,7 +260,7 @@ function buildIndex() {
         <div class="modal-body" id="modalBody"></div>
       </div>
     </div>` +
-    footer +
+    footer + CHECKOUT_MODAL +
     `<script>const PRODUCTS=${JSON.stringify(data)};</script>
 <script>
 const $=s=>document.querySelector(s), rowsEl=$('#rows'), emptyEl=$('#empty');
@@ -300,17 +345,6 @@ document.querySelectorAll('th[data-sort]').forEach(th=>th.onclick=()=>{
 document.getElementById('favToggle').onclick=function(){
   state.fav=!state.fav;this.classList.toggle('on',state.fav);apply();};
 updateFavUI();
-/* card checkout works inside the product modal too */
-document.addEventListener('click',function(e){
-  var b=e.target.closest('[data-stripe]');if(!b)return;
-  var parts=b.getAttribute('data-stripe').split('|');
-  var t=b.textContent;b.disabled=true;b.textContent='Starting card checkout…';
-  fetch('/api/stripe-checkout',{method:'POST',headers:{'Content-Type':'application/json'},
-    body:JSON.stringify({slug:parts[0],unit:Number(parts[1])})})
-    .then(function(r){return r.json().then(function(j){return{ok:r.ok,j:j};});})
-    .then(function(x){if(x.ok&&x.j.url){location.href=x.j.url;}else{throw new Error(x.j.error||'card checkout failed');}})
-    .catch(function(err){alert(err.message+' — PayPal still works, or email me.');b.disabled=false;b.textContent=t;});
-});
 apply();
 </script>
 </body></html>`;
@@ -410,18 +444,7 @@ function buildProduct(p) {
       </div>
       ${contactPanel(p)}
     </div>` +
-    footer + `<script>
-document.addEventListener('click',function(e){
-  var b=e.target.closest('[data-stripe]');if(!b)return;
-  var parts=b.getAttribute('data-stripe').split('|');
-  var t=b.textContent;b.disabled=true;b.textContent='Starting card checkout…';
-  fetch('/api/stripe-checkout',{method:'POST',headers:{'Content-Type':'application/json'},
-    body:JSON.stringify({slug:parts[0],unit:Number(parts[1])})})
-    .then(function(r){return r.json().then(function(j){return{ok:r.ok,j:j};});})
-    .then(function(x){if(x.ok&&x.j.url){location.href=x.j.url;}else{throw new Error(x.j.error||'card checkout failed');}})
-    .catch(function(err){alert(err.message+' — PayPal still works, or email me.');b.disabled=false;b.textContent=t;});
-});
-</script></body></html>`;
+    footer + CHECKOUT_MODAL + `</body></html>`;
   fs.writeFileSync(path.join(SITE, 'p', p.slug + '.html'), html);
 }
 
