@@ -169,6 +169,17 @@ document.querySelectorAll('th[data-sort]').forEach(th=>th.onclick=()=>{
 document.getElementById('favToggle').onclick=function(){
   state.fav=!state.fav;this.classList.toggle('on',state.fav);apply();};
 updateFavUI();
+/* card checkout works inside the product modal too */
+document.addEventListener('click',function(e){
+  var b=e.target.closest('[data-stripe]');if(!b)return;
+  var parts=b.getAttribute('data-stripe').split('|');
+  var t=b.textContent;b.disabled=true;b.textContent='Starting card checkout…';
+  fetch('/api/stripe-checkout',{method:'POST',headers:{'Content-Type':'application/json'},
+    body:JSON.stringify({slug:parts[0],unit:Number(parts[1])})})
+    .then(function(r){return r.json().then(function(j){return{ok:r.ok,j:j};});})
+    .then(function(x){if(x.ok&&x.j.url){location.href=x.j.url;}else{throw new Error(x.j.error||'card checkout failed');}})
+    .catch(function(err){alert(err.message+' — PayPal still works, or email me.');b.disabled=false;b.textContent=t;});
+});
 apply();
 </script>
 </body></html>

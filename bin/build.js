@@ -54,6 +54,10 @@ ${amt}<input type="hidden" name="currency_code" value="USD">
 <button type="submit" class="btn ${btnClass}">${btnHtml}</button>
 </form>`;
 }
+// Stripe card checkout — server-side endpoint /api/stripe-checkout (price from server data)
+function stripeBtn(slug, unitIdx, label) {
+  return `<button type="button" class="btn btn-card" data-stripe="${esc(slug)}|${unitIdx}">${label}</button>`;
+}
 // Inquiry mailto — pre-filled, enticing, and tagged with the product name + slug.
 function inquireHref(name, slug) {
   const subject = `Inquiry: ${name} [${slug}]`;
@@ -296,6 +300,17 @@ document.querySelectorAll('th[data-sort]').forEach(th=>th.onclick=()=>{
 document.getElementById('favToggle').onclick=function(){
   state.fav=!state.fav;this.classList.toggle('on',state.fav);apply();};
 updateFavUI();
+/* card checkout works inside the product modal too */
+document.addEventListener('click',function(e){
+  var b=e.target.closest('[data-stripe]');if(!b)return;
+  var parts=b.getAttribute('data-stripe').split('|');
+  var t=b.textContent;b.disabled=true;b.textContent='Starting card checkout…';
+  fetch('/api/stripe-checkout',{method:'POST',headers:{'Content-Type':'application/json'},
+    body:JSON.stringify({slug:parts[0],unit:Number(parts[1])})})
+    .then(function(r){return r.json().then(function(j){return{ok:r.ok,j:j};});})
+    .then(function(x){if(x.ok&&x.j.url){location.href=x.j.url;}else{throw new Error(x.j.error||'card checkout failed');}})
+    .catch(function(err){alert(err.message+' — PayPal still works, or email me.');b.disabled=false;b.textContent=t;});
+});
 apply();
 </script>
 </body></html>`;
@@ -319,13 +334,17 @@ function buildProduct(p) {
     primaryBtn = `<span class="btn sold">Sold out</span>`;
   } else if (p.minPrice != null) {
     priceLabel = `<div class="pricebox"><span class="big">${money(p.minPrice)}</span><span class="lbl">${p.availCount>1?`· ${p.availCount} available`:'one-time payment'}</span></div>`;
-    primaryBtn = payForm(p.minPrice, `${p.name} - Lifetime Deal`, p.slug, 'btn-pay', `Buy with ${PP} · ${money(p.minPrice)}`);
+    const firstIdx = p.units.findIndex(u => u.status === 'available' && u.priceKind === 'fixed' && u.price != null);
+    primaryBtn = `<div class="buyrow">` +
+      payForm(p.minPrice, `${p.name} - Lifetime Deal`, p.slug, 'btn-pay', `Buy with ${PP} · ${money(p.minPrice)}`) +
+      (firstIdx >= 0 ? stripeBtn(p.slug, firstIdx, `💳 Pay by Card · ${money(p.minPrice)}`) : '') +
+      `</div>`;
   } else {
     priceLabel = `<div class="pricebox"><span class="big" style="color:var(--gold)">Make an Offer</span></div>`;
     primaryBtn = payForm(null, `${p.name} - Lifetime Deal`, p.slug, 'btn-offer', `Make an Offer via ${PP}`);
   }
 
-  function unitRow(u, i) {
+  function unitRow(u, i, origIdx) {
     const label = u.account ? esc(u.account) : `License ${i + 1}`;
     if (u.status === 'sold')
       return `<div class="unit"><div class="u-meta"><b>${label}</b><small>No longer available</small></div>
@@ -336,7 +355,7 @@ function buildProduct(p) {
     const price = u.priceKind === 'fixed' ? u.price : null;
     const itemName = `${p.name}${u.account ? ` (${u.account})` : ''} - Lifetime Deal`;
     const btn = price != null
-      ? payForm(price, itemName, p.slug, 'btn-pay', `Buy · ${PP}`)
+      ? `<span class="buyrow">${payForm(price, itemName, p.slug, 'btn-pay', `Buy · ${PP}`)}${stripeBtn(p.slug, origIdx, '💳 Card')}</span>`
       : payForm(null, itemName, p.slug, 'btn-offer', 'Make an Offer');
     return `<div class="unit"><div class="u-meta"><b>${label}</b><small>Lifetime deal · transferred after payment</small></div>
       <span class="u-price">${price != null ? money(price) : 'Offer'}</span>${btn}</div>`;
@@ -345,11 +364,13 @@ function buildProduct(p) {
   const unitsHeading = p.inquireOnly
     ? `One license${p.tier ? ` · Tier ${p.tier}` : ''} — open to offers`
     : (p.availCount > 1 ? `${p.availCount} licenses available` : 'Get this deal');
-  const unitsPanel = (availUnits.length || soldUnits.length) ? `
+  const availIdx = p.units.map((u, ix) => ({ u, ix })).filter(x => x.u.status === 'available');
+  const soldIdx = p.units.map((u, ix) => ({ u, ix })).filter(x => x.u.status === 'sold');
+  const unitsPanel = (availIdx.length || soldIdx.length) ? `
     <div class="panel">
       <h2>${unitsHeading}</h2>
-      ${availUnits.map(unitRow).join('')}
-      ${soldUnits.map((u,i)=>unitRow(u, availUnits.length+i)).join('')}
+      ${availIdx.map((x, i) => unitRow(x.u, i, x.ix)).join('')}
+      ${soldIdx.map((x, i) => unitRow(x.u, availIdx.length + i, x.ix)).join('')}
     </div>` : '';
 
   const trust = p.inquireOnly
@@ -389,7 +410,18 @@ function buildProduct(p) {
       </div>
       ${contactPanel(p)}
     </div>` +
-    footer + `</body></html>`;
+    footer + `<script>
+document.addEventListener('click',function(e){
+  var b=e.target.closest('[data-stripe]');if(!b)return;
+  var parts=b.getAttribute('data-stripe').split('|');
+  var t=b.textContent;b.disabled=true;b.textContent='Starting card checkout…';
+  fetch('/api/stripe-checkout',{method:'POST',headers:{'Content-Type':'application/json'},
+    body:JSON.stringify({slug:parts[0],unit:Number(parts[1])})})
+    .then(function(r){return r.json().then(function(j){return{ok:r.ok,j:j};});})
+    .then(function(x){if(x.ok&&x.j.url){location.href=x.j.url;}else{throw new Error(x.j.error||'card checkout failed');}})
+    .catch(function(err){alert(err.message+' — PayPal still works, or email me.');b.disabled=false;b.textContent=t;});
+});
+</script></body></html>`;
   fs.writeFileSync(path.join(SITE, 'p', p.slug + '.html'), html);
 }
 

@@ -155,6 +155,10 @@ td{padding:11px 14px;vertical-align:middle}
 .btn-pay .pp i{color:#003087;font-style:italic;font-weight:800}
 .btn-pay .pp em{color:#0070e0;font-style:italic;font-weight:800}
 .btn-offer{background:var(--brand);color:#fff}
+.btn-card{background:#635bff;color:#fff;box-shadow:var(--shadow)}
+.btn-card:hover{filter:brightness(1.08)}
+.btn-card:disabled{opacity:.6;cursor:wait}
+.buyrow{display:inline-flex;gap:10px;flex-wrap:wrap;align-items:center}
 .btn-ghost{background:var(--panel);border-color:var(--line);color:var(--ink)}
 .btn.sold{background:var(--line);color:var(--muted);cursor:not-allowed}
 

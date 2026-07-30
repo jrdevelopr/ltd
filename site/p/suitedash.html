@@ -56,4 +56,15 @@
     </div><div class="footer wrap">These are lifetime licenses I'm passing on personally — no store, no middleman.
 Pay me directly with <b>PayPal</b>, or <a href="mailto:jrdevelopr@gmail.com">email me</a> to ask about anything or make an offer.
 Items marked <b>“open to offers”</b> are ones I still use but would sell for the right price. Once payment clears I transfer the account/codes to you.<br>
-Software is sold <b>as-is</b>, with a full refund if for some reason it's non-transferable.</div></body></html>
+Software is sold <b>as-is</b>, with a full refund if for some reason it's non-transferable.</div><script>
+document.addEventListener('click',function(e){
+  var b=e.target.closest('[data-stripe]');if(!b)return;
+  var parts=b.getAttribute('data-stripe').split('|');
+  var t=b.textContent;b.disabled=true;b.textContent='Starting card checkout…';
+  fetch('/api/stripe-checkout',{method:'POST',headers:{'Content-Type':'application/json'},
+    body:JSON.stringify({slug:parts[0],unit:Number(parts[1])})})
+    .then(function(r){return r.json().then(function(j){return{ok:r.ok,j:j};});})
+    .then(function(x){if(x.ok&&x.j.url){location.href=x.j.url;}else{throw new Error(x.j.error||'card checkout failed');}})
+    .catch(function(err){alert(err.message+' — PayPal still works, or email me.');b.disabled=false;b.textContent=t;});
+});
+</script></body></html>

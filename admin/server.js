@@ -73,6 +73,13 @@ function checkSession(req) {
 
 /* ---------- login rate limit ---------- */
 const attempts = new Map(); // ip -> [timestamps]
+const checkoutAttempts = new Map(); // public stripe endpoint: 30 / 10 min / ip
+function checkoutLimited(ip) {
+  const now = Date.now();
+  const arr = (checkoutAttempts.get(ip) || []).filter(t => now - t < 10 * 60 * 1000);
+  arr.push(now); checkoutAttempts.set(ip, arr);
+  return arr.length > 30;
+}
 function rateLimited(ip) {
   const now = Date.now();
   const arr = (attempts.get(ip) || []).filter(t => now - t < 10 * 60 * 1000);
@@ -287,6 +294,47 @@ const server = http.createServer((req, res) => {
 
   const authed = checkSession(req);
   if (p === '/') return html(res, 200, authed ? APP_PAGE : LOGIN_PAGE(''));
+
+  // PUBLIC (reached via Caddy route ltd.jrdevelopr.com/api/stripe-checkout):
+  // create a Stripe Checkout session for a buyable unit. Price/name come from
+  // server-side data only — the client sends just {slug, unit}.
+  if (req.method === 'POST' && p === '/api/stripe-checkout') {
+    const env2 = loadEnv() || {};
+    if (!env2.STRIPE_SECRET_KEY) return json(res, 503, { error: 'Card payments are not configured yet.' });
+    if (checkoutLimited(ip)) return json(res, 429, { error: 'Too many attempts — try again in a few minutes.' });
+    return body(req, async b => {
+      try {
+        const { slug, unit } = JSON.parse(b);
+        const all = [...readData('products'), ...readData('inventory')];
+        const prod = all.find(x => x.slug === slug);
+        if (!prod || prod.status !== 'available' || prod.inquireOnly) return json(res, 404, { error: 'Not available for card checkout.' });
+        const i = Math.floor(Number(unit)) || 0;
+        const u = prod.units[i];
+        if (!u || u.status !== 'available' || u.priceKind !== 'fixed' || !(u.price > 0)) {
+          return json(res, 400, { error: 'That license is not card-buyable.' });
+        }
+        const name = `${prod.name}${u.account ? ` (${u.account})` : ''} - Lifetime Deal`.slice(0, 124);
+        const q = new URLSearchParams();
+        q.set('mode', 'payment');
+        q.set('success_url', 'https://ltd.jrdevelopr.com/thanks.html?session_id={CHECKOUT_SESSION_ID}');
+        q.set('cancel_url', `https://ltd.jrdevelopr.com/p/${prod.slug}.html`);
+        q.set('line_items[0][quantity]', '1');
+        q.set('line_items[0][price_data][currency]', 'usd');
+        q.set('line_items[0][price_data][unit_amount]', String(Math.round(u.price * 100)));
+        q.set('line_items[0][price_data][product_data][name]', name);
+        q.set('metadata[slug]', prod.slug);
+        q.set('metadata[unit]', String(i));
+        const resp = await fetch('https://api.stripe.com/v1/checkout/sessions', {
+          method: 'POST',
+          headers: { Authorization: `Bearer ${env2.STRIPE_SECRET_KEY}`, 'Content-Type': 'application/x-www-form-urlencoded' },
+          body: q.toString(),
+        });
+        const session = await resp.json();
+        if (!resp.ok) { console.log('stripe error:', session?.error?.message); return json(res, 502, { error: 'Could not start card checkout.' }); }
+        return json(res, 200, { url: session.url });
+      } catch (e) { return json(res, 500, { error: String(e.message || e) }); }
+    });
+  }
 
   if (!authed) return json(res, 401, { error: 'unauthorized' });
 

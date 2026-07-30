@@ -35,3 +35,10 @@ Static storefront reselling lifetime-deal software licenses. **https://ltd.jrdev
   that file to re-run setup). Every save rewrites the JSON + reruns `bin/build.js` (site updates
   instantly via the volume mount). "Publish to GitHub" = git add/commit/push. Persistence: systemd
   unit `app-ltd-admin.service` (install requires owner consent / manual sudo).
+- **Stripe card checkout** (added 2026-07-30): each buyable unit offers PayPal *and* "Pay by
+  Card". Card flow: `POST /api/stripe-checkout {slug, unit}` — served by the admin service
+  (:8093) but publicly routed for that single path via `caddy/apps.d/ltd.caddy` (path `handle`;
+  admin auth untouched). Price/name resolved server-side from products/inventory JSON; sold and
+  inquire-only items rejected; 30/10min/IP rate limit. `STRIPE_SECRET_KEY` lives in
+  `~/.config/ltd-admin/env` (same Shrock Stripe account as Bluegrass). Card price = PayPal price
+  (no surcharge). Success → `site/thanks.html`; cancel → the product page.
