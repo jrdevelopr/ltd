@@ -1,3 +1,4 @@
+import { checkout } from './checkout.js';
 // Fallback only. The asset layer serves every real file directly and never
 // reaches this code, so these requests stay free and unmetered. Only
 // directory-style paths ("/", "/p/") land here, because html_handling is
@@ -22,6 +23,9 @@ const SECURITY = {
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
+    // Card checkout. This used to be a Caddy route to the admin service on the
+    // lab box; it moved here when the storefront left that box.
+    if (url.pathname === '/api/stripe-checkout') return checkout(request, env);
     const last = url.pathname.split('/').pop();
     const path = url.pathname.endsWith('/') ? url.pathname + 'index.html'
       : last.includes('.') ? url.pathname

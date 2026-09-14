@@ -18,6 +18,18 @@ can be rolled back. Deploy with `npx wrangler@4 deploy` from this folder, with
   `index.html`, which that setting otherwise leaves unresolved.
 - Real files are served by Cloudflare directly and cost nothing. Only `/` invokes the
   Worker script.
+- **Card checkout moved into the Worker too.** `POST /api/stripe-checkout` used to be a Caddy
+  route to the admin service on the lab box (`admin/server.js`, port 8093). That route died
+  with the move, so the endpoint was ported verbatim to `worker/checkout.js`. Prices and names
+  still come only from the catalogue, never from the client. The Stripe key is a Worker secret
+  (`wrangler secret put STRIPE_SECRET_KEY`), not a file on the box.
+- **The admin backend is unchanged and still LAN-only** at `http://192.168.20.108:8093`
+  (`admin/server.js`, scrypt password + signed session cookie). It was never public.
+- ⚠️ **Editing products now takes a deploy.** The admin writes to `data/products.json` and
+  `data/inventory.json` on the lab box. The Worker serves a *deployed copy* of the built pages
+  **and** bundles those two files for checkout pricing. So after editing in the admin:
+  `node bin/build.js` then `npx wrangler@4 deploy`. Until you deploy, the live site and the
+  live prices are whatever was last shipped.
 
 - **Source of truth:** `data/products.json`, generated from `data/software.csv` (the owner's
   Google Sheet, exported CSV). Do NOT hand-edit `index.html`/`p/*.html` — they are built.
