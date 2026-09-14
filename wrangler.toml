@@ -1,0 +1,20 @@
+# Cloudflare Worker serving the LTD Software Vault as static assets.
+# There is no Worker script: every request is served straight from the asset
+# layer, which is free and does not count against the daily request budget.
+# Deploy: npx wrangler@4 deploy   (see CLAUDE.md for credentials)
+name = "ltd"
+main = "worker/index.js"
+compatibility_date = "2026-09-01"
+workers_dev = false
+
+[assets]
+directory = "./site"
+binding = "ASSETS"
+# Serve exactly the path requested. Without this the asset layer 307-redirects
+# /p/thing.html to /p/thing, which changes every product URL the site links to
+# and every URL already indexed by search engines.
+html_handling = "none"
+
+[[routes]]
+pattern = "ltd.jrdevelopr.com"
+custom_domain = true

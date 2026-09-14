@@ -1,8 +1,23 @@
 # ltd — LTD Software Vault storefront (tracked, PUBLIC/ungated)
 
 Static storefront reselling lifetime-deal software licenses. **https://ltd.jrdevelopr.com**
-(public, ungated — no lab-gate), local `:8089`, `caddy:2-alpine` file-server
-(`docker compose -p ltd`).
+(public, ungated).
+
+**Hosting: Cloudflare Worker, not this server** (moved 2026-09-14). The `site/` folder is
+uploaded as Worker static assets; there is no container, no Caddy route and no tunnel
+ingress any more. The old `docker-compose.yml` and `Caddyfile` are kept only so the setup
+can be rolled back. Deploy with `npx wrangler@4 deploy` from this folder, with
+`CLOUDFLARE_EMAIL`, `CLOUDFLARE_API_KEY` and `CLOUDFLARE_ACCOUNT_ID` exported from
+`/etc/ubuntulab/cloudflare-new.env`. Worker name `ltd`.
+
+- `site/_headers` carries the CSP and security headers the Caddyfile used to add. Edit it
+  there, not in the Caddyfile, which is now dead.
+- `html_handling = "none"` in `wrangler.toml` is deliberate: without it the asset layer
+  307-redirects `/p/thing.html` to `/p/thing`, changing every product URL and every URL
+  already indexed. `worker/index.js` exists only to map directory paths like `/` to
+  `index.html`, which that setting otherwise leaves unresolved.
+- Real files are served by Cloudflare directly and cost nothing. Only `/` invokes the
+  Worker script.
 
 - **Source of truth:** `data/products.json`, generated from `data/software.csv` (the owner's
   Google Sheet, exported CSV). Do NOT hand-edit `index.html`/`p/*.html` — they are built.
