@@ -1,7 +1,10 @@
-# Cloudflare Worker serving the LTD Software Vault as static assets.
-# There is no Worker script: every request is served straight from the asset
-# layer, which is free and does not count against the daily request budget.
-# Deploy: npx wrangler@4 deploy   (see CLAUDE.md for credentials)
+# Cloudflare Worker for the LTD Software Vault: storefront, card checkout and admin.
+#
+# Pages are rendered on request from the D1 database (worker/render.js + worker/db.js)
+# and cached at the edge for 60 s, so an admin edit is live within a minute with no
+# build and no deploy. Images, CSS and thanks.html are static assets served free.
+# Deploy: npx wrangler@4 deploy            (see CLAUDE.md for credentials)
+# Stage:  npx wrangler@4 deploy --env staging   -> https://ltd-cf.jrdevelopr.com
 name = "ltd"
 main = "worker/index.js"
 compatibility_date = "2026-09-01"
@@ -10,11 +13,34 @@ workers_dev = false
 [assets]
 directory = "./site"
 binding = "ASSETS"
-# Serve exactly the path requested. Without this the asset layer 307-redirects
-# /p/thing.html to /p/thing, which changes every product URL the site links to
-# and every URL already indexed by search engines.
 html_handling = "none"
+# These paths are answered by the Worker before the asset layer looks for a file,
+# so the rendered pages and the admin win over anything left in site/.
+run_worker_first = ["/", "/index.html", "/p/*", "/admin", "/admin/*", "/api/*"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "ltd"
+database_id = "0079f3ec-273a-462a-bbcb-d9e4c5f1db74"
 
 [[routes]]
 pattern = "ltd.jrdevelopr.com"
+custom_domain = true
+
+# Staging copy on a throwaway hostname. Same database, separate Worker, so a
+# change can be checked end to end before it touches the real hostname.
+[env.staging]
+name = "ltd-staging"
+workers_dev = false
+[env.staging.assets]
+directory = "./site"
+binding = "ASSETS"
+html_handling = "none"
+run_worker_first = ["/", "/index.html", "/p/*", "/admin", "/admin/*", "/api/*"]
+[[env.staging.d1_databases]]
+binding = "DB"
+database_name = "ltd"
+database_id = "0079f3ec-273a-462a-bbcb-d9e4c5f1db74"
+[[env.staging.routes]]
+pattern = "ltd-cf.jrdevelopr.com"
 custom_domain = true

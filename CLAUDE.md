@@ -3,41 +3,41 @@
 Static storefront reselling lifetime-deal software licenses. **https://ltd.jrdevelopr.com**
 (public, ungated).
 
-**Hosting: Cloudflare Worker, not this server** (moved 2026-09-14). The `site/` folder is
-uploaded as Worker static assets; there is no container, no Caddy route and no tunnel
-ingress any more. The old `docker-compose.yml` and `Caddyfile` are kept only so the setup
-can be rolled back. Deploy with `npx wrangler@4 deploy` from this folder, with
-`CLOUDFLARE_EMAIL`, `CLOUDFLARE_API_KEY` and `CLOUDFLARE_ACCOUNT_ID` exported from
-`/etc/ubuntulab/cloudflare-new.env`. Worker name `ltd`.
+**Hosting: everything runs on one Cloudflare Worker** (`ltd`), since 2026-09-15. Nothing is
+served from this box any more.
 
-- `site/_headers` carries the CSP and security headers the Caddyfile used to add. Edit it
-  there, not in the Caddyfile, which is now dead.
-- `html_handling = "none"` in `wrangler.toml` is deliberate: without it the asset layer
-  307-redirects `/p/thing.html` to `/p/thing`, changing every product URL and every URL
-  already indexed. `worker/index.js` exists only to map directory paths like `/` to
-  `index.html`, which that setting otherwise leaves unresolved.
-- Real files are served by Cloudflare directly and cost nothing. Only `/` invokes the
-  Worker script.
-- **Card checkout moved into the Worker too.** `POST /api/stripe-checkout` used to be a Caddy
-  route to the admin service on the lab box (`admin/server.js`, port 8093). That route died
-  with the move, so the endpoint was ported verbatim to `worker/checkout.js`. Prices and names
-  still come only from the catalogue, never from the client. The Stripe key is a Worker secret
-  (`wrangler secret put STRIPE_SECRET_KEY`), not a file on the box.
-- **The admin backend is unchanged and still LAN-only** at `http://192.168.20.108:8093`
-  (`admin/server.js`, scrypt password + signed session cookie). It was never public.
-- ⚠️ **Editing products now takes a deploy.** The admin writes to `data/products.json` and
-  `data/inventory.json` on the lab box. The Worker serves a *deployed copy* of the built pages
-  **and** bundles those two files for checkout pricing. So after editing in the admin:
-  `node bin/build.js` then `npx wrangler@4 deploy`. Until you deploy, the live site and the
-  live prices are whatever was last shipped.
+- **The catalogue lives in D1** (database `ltd`, id `0079f3ec-273a-462a-bbcb-d9e4c5f1db74`),
+  tables `products`, `units`, `config`, `admin`. `db/schema.sql` is the schema; `db/migrate.mjs`
+  turned the old JSON into `db/seed.sql` once. Derived fields (status, counts, min/sold price)
+  are computed from `units` at read time, never stored.
+- **Pages are rendered on request from D1** by `worker/render.js`, which is `bin/build.js`
+  ported verbatim (proven byte-identical on all 96 pages), and held in isolate memory for
+  60 s (`worker/cache.js`). Images, `style.css` and `thanks.html` are static assets served free;
+  `site/.assetsignore` keeps the old generated HTML out of the upload.
+- **The admin is at https://ltd.jrdevelopr.com/admin** (`worker/admin.js`, UI in
+  `worker/admin-pages.js`). Username `admin`. Edits are live within a minute, no build, no
+  deploy, no publish step. Password is PBKDF2 in D1; change it from the "Admin password" card.
+  Login is rate limited per IP; a Cloudflare Access rule on `/admin*` would add a second wall.
+- **Card checkout** (`POST /api/stripe-checkout`, `worker/checkout.js`) reads prices from D1.
+  The Stripe key is a Worker secret (`wrangler secret put STRIPE_SECRET_KEY`).
+- **Deploy** (only needed for code changes now): `npx wrangler@4 deploy` from this folder with
+  `CLOUDFLARE_EMAIL`, `CLOUDFLARE_API_KEY`, `CLOUDFLARE_ACCOUNT_ID` from
+  `/etc/ubuntulab/cloudflare-new.env`. To try a change first: `npx wrangler@4 deploy --env
+  staging` puts it on `ltd-cf.jrdevelopr.com` against the same database; delete that Worker
+  again afterwards (`wrangler delete --name ltd-staging`) so the admin login is not exposed twice.
+- **Retired, kept for history only:** `admin/server.js` (the LAN admin, unit
+  `app-ltd-admin.service` disabled), `bin/build.js`, `bin/parse.js`, `bin/merge.js`,
+  `data/products.json`, `data/inventory.json`, `docker-compose.yml`, `Caddyfile`.
+  Do not run `bin/build.js` and do not edit the JSON: the database is the only source of
+  truth now. `data/software.csv` imports would need a new path (CSV -> D1) if ever wanted.
+- **Free-plan CPU note:** a cold page render costs 3-15 ms of CPU and a login about 11 ms,
+  against the free plan's 10 ms guideline. Cloudflare tolerates occasional overruns and none
+  failed in testing, but Workers Paid ($5/mo) removes the concern entirely.
 
-- **Source of truth:** `data/products.json`, generated from `data/software.csv` (the owner's
-  Google Sheet, exported CSV). Do NOT hand-edit `index.html`/`p/*.html` — they are built.
-- **Build pipeline:** `node bin/parse.js` (csv→products.json, groups duplicate license
-  "accounts" into one product with N units) → `node bin/merge.js` (applies enrichment from
-  research `out*.json`: category, tagline, offer copy, image src, homepage) → `node
-  bin/fetch-images.js` (downloads hero images to `site/img/`, SVG lettered-tile fallback; never
-  hotlinks) → `node bin/build.js` (renders `site/index.html` + `site/p/<slug>.html`).
+- **Source of truth:** the D1 database (see Hosting below). `data/products.json` and
+  `data/software.csv` are the historical import; they are no longer read by anything.
+- **Build pipeline: retired.** The old `parse.js -> merge.js -> fetch-images.js -> build.js` chain
+  produced static HTML from the JSON. Pages now render from D1 on request (see Hosting).
 - **Payments:** PayPal.Me `paypal.me/shrockbusiness/<amount>` (fixed-price items) or the open
   `paypal.me/shrockbusiness` for "Make an Offer" items. The owner also gave paypal@shrockservice.com.
 - **Data model:** each product has `units[]` (individual license accounts, each with its own

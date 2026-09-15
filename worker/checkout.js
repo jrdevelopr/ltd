@@ -1,13 +1,10 @@
 // The card-checkout endpoint, ported from admin/server.js when the storefront
 // moved to a Worker. Logic is deliberately identical: the client sends only a
-// slug and unit index, and every price and name is read from the catalogue that
-// ships with this deployment, so a caller cannot influence what they are charged.
-import products from '../data/products.json';
-import inventory from '../data/inventory.json';
+// slug and unit index, and every price and name is read from the database, so a
+// caller cannot influence what they are charged and an admin edit is live at once.
+import { loadProduct } from './db.js';
 
 const ORIGIN = 'https://ltd.jrdevelopr.com';
-const list = (x) => (Array.isArray(x) ? x : x?.products || []);
-const CATALOGUE = [...list(products), ...list(inventory)];
 
 // Same shape as the original limiter: 30 attempts per IP per 10 minutes. This
 // counts per isolate rather than per process, so it is a speed bump rather than
@@ -35,7 +32,7 @@ export async function checkout(request, env) {
   }
   try {
     const { slug, unit, embed } = await request.json();
-    const prod = CATALOGUE.find((x) => x.slug === slug);
+    const prod = await loadProduct(env.DB, slug);
     if (!prod || prod.status !== 'available' || prod.inquireOnly) {
       return json(404, { error: 'Not available for card checkout.' });
     }
